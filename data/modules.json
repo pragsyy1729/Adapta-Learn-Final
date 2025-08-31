@@ -1,0 +1,88 @@
+{
+  "modules": [
+    {
+      "id": "kyc_basics",
+      "title": "KYC Fundamentals",
+      "description": "Introduction to Know Your Customer processes and compliance requirements",
+      "department": "KYC",
+      "level": "Beginner",
+      "duration": "2 hours",
+      "chapters": [
+        {
+          "id": "kyc_intro",
+          "title": "Introduction to KYC",
+          "content": "Understanding the importance of KYC in financial services",
+          "duration": "30 minutes"
+        },
+        {
+          "id": "customer_due_diligence",
+          "title": "Customer Due Diligence",
+          "content": "Core principles of CDD and verification processes",
+          "duration": "45 minutes"
+        },
+        {
+          "id": "risk_assessment",
+          "title": "Risk Assessment",
+          "content": "Evaluating customer risk profiles and mitigation strategies",
+          "duration": "45 minutes"
+        }
+      ]
+    },
+    {
+      "id": "aml_compliance",
+      "title": "Anti-Money Laundering Compliance",
+      "description": "Comprehensive AML training for compliance officers",
+      "department": "KYC",
+      "level": "Intermediate",
+      "duration": "3 hours",
+      "chapters": [
+        {
+          "id": "aml_basics",
+          "title": "AML Fundamentals",
+          "content": "Understanding money laundering and terrorist financing",
+          "duration": "60 minutes"
+        },
+        {
+          "id": "suspicious_activity",
+          "title": "Suspicious Activity Reporting",
+          "content": "Identifying and reporting suspicious transactions",
+          "duration": "60 minutes"
+        },
+        {
+          "id": "regulatory_framework",
+          "title": "Regulatory Framework",
+          "content": "FATF recommendations and local regulations",
+          "duration": "60 minutes"
+        }
+      ]
+    },
+    {
+      "id": "compliance_tech",
+      "title": "Compliance Technology Tools",
+      "description": "Using technology for efficient compliance management",
+      "department": "KYC",
+      "level": "Advanced",
+      "duration": "2.5 hours",
+      "chapters": [
+        {
+          "id": "digital_verification",
+          "title": "Digital Identity Verification",
+          "content": "Modern tools for customer verification",
+          "duration": "45 minutes"
+        },
+        {
+          "id": "monitoring_systems",
+          "title": "Transaction Monitoring",
+          "content": "Automated systems for transaction surveillance",
+          "duration": "60 minutes"
+        },
+        {
+          "id": "reporting_automation",
+          "title": "Automated Reporting",
+          "content": "Streamlining compliance reporting processes",
+          "duration": "45 minutes"
+        }
+      ]
+    }
+  ]
+}

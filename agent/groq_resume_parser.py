@@ -137,6 +137,13 @@ Respond in this exact JSON format:
             # Extract the response content
             response_text = response.choices[0].message.content.strip()
 
+            # Diagnostic: log raw response for debugging
+            try:
+                print("ℹ️ GROQ raw response:")
+                print(response_text[:1000])
+            except Exception:
+                pass
+
             # Clean the response and extract JSON
             # Remove markdown code blocks if present
             if response_text.startswith('```json'):
@@ -153,12 +160,18 @@ Respond in this exact JSON format:
 
         except json.JSONDecodeError as e:
             print(f"JSON parsing error: {e}")
-            print(f"Response was: {response_text}")
+            print(f"Response text causing JSON error: {response_text}")
             # Return a fallback structure
             return self._create_fallback_analysis(target_skills)
 
         except Exception as e:
             print(f"GROQ API error: {e}")
+            # Print extra diagnostics if available
+            try:
+                import traceback
+                print(traceback.format_exc())
+            except Exception:
+                pass
             return self._create_fallback_analysis(target_skills)
 
     def _create_fallback_analysis(self, target_skills: List[str]) -> Dict:

@@ -1,0 +1,299 @@
+[
+  {
+    "attributes": {
+      "id": "1a2b3c4d-1111-2222-3333-444455556666",
+      "user_id": "user_001",
+      "modules_completed": 2,
+      "overall_progress_percent": 40.0,
+      "time_invested_minutes": 258,
+      "quiz_average_percent": 90.0,
+      "last_accessed_at": "2025-08-27T10:15:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "2b3c4d5e-2222-3333-4444-555566667777",
+      "user_id": "user_002",
+      "modules_completed": 5,
+      "overall_progress_percent": 100.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-26T16:40:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "3c4d5e6f-3333-4444-5555-666677778888",
+      "user_id": "user_003",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-25T09:05:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "4d5e6f7g-4444-5555-6666-777788889999",
+      "user_id": "user_ca309fb2d7b640fea09e98b2a80acfdc",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-28T10:06:28Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "058c4636-5269-4245-a787-e706bb5a79c5",
+      "user_id": "user_007",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-24T21:57:18Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "46e8f057-1748-43ee-ac07-ff66aea6e21a",
+      "user_id": "user_004",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-25T06:26:38Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "f23fb009-0179-4843-80c7-b6729d5540c5",
+      "user_id": "user_005",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-25T19:19:12Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "4be1f9a5-7edb-47a0-a7eb-1795a53b6002",
+      "user_id": "user_7b1d4840276c444cb5e3fae406646715",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-27T19:09:11Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "441e5221-8426-458d-940c-96e977ff9b6b",
+      "user_id": "user_556aab6ea70b4507ba7c8bb9290ed534",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-27T19:12:55Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "44b0daa3-8fa7-4240-94b2-e899c068a2a4",
+      "user_id": "user_4e1c456a95cc4d9ba0f9c39f004eac3f",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-27T19:20:29Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "f5d57960-3165-4c03-8f21-835a74878ef3",
+      "user_id": "user_203d7e83921f495b82578a6d2e5956f9",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-27T19:30:40Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "aff57e00-617f-4981-9536-ecd97fe64663",
+      "user_id": "user_008",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-28T15:30:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "1840f65c-7eae-4ca9-9f6b-791cdb490e42",
+      "user_id": "user_009",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-28T15:30:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "faf23bcc-5ec9-4a89-9df0-af4342f553ed",
+      "user_id": "user_010",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-28T15:30:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "f6175998-3611-40e1-8639-d2f4a5d39e0f",
+      "user_id": "user_011",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-28T15:30:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "18635a14-4a23-4661-8281-279b16b34a92",
+      "user_id": "user_012",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-28T15:30:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "7ad01fb7-c438-457a-9f77-c2925efe0e2e",
+      "user_id": "user_013",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-28T11:47:18Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "578258f7-0697-4e6a-9f3a-71d626b59f75",
+      "user_id": "user_014",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-28T12:31:55Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "70a7b704-3eb6-4290-9b69-fda5390d686a",
+      "user_id": "user_015",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-28T12:36:34Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "037467cc-d0d5-4485-802d-ff153be70250",
+      "user_id": "user_016",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-28T13:18:08Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "d8d88685-4b97-4170-81f6-4372ad90083b",
+      "user_id": "user_017",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-28T13:31:35Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "fa9fddab-3020-49ba-9dcc-b9003c4a4b15",
+      "user_id": "user_022",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-28T18:15:22Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "bfece70a-8386-45bf-9a4f-27a6bfdd2371",
+      "user_id": "user_023",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-29T11:51:21Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "fe2636bc-4e92-4b4e-93a1-c072516f6ae0",
+      "user_id": "user_024",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-29T17:10:39Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "b690dbcc-3dd5-465a-9680-8339b0b3d8d5",
+      "user_id": "user_025",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-30T06:41:21Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "aca33067-7e48-44d0-b481-5561b9276e42",
+      "user_id": "user_034",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-31T13:17:52Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "d7c79566-0cac-4d67-aae9-cd34c3dcb0a8",
+      "user_id": "user_035",
+      "modules_completed": 0,
+      "overall_progress_percent": 0.0,
+      "time_invested_minutes": 0,
+      "quiz_average_percent": 0.0,
+      "last_accessed_at": "2025-08-31T14:40:46Z"
+    }
+  }
+]

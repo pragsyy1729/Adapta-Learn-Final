@@ -1,0 +1,31 @@
+[
+  {
+    "attributes": {
+      "id": "gap-001",
+      "user_id": "user_001",
+      "status": "ready",
+      "gaps": [
+        {"skill": "Python Data Structures", "current_level": 2, "required_level": 4, "gap_score": 0.5},
+        {"skill": "OOP Concepts", "current_level": 1, "required_level": 3, "gap_score": 0.67}
+      ]
+    }
+  },
+  {
+    "attributes": {
+      "id": "gap-002",
+      "user_id": "user_002",
+      "status": "loading",
+      "gaps": []
+    }
+  },
+  {
+    "attributes": {
+      "id": "gap-003",
+      "user_id": "user_003",
+      "status": "ready",
+      "gaps": [
+        {"skill": "Machine Learning", "current_level": 2, "required_level": 5, "gap_score": 0.6}
+      ]
+    }
+  }
+]

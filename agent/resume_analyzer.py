@@ -392,11 +392,18 @@ def analyze_resume_for_role(resume_file_path: str, role_skills: List[str],
             "analysis_method": "none"
         }
     # Try GROQ first if available and API key is set
-    if GROQ_AVAILABLE and os.getenv('GROQ_API_KEY'):
+    # Diagnostic: print GROQ availability and whether API key is present (masked)
+    groq_api_key = os.getenv('GROQ_API_KEY')
+    print(f"ℹ️ GROQ_AVAILABLE={GROQ_AVAILABLE}, GROQ_API_KEY_set={bool(groq_api_key)}")
+    if groq_api_key:
+        # don't print the full key; show mask
+        print(f"ℹ️ GROQ_API_KEY masked: {groq_api_key[:4]}...{groq_api_key[-4:] if len(groq_api_key)>8 else ''}")
+
+    if GROQ_AVAILABLE and groq_api_key:
         try:
             print("🔍 Using GROQ AI for resume analysis...")
             parser = GroqResumeParser()
-            
+
             # Extract target role from file path or use generic
             analysis_role = target_role or "Professional Role"  # Could be enhanced to extract from context
             
@@ -455,7 +462,10 @@ def analyze_resume_for_role(resume_file_path: str, role_skills: List[str],
             }
             
         except Exception as e:
+            import traceback
             print(f"⚠️ GROQ analysis failed: {e}")
+            # Print full traceback for diagnostics
+            print(traceback.format_exc())
             print("📝 Falling back to heuristic analysis...")
     
     # Fallback to original heuristic method

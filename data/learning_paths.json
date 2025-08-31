@@ -57,6 +57,24 @@
     ],
     "created_at": "2024-01-01T00:00:00Z"
   },
+  "LP_KYC_EXCEL": {
+    "id": "LP_KYC_EXCEL",
+    "title": "Excel for KYC Analysts",
+    "description": "Practical Excel skills for KYC data processing and analysis",
+    "department": "KYC",
+    "difficulty": "Beginner",
+    "estimated_weeks": 2,
+    "modules": [
+      "8b8accae429648e6b7999ebaccd94960",
+      "1af041d3b2ca49c29ab720bdbea8933a"
+    ],
+    "skills": [
+      "Excel",
+      "Data Entry",
+      "Formulas"
+    ],
+    "created_at": "2025-08-31T00:00:00Z"
+  },
   "LP2024HR001": {
     "id": "LP2024HR001",
     "title": "Leadership and Management Skills",

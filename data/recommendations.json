@@ -1,0 +1,88 @@
+{
+  "AI_RECOMMENDATIONS": {
+    "user_002": [
+      {
+        "id": "ai_rec_001",
+        "type": "learning_path",
+        "title": "Advanced Leadership Skills",
+        "description": "Based on your progress in basic communication, we recommend advancing to leadership skills",
+        "reason": "Your quiz scores in communication modules suggest you're ready for leadership content",
+        "priority": "high",
+        "content_id": "LP_LEAD_001",
+        "content_type": "learning_path",
+        "confidence_score": 0.85,
+        "generated_at": "2025-08-30T10:00:00Z"
+      },
+      {
+        "id": "ai_rec_002",
+        "type": "microlearning",
+        "title": "Daily Communication Tip",
+        "description": "Short daily tips to improve your communication skills",
+        "reason": "Users with your learning pattern benefit from spaced repetition",
+        "priority": "medium",
+        "content_id": "MICRO_001",
+        "content_type": "microlearning",
+        "confidence_score": 0.72,
+        "generated_at": "2025-08-30T10:00:00Z"
+      }
+    ]
+  },
+  "HR_RECOMMENDATIONS": {
+    "user_002": [
+      {
+        "id": "hr_rec_001",
+        "type": "mandatory_training",
+        "title": "Company Ethics and Compliance",
+        "description": "Required annual training for all employees",
+        "reason": "Mandatory compliance training for your role and department",
+        "priority": "high",
+        "content_id": "LP_COMPLIANCE_001",
+        "content_type": "learning_path",
+        "assigned_by": "hr_manager@company.com",
+        "due_date": "2025-09-15T00:00:00Z",
+        "generated_at": "2025-08-30T09:00:00Z"
+      },
+      {
+        "id": "hr_rec_002",
+        "type": "career_development",
+        "title": "Management Track Preparation",
+        "description": "Prepare for potential management opportunities",
+        "reason": "Based on your performance reviews and career aspirations",
+        "priority": "medium",
+        "content_id": "LP_MGMT_PREP_001",
+        "content_type": "learning_path",
+        "assigned_by": "hr_development@company.com",
+        "generated_at": "2025-08-30T09:00:00Z"
+      }
+    ]
+  },
+  "ADMIN_RECOMMENDATIONS": {
+    "user_002": [
+      {
+        "id": "admin_rec_001",
+        "type": "department_focus",
+        "title": "Data Science Team Building",
+        "description": "Specialized content for data science department collaboration",
+        "reason": "Department-wide initiative to improve team collaboration",
+        "priority": "high",
+        "content_id": "LP_DS_COLLAB_001",
+        "content_type": "learning_path",
+        "assigned_by": "admin@company.com",
+        "target_audience": "Data Science department",
+        "generated_at": "2025-08-30T08:00:00Z"
+      },
+      {
+        "id": "admin_rec_002",
+        "type": "skill_gap",
+        "title": "Advanced Python Techniques",
+        "description": "Address identified skill gaps in advanced Python programming",
+        "reason": "Performance analysis shows opportunity for advanced technical skills",
+        "priority": "medium",
+        "content_id": "LP_PYTHON_ADV_001",
+        "content_type": "learning_path",
+        "assigned_by": "admin@company.com",
+        "generated_at": "2025-08-30T08:00:00Z"
+      }
+    ]
+  }
+}

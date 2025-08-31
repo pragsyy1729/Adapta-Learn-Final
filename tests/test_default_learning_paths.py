@@ -124,7 +124,8 @@ def test_default_learning_paths():
             test_email, test_password,
             name="Test User",
             roleType="Employee",
-            department="Engineering"
+            department="Engineering",
+            manager=None
         )
 
         print(f"✓ User created with ID: {new_user['user_id']}")

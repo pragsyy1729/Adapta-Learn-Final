@@ -606,5 +606,379 @@
       "completed_at": null,
       "current_module_id": "MOD_GEN_001"
     }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_023-LP2024ENG001",
+      "user_id": "user_023",
+      "learning_path_id": "LP2024ENG001",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 4,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T10:00:00.000000Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_023-LP_SOFT_001",
+      "user_id": "user_023",
+      "learning_path_id": "LP_SOFT_001",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 3,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T10:00:00.000000Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_023-LP_SOFT_003",
+      "user_id": "user_023",
+      "learning_path_id": "LP_SOFT_003",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T10:00:00.000000Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_023-LP_SOFT_005",
+      "user_id": "user_023",
+      "learning_path_id": "LP_SOFT_005",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T10:00:00.000000Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_034_LP_SOFT_001_5a747824",
+      "user_id": "user_034",
+      "learning_path_id": "LP_SOFT_001",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 3,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T13:17:52Z",
+      "is_default": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_034_LP_SOFT_002_9673d70a",
+      "user_id": "user_034",
+      "learning_path_id": "LP_SOFT_002",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 4,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T13:17:52Z",
+      "is_default": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_034_LP_SOFT_003_87311aaf",
+      "user_id": "user_034",
+      "learning_path_id": "LP_SOFT_003",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T13:17:52Z",
+      "is_default": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_034_LP_SOFT_004_9c751e8f",
+      "user_id": "user_034",
+      "learning_path_id": "LP_SOFT_004",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 3,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T13:17:52Z",
+      "is_default": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_034_LP_SOFT_005_d1bb787c",
+      "user_id": "user_034",
+      "learning_path_id": "LP_SOFT_005",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T13:17:52Z",
+      "is_default": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_034_9cbc0df890d546729a36dca20d24a9ba_cf681ab2",
+      "user_id": "user_034",
+      "learning_path_id": "9cbc0df890d546729a36dca20d24a9ba",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 0,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T13:33:17Z",
+      "is_resume_based": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_034_LP2024DS001_ae220f4a",
+      "user_id": "user_034",
+      "learning_path_id": "LP2024DS001",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 0,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T13:33:17Z",
+      "is_resume_based": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_034_LP2024DS002_c679c46c",
+      "user_id": "user_034",
+      "learning_path_id": "LP2024DS002",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 0,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T13:33:17Z",
+      "is_resume_based": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_034_LP_KYC_EXCEL_49b3e500",
+      "user_id": "user_034",
+      "learning_path_id": "LP_KYC_EXCEL",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 0,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T14:12:15Z",
+      "is_resume_based": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_035_LP_SOFT_001_1fbb3bb9",
+      "user_id": "user_035",
+      "learning_path_id": "LP_SOFT_001",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 3,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T14:40:46Z",
+      "is_default": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_035_LP_SOFT_002_20480df8",
+      "user_id": "user_035",
+      "learning_path_id": "LP_SOFT_002",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 4,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T14:40:46Z",
+      "is_default": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_035_LP_SOFT_003_eb13131d",
+      "user_id": "user_035",
+      "learning_path_id": "LP_SOFT_003",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T14:40:46Z",
+      "is_default": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_035_LP_SOFT_004_13ffc8fa",
+      "user_id": "user_035",
+      "learning_path_id": "LP_SOFT_004",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 3,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T14:40:46Z",
+      "is_default": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_035_LP_SOFT_005_d3e1c330",
+      "user_id": "user_035",
+      "learning_path_id": "LP_SOFT_005",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T14:40:46Z",
+      "is_default": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_035_LP_KYC_EXCEL_24b2ef45",
+      "user_id": "user_035",
+      "learning_path_id": "LP_KYC_EXCEL",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 0,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T14:40:46Z",
+      "is_resume_based": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_035_LP2024DS001_5df639fa",
+      "user_id": "user_035",
+      "learning_path_id": "LP2024DS001",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 0,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T14:40:46Z",
+      "is_resume_based": true
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp_user_035_LP2024DS002_fbf39770",
+      "user_id": "user_035",
+      "learning_path_id": "LP2024DS002",
+      "status": "not_started",
+      "progress_percent": 0.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 0,
+      "time_invested_minutes": 0,
+      "last_accessed_at": null,
+      "started_at": null,
+      "completed_at": null,
+      "current_module_id": null,
+      "enrolled_at": "2025-08-31T14:40:46Z",
+      "is_resume_based": true
+    }
   }
 ]

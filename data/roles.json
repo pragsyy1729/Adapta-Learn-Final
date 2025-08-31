@@ -1,0 +1,206 @@
+{
+  "roles": [
+    {
+      "id": "1",
+      "name": "Frontend Developer",
+      "description": "Develops user interfaces and client-side applications",
+      "skills": [
+        {
+          "name": "React",
+          "proficiency": 4
+        },
+        {
+          "name": "JavaScript",
+          "proficiency": 5
+        },
+        {
+          "name": "Python",
+          "proficiency": 3
+        },
+        {
+          "name": "Python",
+          "proficiency": 3
+        },
+        {
+          "name": "Python",
+          "proficiency": 3
+        },
+        {
+          "name": "Python",
+          "proficiency": 3
+        },
+        {
+          "name": "Python",
+          "proficiency": 3
+        },
+        {
+          "name": "Python",
+          "proficiency": 3
+        },
+        {
+          "name": "Python",
+          "proficiency": 3
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Data Scientist",
+      "description": "Analyzes data and builds machine learning models",
+      "skills": [
+        {
+          "name": "Python",
+          "proficiency": 5
+        },
+        {
+          "name": "Machine Learning",
+          "proficiency": 4
+        },
+        {
+          "name": "Deep Learning",
+          "proficiency": 3
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "DevOps Engineer",
+      "skills": [
+        {
+          "name": "AWS",
+          "proficiency": 4
+        },
+        {
+          "name": "Docker",
+          "proficiency": 4
+        },
+        {
+          "name": "Kubernetes",
+          "proficiency": 3
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Product Manager",
+      "skills": [
+        {
+          "name": "Project Management",
+          "proficiency": 5
+        },
+        {
+          "name": "Analytics",
+          "proficiency": 3
+        },
+        {
+          "name": "Communication",
+          "proficiency": 5
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "QA Engineer",
+      "skills": [
+        {
+          "name": "Test Automation",
+          "proficiency": 4
+        },
+        {
+          "name": "Selenium",
+          "proficiency": 3
+        },
+        {
+          "name": "Manual Testing",
+          "proficiency": 4
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "UI/UX Designer",
+      "skills": [
+        {
+          "name": "Figma",
+          "proficiency": 4
+        },
+        {
+          "name": "User Research",
+          "proficiency": 3
+        },
+        {
+          "name": "Prototyping",
+          "proficiency": 4
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Software Architect",
+      "skills": [
+        {
+          "name": "System Design",
+          "proficiency": 5
+        },
+        {
+          "name": "Microservices",
+          "proficiency": 4
+        },
+        {
+          "name": "Cloud Architecture",
+          "proficiency": 4
+        }
+      ]
+    },
+    {
+      "id": "f9aca98d-6b0e-4d4e-a1aa-2fe2305812e0",
+      "name": "Data Analyst",
+      "description": "Analyzes data and carries over process related procedures",
+      "skills": [
+        {
+          "name": "Excel",
+          "proficiency": 5
+        },
+        {
+          "name": "Data Visualization",
+          "proficiency": 3
+        }
+      ]
+    },
+    {
+      "id": "093cb07d-2c2b-4432-9f7d-4ccd559b36a0",
+      "name": "Test Role",
+      "skills": []
+    },
+    {
+      "id": "73fa853e-6e3c-48ab-b348-e0339c24073b",
+      "name": "Test Role",
+      "skills": []
+    },
+    {
+      "id": "3428d21d-fb2e-421c-a175-1df84c7b3133",
+      "name": "Test Role",
+      "skills": []
+    },
+    {
+      "id": "0f09afcd-c144-4469-9fa6-62fb95d1315f",
+      "name": "Test Role",
+      "skills": []
+    },
+    {
+      "id": "96fcf52f-09c5-447e-9e45-b6753071b0fd",
+      "name": "Test Role",
+      "skills": []
+    },
+    {
+      "id": "f7899202-4690-4521-9b61-4b374ce7b140",
+      "name": "Test Role",
+      "skills": []
+    },
+    {
+      "id": "16ab9b4f-00a2-4c15-8177-76a725b568ae",
+      "name": "Test Role",
+      "skills": []
+    }
+  ]
+}

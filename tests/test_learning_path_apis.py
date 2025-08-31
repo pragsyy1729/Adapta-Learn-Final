@@ -100,7 +100,7 @@ class TestLearningPathAPIs:
         assert resp.status_code in [200, 404]
         if resp.status_code == 200:
             data = resp.get_json()
-            assert isinstance(data, dict)port json
+            assert isinstance(data, dict)
 
 # Ensure project root is in sys.path for backend imports
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))

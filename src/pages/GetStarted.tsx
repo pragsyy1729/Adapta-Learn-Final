@@ -122,10 +122,14 @@ const GetStarted = () => {
       setLoadingManagers(true);
       (async () => {
         try {
-          const res = await fetch(`/api/user/managers?department=${encodeURIComponent(value)}`);
+          const res = await fetch(`/api/user/managers/list?department=${encodeURIComponent(value)}`);
           const data = await res.json();
-          // Extract the data array from the API response
-          setManagers(data.success && data.data ? data.data : []);
+          // Expect envelope { success: true, data: [...] }
+          if (data && data.success && Array.isArray(data.data)) {
+            setManagers(data.data);
+          } else {
+            setManagers([]);
+          }
         } catch {
           setManagers([]);
         } finally {
@@ -189,6 +193,51 @@ const GetStarted = () => {
 
     setFormErrors(errors);
     return Object.keys(errors).length === 0;
+  };
+
+  // After signup: call onboarding analyze then auto-enroll endpoints (best-effort)
+  const performAnalyzeAndAutoEnroll = async (userId: string) => {
+    try {
+      if (!userId) return;
+
+      const targetRole = form.role === 'Other' ? (form.customRole || form.role) : (form.role || form.customRole);
+
+      const analyzePayload = {
+        user_id: userId,
+        department: form.department,
+        target_role: targetRole
+      };
+
+      console.log('Calling /api/onboarding/analyze with', analyzePayload);
+      const analyzeRes = await fetch('/api/onboarding/analyze', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(analyzePayload)
+      });
+      const analyzeData = await analyzeRes.json().catch(() => ({}));
+      console.log('onboarding/analyze ->', analyzeRes.status, analyzeData);
+
+      if (!analyzeRes.ok) {
+        // Don't block the user if analyze fails; just log and continue
+        console.warn('onboarding analyze failed:', analyzeData);
+      }
+
+      // After analyze (or attempt), call auto-enroll in onboarding namespace
+      console.log('Calling /api/onboarding/auto-enroll-from-onboarding for', userId);
+      const enrollRes = await fetch('/api/onboarding/auto-enroll-from-onboarding', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ user_id: userId })
+      });
+      const enrollData = await enrollRes.json().catch(() => ({}));
+      console.log('onboarding/auto-enroll ->', enrollRes.status, enrollData);
+
+      if (!enrollRes.ok) {
+        console.warn('auto-enroll failed:', enrollData);
+      }
+    } catch (e) {
+      console.warn('performAnalyzeAndAutoEnroll error', e);
+    }
   };
 
   const handleNext = () => {
@@ -599,6 +648,12 @@ const GetStarted = () => {
       if (!res.ok) throw new Error(data.error || "Registration failed");
       localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify(data.user));
+      // Best-effort: analyze onboarding and auto-enroll recommended learning paths
+      try {
+        performAnalyzeAndAutoEnroll(data.user?.user_id);
+      } catch (e) {
+        console.warn('Post-signup onboarding analyze/enroll failed', e);
+      }
       // Redirect based on newJoiner and roleType
       const roleType = form.roleType;
       const newJoiner = form.newJoiner === "Yes";
@@ -613,8 +668,9 @@ const GetStarted = () => {
       } else {
         navigate("/dashboard");
       }
-    } catch (err: any) {
-      setError(err.message || "Registration failed");
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : String(err || 'Registration failed');
+      setError(message);
     } finally {
       setIsLoading(false);
     }

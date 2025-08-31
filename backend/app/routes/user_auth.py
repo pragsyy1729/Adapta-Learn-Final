@@ -8,6 +8,7 @@ from typing import Any, Dict, Optional, List
 import time
 import re
 import html
+from ..services.department import add_manager_to_department
 
 user_auth_bp = Blueprint('user_auth', __name__)
 
@@ -117,7 +118,7 @@ def get_next_user_id() -> str:
     
     return f"user_{max_num + 1:03d}"  # Format as user_001, user_002, etc.
 
-def create_user_if_missing(email: str, password: str, name: Optional[str] = None, roleType: Optional[str] = None, newJoiner: Optional[str] = None, dateOfJoining: Optional[str] = None, role: Optional[str] = None, department: Optional[str] = None) -> Dict[str, Any]:
+def create_user_if_missing(email: str, password: str, name: Optional[str] = None, roleType: Optional[str] = None, newJoiner: Optional[str] = None, dateOfJoining: Optional[str] = None, role: Optional[str] = None, department: Optional[str] = None, manager: Optional[str] = None, employeeId: Optional[str] = None, gender: Optional[str] = None, college: Optional[str] = None, latestDegree: Optional[str] = None, cgpa: Optional[str] = None, country: Optional[str] = None, city: Optional[str] = None, profilePicture: Optional[str] = None, disabilities: Optional[Any] = None) -> Dict[str, Any]:
     users = load_users()
     key = email.strip().lower()
     
@@ -135,6 +136,21 @@ def create_user_if_missing(email: str, password: str, name: Optional[str] = None
     dateOfJoining = sanitize_input(dateOfJoining or "")
     role = sanitize_input(role or "")
     department = sanitize_input(department or "")
+    manager = sanitize_input(manager or "")
+    employeeId = sanitize_input(employeeId or "")
+    gender = sanitize_input(gender or "")
+    college = sanitize_input(college or "")
+    latestDegree = sanitize_input(latestDegree or "")
+    cgpa = sanitize_input(cgpa or "")
+    country = sanitize_input(country or "")
+    city = sanitize_input(city or "")
+    profilePicture = sanitize_input(profilePicture or "")
+
+    # disabilities may be a list or a string; preserve list if provided
+    if isinstance(disabilities, list):
+        sanitized_disabilities = [sanitize_input(str(d)) for d in disabilities]
+    else:
+        sanitized_disabilities = sanitize_input(disabilities or "")
     
     # Generate consistent sequential user_id
     user_id = get_next_user_id()
@@ -150,11 +166,53 @@ def create_user_if_missing(email: str, password: str, name: Optional[str] = None
         "profile": {
             "role": role,
             "department": department,
+            "manager": manager,
             "preferences": {},
+            # Onboarding / profile fields persisted from get-started
+            "employeeId": employeeId,
+            "gender": gender,
+            "college": college,
+            "latestDegree": latestDegree,
+            "cgpa": cgpa,
+            "country": country,
+            "city": city,
+            "profilePicture": profilePicture,
+            "disabilities": sanitized_disabilities,
         },
     }
     save_users(users)
-    
+
+    # If manager was provided, try to look up the manager (by email key or user_id)
+    # and append this new user's id to the manager's profile.reports list.
+    try:
+        mgr_key = (manager or "").strip().lower()
+        if mgr_key:
+            # Reload users to ensure we have the latest state
+            users = load_users()
+            for m_email, m_data in users.items():
+                try:
+                    # Normalize manager name for comparison if provided
+                    m_name_key = (m_data.get('name') or '').strip().lower()
+                    # Match manager by email key, name, or user_id
+                    if m_email == mgr_key or m_name_key == mgr_key or m_data.get('user_id') == mgr_key:
+                        if 'profile' not in m_data:
+                            m_data['profile'] = {}
+                        reports = m_data['profile'].get('reports', [])
+                        if not isinstance(reports, list):
+                            reports = [reports] if reports else []
+                        if user_id not in reports:
+                            reports.append(user_id)
+                            m_data['profile']['reports'] = reports
+                            # Persist manager update
+                            save_users(users)
+                        break
+                except Exception:
+                    # Skip problematic manager entries but continue
+                    continue
+    except Exception as e:
+        # Don't fail user creation if manager update fails; log and continue
+        print(f"Warning: failed to update manager's reports for manager={manager}: {e}")
+
     # Create corresponding dashboard entry
     create_user_dashboard_entry(user_id)
     
@@ -172,6 +230,25 @@ def create_user_if_missing(email: str, password: str, name: Optional[str] = None
         except Exception as e:
             # Log error but don't fail user creation
             print(f"Warning: Failed to assign department learning paths for user {user_id}: {e}")
+
+    # If the user is a manager (roleType or profile.role contains manager), add their name to the department.managers list
+    try:
+        is_manager = False
+        if roleType and 'manager' in roleType.strip().lower():
+            is_manager = True
+        if role and 'manager' in (role or '').strip().lower():
+            is_manager = True
+        # Also consider titles like 'VP', 'Director' as management
+        if role and any(t in (role or '').strip().lower() for t in ['vp', 'director', 'head']):
+            is_manager = True
+
+        if is_manager and department:
+            try:
+                add_manager_to_department(department, name or users[key].get('name'))
+            except Exception as e:
+                print(f"Warning: failed to add manager to department for {email}: {e}")
+    except Exception:
+        pass
     
     return users[key]
 
@@ -603,6 +680,24 @@ def sign_in():
         reset_rate_limit(client_ip)  # Reset on successful login
     
     token = new_session(email)
+    # Ensure manager is listed in department managers array for both new and existing users
+    try:
+        is_manager = False
+        if user.get('roleType') and 'manager' in (user.get('roleType') or '').strip().lower():
+            is_manager = True
+        if user.get('profile', {}).get('role') and 'manager' in (user.get('profile', {}).get('role') or '').strip().lower():
+            is_manager = True
+        if user.get('profile', {}).get('role') and any(t in (user.get('profile', {}).get('role') or '').strip().lower() for t in ['vp', 'director', 'head']):
+            is_manager = True
+
+        department_name = user.get('profile', {}).get('department')
+        if is_manager and department_name:
+            try:
+                add_manager_to_department(department_name, user.get('name'))
+            except Exception as e:
+                print(f"Warning: failed to add manager to department for {email}: {e}")
+    except Exception:
+        pass
     user_obj = {
         "email": user["email"],
         "name": user.get("name"),
@@ -667,7 +762,17 @@ def get_started():
                 sanitize_input(payload.get("newJoiner", "")),
                 sanitize_input(payload.get("dateOfJoining", "")),
                 sanitize_input(payload.get("role", "")),
-                sanitize_input(payload.get("department", ""))
+                sanitize_input(payload.get("department", "")),
+                sanitize_input(payload.get("manager", "")),
+                sanitize_input(payload.get("employeeId", "")),
+                sanitize_input(payload.get("gender", "")),
+                sanitize_input(payload.get("college", "")),
+                sanitize_input(payload.get("latestDegree", "")),
+                sanitize_input(payload.get("cgpa", "")),
+                sanitize_input(payload.get("country", "")),
+                sanitize_input(payload.get("city", "")),
+                sanitize_input(payload.get("profilePicture", "")),
+                payload.get("disabilities")
             )
             reset_rate_limit(client_ip)
         except ValueError as e:
@@ -683,6 +788,16 @@ def get_started():
         "dateOfJoining": user.get("dateOfJoining"),
         "role": user.get("profile", {}).get("role", ""),
         "department": user.get("profile", {}).get("department", ""),
+    # return persisted onboarding/profile fields when available
+    "employeeId": user.get("profile", {}).get("employeeId"),
+    "gender": user.get("profile", {}).get("gender"),
+    "college": user.get("profile", {}).get("college"),
+    "latestDegree": user.get("profile", {}).get("latestDegree"),
+    "cgpa": user.get("profile", {}).get("cgpa"),
+    "country": user.get("profile", {}).get("country"),
+    "city": user.get("profile", {}).get("city"),
+    "profilePicture": user.get("profile", {}).get("profilePicture"),
+    "disabilities": user.get("profile", {}).get("disabilities"),
     }
     if "user_id" in user:
         user_obj["user_id"] = user["user_id"]

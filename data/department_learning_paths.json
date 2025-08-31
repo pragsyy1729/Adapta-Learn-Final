@@ -22,7 +22,7 @@
     "KYC2024001": [
       {
         "department": "KYC2024001",
-        "learning_path_id": "9cbc0df890d546729a36dca20d24a9ba",
+        "learning_path_id": "LP_KYC_EXCEL",
         "is_mandatory": true,
         "priority": 1,
         "estimated_duration_weeks": 2,

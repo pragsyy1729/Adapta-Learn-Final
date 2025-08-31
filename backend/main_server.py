@@ -12,6 +12,24 @@ from multiprocessing import Process
 import sys
 import os
 
+# Try to load environment variables from a .env file if python-dotenv is installed.
+# This ensures variables like GROQ_API_KEY are available to modules imported later.
+try:
+    from dotenv import load_dotenv
+    # Load .env from project root (one level up from backend directory)
+    backend_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.abspath(os.path.join(backend_dir, '..'))
+    dotenv_path = os.path.join(project_root, '.env')
+    if os.path.exists(dotenv_path):
+        load_dotenv(dotenv_path)
+        print(f"✅ Loaded .env from {dotenv_path}")
+    else:
+        # Not an error; .env is optional
+        print("ℹ️  .env file not found at project root; skipping dotenv load")
+except Exception:
+    # If python-dotenv isn't installed, continue without failing; requirements.txt was updated.
+    print("⚠️  python-dotenv not available; install it or add GROQ_API_KEY to the environment")
+
 # Add the current directory to Python path so we can import our modules
 # Ensure backend folder and repo root are on sys.path so top-level packages like
 # `agent` (located at the repository root) can be imported when this script
@@ -29,7 +47,7 @@ def run_auth_server():
     """Run the authentication server on port 5003"""
     try:
         print("🔐 Starting Authentication Server on port 5003...")
-        import auth_server
+        import backend.auth_server as auth_server
         auth_server.app.run(host='0.0.0.0', port=5003, debug=False, use_reloader=False)
     except Exception as e:
         print(f"❌ Error starting auth server: {e}")

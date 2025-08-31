@@ -175,7 +175,7 @@ def get_user_role_type(user_id: str) -> str:
             if user_info.get('user_id') == user_id:
                 role_type = user_info.get('roleType', '').lower()
                 # Check if it's a hiring manager (Director level in a department)
-                if role_type == 'director':
+                if role_type == 'director' or role_type == 'hiring manager':
                     return 'hiring_manager'
                 return role_type
         return 'learner'  # Default to learner if not found
@@ -369,7 +369,7 @@ def get_hiring_manager_dashboard_data(user_id: str) -> dict:
             if user_dept == hm_department:
                 role_type = user_info.get('roleType', '').lower()
                 
-                if role_type == 'manager' or role_type == 'director':
+                if role_type == 'manager' or role_type == 'director' or role_type == 'hiring manager':
                     # This is a manager in the department
                     manager_reports = user_info.get('profile', {}).get('reports', [])
                     manager_new_joiners = []
@@ -447,7 +447,7 @@ def get_admin_dashboard_data(user_id: str) -> dict:
         
         # Calculate organization-wide metrics
         total_users = len(users_data)
-        managers = sum(1 for user in users_data.values() if user.get('roleType', '').lower() == 'manager')
+        managers = sum(1 for user in users_data.values() if user.get('roleType', '').lower() in ['manager', 'hiring manager'])
         new_joiners = sum(1 for user in users_data.values() if user.get('newJoiner', '').lower() in ['yes', 'true'])
         departments = {}
         
@@ -469,7 +469,7 @@ def get_admin_dashboard_data(user_id: str) -> dict:
             'system_health': 'Good',
             'explanations': {
                 'total_users': 'Total number of users in the system',
-                'total_managers': 'Number of users with Manager role',
+                'total_managers': 'Number of users with Manager or Hiring Manager roles',
                 'total_new_joiners': 'Number of users marked as new joiners',
                 'departments': 'Distribution of users across departments',
                 'active_learning_paths': 'Number of learning paths currently active',
@@ -555,7 +555,7 @@ def get_department_managers(department):
             user_dept = user_info.get('profile', {}).get('department', '')
             if user_dept.lower() == department.lower():
                 role_type = user_info.get('roleType', '').lower()
-                if role_type in ['manager', 'director']:
+                if role_type in ['manager', 'director', 'hiring manager']:
                     department_managers.append({
                         'user_id': user_info.get('user_id'),
                         'name': user_info.get('name', ''),

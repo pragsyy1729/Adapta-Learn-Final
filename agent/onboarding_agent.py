@@ -102,6 +102,29 @@ class OnboardingAIAgent:
         """
         try:
             print(f"🤖 Starting onboarding analysis for user {user_id}")
+            # Diagnostic: show where the agent is loading data from
+            try:
+                print(f"ℹ️ Agent data_dir: {self.data_dir}")
+                print(f"ℹ️ Dept mapping file: {getattr(self.dept_manager, 'dept_mapping_file', 'N/A')}")
+                # Try to load and print available department keys (safe)
+                try:
+                    mappings = self.dept_manager._load_mappings()
+                    print(f"ℹ️ Department mapping keys: {list(mappings.get('departments', {}).keys())}")
+                except Exception as _:
+                    print("⚠️ Failed to read department mappings for diagnostic output")
+                learning_paths_file = os.path.join(self.data_dir, 'learning_paths.json')
+                print(f"ℹ️ Learning paths file: {learning_paths_file}")
+                if os.path.exists(learning_paths_file):
+                    try:
+                        with open(learning_paths_file, 'r') as _f:
+                            lp_data = json.load(_f)
+                        print(f"ℹ️ Learning paths available: {list(lp_data.keys())}")
+                    except Exception:
+                        print("⚠️ Failed to read learning_paths.json for diagnostic output")
+                else:
+                    print("⚠️ learning_paths.json not found at expected location")
+            except Exception:
+                pass
             
             # Step 1: Get role profile and required skills
             # First try to get from dynamic role manager
@@ -144,10 +167,80 @@ class OnboardingAIAgent:
             
             print(f"📊 Skill gap analysis complete. {gap_analysis['total_gaps']} gaps identified")
             
-            # Step 4: Get department-based learning paths
-            dept_learning_paths = get_onboarding_learning_paths_for_user(department)
-            dept_onboarding_plan = self.dept_manager.get_onboarding_plan_for_user(department, target_role)
-            print(f"🎯 Found {len(dept_learning_paths)} department learning paths")
+            # Step 4: Normalize department identifier and get department-based learning paths
+            normalized_dept = self._normalize_department_id(department)
+            if normalized_dept != department:
+                print(f"ℹ️ Normalized department '{department}' -> '{normalized_dept}' for lookups")
+
+            # Use the agent's DepartmentLearningPathManager instance so we use the same data_dir
+            dept_mandatory = self.dept_manager.get_mandatory_paths_for_department(normalized_dept)
+            dept_learning_paths = [lp.get("learning_path_id") for lp in dept_mandatory]
+            dept_onboarding_plan = self.dept_manager.get_onboarding_plan_for_user(normalized_dept, target_role)
+            print(f"🎯 Found {len(dept_learning_paths)} department learning paths (dept='{normalized_dept}')")
+
+            # Fallback: if no department-specific mandatory paths were found, try to
+            # infer defaults from learning_paths.json by matching the friendly
+            # department name (e.g. 'engineering') to learning path entries.
+            if not dept_learning_paths:
+                try:
+                    learning_paths_file = os.path.join(self.data_dir, 'learning_paths.json')
+                    if os.path.exists(learning_paths_file):
+                        with open(learning_paths_file, 'r') as _f:
+                            lp_data = json.load(_f)
+
+                        # Match by department field in learning paths (case-insensitive)
+                        fallback_ids = [lp_id for lp_id, lp in lp_data.items()
+                                        if str(lp.get('department', '')).strip().lower() == str(department).strip().lower()
+                                        or str(department).strip().lower() in str(lp.get('department', '')).strip().lower()]
+
+                        if fallback_ids:
+                            dept_learning_paths = fallback_ids
+                            print(f"ℹ️ Fallback matched {len(fallback_ids)} learning paths by department name: {fallback_ids}")
+                except Exception:
+                    pass
+
+            # Always include organization-wide default learning paths (department='all')
+            try:
+                default_lp_file = os.path.join(self.data_dir, 'default_learning_paths.json')
+                print(f"ℹ️ Looking for default learning paths at: {default_lp_file}")
+                if os.path.exists(default_lp_file):
+                    with open(default_lp_file, 'r') as _f:
+                        default_lp = json.load(_f)
+
+                    # Pick defaults that are marked is_default==true and either apply to 'all'
+                    # or explicitly target this user's department
+                    default_ids = [lp_id for lp_id, lp in default_lp.items()
+                                   if lp.get('is_default') and (
+                                       str(lp.get('department', '')).strip().lower() == 'all' or
+                                       str(lp.get('department', '')).strip().lower() == str(department).strip().lower()
+                                   )]
+
+                    # Prepend defaults so they appear before skill-based suggestions, avoid duplicates
+                    for did in reversed(default_ids):
+                        if did not in dept_learning_paths:
+                            dept_learning_paths.insert(0, did)
+
+                    # Also ensure the department onboarding plan records these defaults so
+                    # the report's department_mandatory_paths includes them.
+                    try:
+                        if isinstance(dept_onboarding_plan, dict):
+                            existing = dept_onboarding_plan.get('mandatory_learning_paths', []) or []
+                            # Prepend defaults (maintain order)
+                            for did in reversed(default_ids):
+                                if did not in existing:
+                                    existing.insert(0, did)
+                            dept_onboarding_plan['mandatory_learning_paths'] = existing
+                            if default_ids:
+                                print(f"ℹ️ Added {len(default_ids)} defaults into dept_onboarding_plan.mandatory_learning_paths: {default_ids}")
+                    except Exception:
+                        # Non-fatal - proceed even if we couldn't write into dept_onboarding_plan
+                        pass
+
+                    if default_ids:
+                        print(f"ℹ️ Included {len(default_ids)} organization default learning paths: {default_ids}")
+            except Exception:
+                # Non-fatal: default learning paths are optional
+                pass
             
             # Step 5: Get skill-specific learning path recommendations
             skill_based_paths = self._recommend_skill_based_learning_paths(gap_analysis["skill_gaps"])
@@ -215,21 +308,25 @@ class OnboardingAIAgent:
         with open(learning_paths_file, 'r') as f:
             learning_paths_data = json.load(f)
         
-        # Simple skill to learning path mapping
+        # Simple skill to learning path mapping. Use canonical LP IDs where available so
+        # recommendations match entries in data/learning_paths.json
         skill_to_path_mapping = {
-            "Python": ["python_fundamentals", "python_advanced"],
-            "JavaScript": ["javascript_basics", "js_advanced"],
-            "React": ["0b8de18342454b2ca062f0a4b4c86956"],  # React Development Track
-            "Machine Learning": ["ml_basics", "ml_advanced"],
-            "SQL": ["database_fundamentals"],
-            "Communication": ["soft_skills_fundamentals"],
-            "Leadership": ["leadership_development"],
-            "Project Management": ["pm_fundamentals"]
+            "Python": ["LP2024DS001"],
+            "Machine Learning": ["LP2024DS001"],
+            "Data Analysis": ["LP2024DS001"],
+            "Statistics": ["LP2024DS001"],
+            "SQL": ["LP2024DS001"],
+            "JavaScript": ["LP2024ENG001"],
+            "React": ["LP2024ENG001"],
+            "Communication": ["LP2024GEN001"],
+            "Leadership": ["LP2024HR001"],
+            "Project Management": ["LP2024GEN001"]
         }
-        
         recommended_paths = []
+        filtered_out = []
+
         high_priority_gaps = [gap for gap in skill_gaps if gap.get("priority") == "high"][:5]
-        
+
         for gap in high_priority_gaps:
             skill = gap["skill"]
             if skill in skill_to_path_mapping:
@@ -239,8 +336,51 @@ class OnboardingAIAgent:
                         # Check if path exists in our learning paths
                         if path in learning_paths_data:
                             recommended_paths.append(path)
-        
+                        else:
+                            filtered_out.append(path)
+
+        if filtered_out:
+            # Helpful debug: show which candidate skill-path IDs were not found in learning_paths.json
+            print(f"⚠️ Skill-path candidates not found in learning_paths.json: {filtered_out}")
+
         return recommended_paths[:5]  # Return top 5 recommendations
+
+    def _normalize_department_id(self, department: str) -> str:
+        """Normalize various department inputs to canonical department IDs used by mapping files.
+
+        Tries in order:
+        - exact match against known department ids and names
+        - find a department mapping key that startswith or contains the short name (case-insensitive)
+        - fallback to the original value
+        """
+        if not department:
+            return department
+
+        short = department.strip().lower()
+
+        # 1) Check configured departments (by id or name)
+        try:
+            departments = self.dept_manager.get_all_departments()
+            for d in departments:
+                d_id = str(d.get("id", "")).lower()
+                d_name = str(d.get("name", "")).lower()
+                if short == d_id or short == d_name or short in d_name:
+                    return d.get("id")
+        except Exception:
+            pass
+
+        # 2) Check department_learning_paths keys for a match (e.g., 'KYC' -> 'KYC2024001')
+        try:
+            mappings = self.dept_manager._load_mappings()
+            for key in mappings.get("departments", {}).keys():
+                k = key.lower()
+                if short == k or k.startswith(short) or short in k:
+                    return key
+        except Exception:
+            pass
+
+        # 3) No normalization found; return original
+        return department
     
     def _combine_learning_path_recommendations(self, dept_paths: List[str], 
                                              skill_paths: List[str], gap_analysis: Dict) -> List[str]:
@@ -288,6 +428,18 @@ class OnboardingAIAgent:
             high_priority.extend(medium_priority[:5-len(high_priority)])
         
         return high_priority[:5]
+
+    def _get_readiness_description(self, level: str) -> str:
+        """Return a short human-friendly description for a readiness level"""
+        descriptions = {
+            'excellent': 'Candidate is well prepared for the role and exceeds most requirements.',
+            'good': 'Candidate meets most requirements and should be productive with minimal ramp-up.',
+            'fair': 'Candidate meets some requirements but will need focused upskilling in key areas.',
+            'needs_improvement': 'Candidate has notable gaps and should follow a targeted learning plan.',
+            'not_ready': 'Candidate requires substantial upskilling before taking on the role.'
+        }
+
+        return descriptions.get(level, 'Readiness level not available')
     
     def _save_onboarding_recommendation(self, recommendation: OnboardingRecommendation):
         """Save onboarding recommendation to file"""

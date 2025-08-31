@@ -1,0 +1,4304 @@
+{
+  "user_001": {
+    "sessions": [
+      {
+        "session_id": "session_8ff8ddde_user_001",
+        "start_time": "2025-08-28T03:53:23.945515+00:00",
+        "end_time": "2025-08-28T03:58:46.869584+00:00",
+        "duration_seconds": 322,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T03:58:37.350975+00:00",
+            "end_time": "2025-08-28T03:58:46.843529+00:00",
+            "duration_seconds": 9
+          }
+        ]
+      },
+      {
+        "session_id": "session_895fbbf1_user_001",
+        "start_time": "2025-08-28T04:08:19.411867+00:00",
+        "end_time": "2025-08-28T04:13:00.221926+00:00",
+        "duration_seconds": 280,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T04:08:19.481335+00:00",
+            "end_time": "2025-08-28T04:12:17.258945+00:00",
+            "duration_seconds": 237
+          }
+        ]
+      },
+      {
+        "session_id": "session_38727f68_user_001",
+        "start_time": "2025-08-28T04:13:10.728915+00:00",
+        "end_time": "2025-08-28T04:21:44.839129+00:00",
+        "duration_seconds": 514,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T04:13:19.041048+00:00",
+            "end_time": "2025-08-28T04:15:16.963202+00:00",
+            "duration_seconds": 117
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-28T04:15:16.963322+00:00",
+            "end_time": "2025-08-28T04:17:46.105181+00:00",
+            "duration_seconds": 149,
+            "learning_path_id": "1",
+            "module_id": "mod-001"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T04:17:46.167267+00:00",
+            "end_time": "2025-08-28T04:18:15.422225+00:00",
+            "duration_seconds": 29
+          }
+        ]
+      },
+      {
+        "session_id": "session_241e9106_user_001",
+        "start_time": "2025-08-28T04:18:15.418482+00:00",
+        "end_time": "2025-08-28T04:21:44.802419+00:00",
+        "duration_seconds": 209,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T04:19:43.342055+00:00",
+            "end_time": "2025-08-28T04:20:52.589473+00:00",
+            "duration_seconds": 69
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T04:20:52.686616+00:00",
+            "end_time": "2025-08-28T04:21:44.783883+00:00",
+            "duration_seconds": 52
+          }
+        ]
+      },
+      {
+        "session_id": "session_69b02363_user_001",
+        "start_time": "2025-08-28T04:26:43.984959+00:00",
+        "end_time": "2025-08-28T04:28:48.980854+00:00",
+        "duration_seconds": 124,
+        "activities": [
+          {
+            "activity_type": "learning_path_view",
+            "start_time": "2025-08-28T04:28:10.592936+00:00",
+            "end_time": "2025-08-28T04:28:48.980854+00:00",
+            "duration_seconds": 38,
+            "learning_path_id": "1"
+          }
+        ]
+      },
+      {
+        "session_id": "session_686d9a82_user_001",
+        "start_time": "2025-08-28T04:28:54.502819+00:00",
+        "end_time": "2025-08-28T04:40:38.538219+00:00",
+        "duration_seconds": 704,
+        "activities": [
+          {
+            "activity_type": "module_interaction",
+            "start_time": "2025-08-28T04:28:59.322903+00:00",
+            "end_time": "2025-08-28T04:38:47.704671+00:00",
+            "duration_seconds": 588,
+            "learning_path_id": "1",
+            "module_id": "mod-001"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T04:38:47.704680+00:00",
+            "end_time": "2025-08-28T04:40:38.518234+00:00",
+            "duration_seconds": 110
+          }
+        ]
+      },
+      {
+        "session_id": "session_99db85d0_user_001",
+        "start_time": "2025-08-28T04:58:48.660504+00:00",
+        "end_time": "2025-08-28T09:27:59.566749+00:00",
+        "duration_seconds": 16150,
+        "activities": [
+          {
+            "activity_type": "module_interaction",
+            "start_time": "2025-08-28T04:59:00.103558+00:00",
+            "end_time": "2025-08-28T05:01:20.760784+00:00",
+            "duration_seconds": 140,
+            "learning_path_id": "1",
+            "module_id": "mod-003"
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T05:01:20.760815+00:00",
+            "end_time": "2025-08-28T05:01:26.908072+00:00",
+            "duration_seconds": 6
+          },
+          {
+            "activity_type": "collaboration_view",
+            "start_time": "2025-08-28T05:01:26.908165+00:00",
+            "end_time": "2025-08-28T05:01:28.406850+00:00",
+            "duration_seconds": 1
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T05:01:28.406877+00:00",
+            "end_time": "2025-08-28T05:01:39.550657+00:00",
+            "duration_seconds": 11
+          },
+          {
+            "activity_type": "collaboration_view",
+            "start_time": "2025-08-28T05:01:39.550741+00:00",
+            "end_time": "2025-08-28T05:01:44.020695+00:00",
+            "duration_seconds": 4
+          },
+          {
+            "activity_type": "dashboard_home_view",
+            "start_time": "2025-08-28T05:01:44.020721+00:00",
+            "end_time": "2025-08-28T05:01:56.386494+00:00",
+            "duration_seconds": 12
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T05:01:56.386612+00:00",
+            "end_time": "2025-08-28T05:01:58.926027+00:00",
+            "duration_seconds": 2
+          },
+          {
+            "activity_type": "collaboration_view",
+            "start_time": "2025-08-28T05:01:58.926047+00:00",
+            "end_time": "2025-08-28T05:02:09.185650+00:00",
+            "duration_seconds": 10
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T05:02:09.185699+00:00",
+            "end_time": "2025-08-28T05:02:21.695628+00:00",
+            "duration_seconds": 12
+          },
+          {
+            "activity_type": "collaboration_view",
+            "start_time": "2025-08-28T05:02:21.695646+00:00",
+            "end_time": "2025-08-28T05:02:26.096805+00:00",
+            "duration_seconds": 4
+          },
+          {
+            "activity_type": "dashboard_home_view",
+            "start_time": "2025-08-28T05:02:26.096871+00:00",
+            "end_time": "2025-08-28T05:04:41.973685+00:00",
+            "duration_seconds": 135
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T05:04:41.973726+00:00",
+            "end_time": "2025-08-28T05:04:48.426317+00:00",
+            "duration_seconds": 6
+          },
+          {
+            "activity_type": "collaboration_view",
+            "start_time": "2025-08-28T05:04:48.426344+00:00",
+            "end_time": "2025-08-28T05:04:51.937943+00:00",
+            "duration_seconds": 3
+          },
+          {
+            "activity_type": "dashboard_home_view",
+            "start_time": "2025-08-28T05:04:51.937975+00:00",
+            "end_time": "2025-08-28T05:05:02.986803+00:00",
+            "duration_seconds": 11
+          },
+          {
+            "activity_type": "module_interaction",
+            "start_time": "2025-08-28T05:05:02.986834+00:00",
+            "end_time": "2025-08-28T05:05:31.509834+00:00",
+            "duration_seconds": 28,
+            "learning_path_id": "1",
+            "module_id": "mod-003"
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T05:05:31.509862+00:00",
+            "end_time": "2025-08-28T05:05:36.348387+00:00",
+            "duration_seconds": 4
+          },
+          {
+            "activity_type": "dashboard_home_view",
+            "start_time": "2025-08-28T05:05:36.348427+00:00",
+            "end_time": "2025-08-28T05:18:47.340411+00:00",
+            "duration_seconds": 790
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T05:18:47.340446+00:00",
+            "end_time": "2025-08-28T05:18:48.403738+00:00",
+            "duration_seconds": 1
+          },
+          {
+            "activity_type": "collaboration_view",
+            "start_time": "2025-08-28T05:18:48.403753+00:00",
+            "end_time": "2025-08-28T05:18:49.845863+00:00",
+            "duration_seconds": 1
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T05:18:49.845884+00:00",
+            "end_time": "2025-08-28T05:18:50.805478+00:00",
+            "duration_seconds": 0
+          },
+          {
+            "activity_type": "dashboard_home_view",
+            "start_time": "2025-08-28T05:18:50.805507+00:00",
+            "end_time": "2025-08-28T05:26:33.111846+00:00",
+            "duration_seconds": 462
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T05:26:33.111878+00:00",
+            "end_time": "2025-08-28T05:26:35.034004+00:00",
+            "duration_seconds": 1
+          },
+          {
+            "activity_type": "collaboration_view",
+            "start_time": "2025-08-28T05:26:35.034046+00:00",
+            "end_time": "2025-08-28T05:26:35.987113+00:00",
+            "duration_seconds": 0
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T05:26:35.987137+00:00",
+            "end_time": "2025-08-28T05:26:37.523785+00:00",
+            "duration_seconds": 1
+          },
+          {
+            "activity_type": "dashboard_home_view",
+            "start_time": "2025-08-28T05:26:37.523816+00:00",
+            "end_time": "2025-08-28T05:26:39.285696+00:00",
+            "duration_seconds": 1
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T05:26:39.285720+00:00",
+            "end_time": "2025-08-28T05:26:41.065218+00:00",
+            "duration_seconds": 1
+          },
+          {
+            "activity_type": "collaboration_view",
+            "start_time": "2025-08-28T05:26:41.065242+00:00",
+            "end_time": "2025-08-28T05:26:41.947063+00:00",
+            "duration_seconds": 0
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T05:26:41.947082+00:00",
+            "end_time": "2025-08-28T05:26:42.862124+00:00",
+            "duration_seconds": 0
+          },
+          {
+            "activity_type": "dashboard_home_view",
+            "start_time": "2025-08-28T05:26:42.862154+00:00",
+            "end_time": "2025-08-28T09:17:34.874764+00:00",
+            "duration_seconds": 13852
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T09:17:34.874778+00:00",
+            "end_time": "2025-08-28T09:27:59.497389+00:00",
+            "duration_seconds": 624
+          }
+        ]
+      },
+      {
+        "session_id": "session_cf4707f6_user_001",
+        "start_time": "2025-08-28T10:07:35.949148+00:00",
+        "end_time": null,
+        "duration_seconds": 0,
+        "activities": []
+      }
+    ],
+    "total_time_spent_seconds": 18303,
+    "average_session_duration": 2614.71,
+    "last_activity": "2025-08-28T09:27:59.566749+00:00"
+  },
+  "user_013": {
+    "sessions": [
+      {
+        "session_id": "session_c3ec9715_user_013",
+        "start_time": "2025-08-28T12:27:59.111200+00:00",
+        "end_time": "2025-08-28T12:38:05.762308+00:00",
+        "duration_seconds": 606,
+        "activities": [
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T12:29:10.350841+00:00",
+            "end_time": "2025-08-28T12:29:13.991288+00:00",
+            "duration_seconds": 3
+          },
+          {
+            "activity_type": "collaboration_view",
+            "start_time": "2025-08-28T12:29:13.991324+00:00",
+            "end_time": "2025-08-28T12:29:17.748167+00:00",
+            "duration_seconds": 3
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T12:29:17.748196+00:00",
+            "end_time": "2025-08-28T12:29:18.800073+00:00",
+            "duration_seconds": 1
+          },
+          {
+            "activity_type": "dashboard_home_view",
+            "start_time": "2025-08-28T12:29:18.800096+00:00",
+            "end_time": "2025-08-28T12:35:11.418095+00:00",
+            "duration_seconds": 352
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T12:35:11.418240+00:00",
+            "end_time": "2025-08-28T12:37:38.418315+00:00",
+            "duration_seconds": 147
+          }
+        ]
+      },
+      {
+        "session_id": "session_4ea181a0_user_013",
+        "start_time": "2025-08-28T12:38:04.285235+00:00",
+        "end_time": "2025-08-28T12:39:47.890792+00:00",
+        "duration_seconds": 103,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T12:39:29.424939+00:00",
+            "end_time": "2025-08-28T12:39:44.845189+00:00",
+            "duration_seconds": 15
+          }
+        ]
+      },
+      {
+        "session_id": "session_bb8ae055_user_013",
+        "start_time": "2025-08-28T12:39:48.332734+00:00",
+        "end_time": "2025-08-28T12:42:12.032725+00:00",
+        "duration_seconds": 143,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T12:41:10.414957+00:00",
+            "end_time": "2025-08-28T12:41:30.418619+00:00",
+            "duration_seconds": 20
+          }
+        ]
+      },
+      {
+        "session_id": "session_cb9ceaee_user_013",
+        "start_time": "2025-08-28T12:42:10.978373+00:00",
+        "end_time": null,
+        "duration_seconds": 0,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T12:42:12.687084+00:00",
+            "end_time": "2025-08-28T13:05:57.187760+00:00",
+            "duration_seconds": 1424
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-28T13:05:57.187953+00:00",
+            "end_time": "2025-08-28T13:05:58.775117+00:00",
+            "duration_seconds": 1
+          },
+          {
+            "activity_type": "dashboard_home_view",
+            "start_time": "2025-08-28T13:05:58.775156+00:00",
+            "end_time": "2025-08-28T13:06:00.543521+00:00",
+            "duration_seconds": 1
+          },
+          {
+            "activity_type": "collaboration_view",
+            "start_time": "2025-08-28T13:06:00.543551+00:00",
+            "end_time": "2025-08-28T13:06:03.180198+00:00",
+            "duration_seconds": 2
+          },
+          {
+            "activity_type": "dashboard_home_view",
+            "start_time": "2025-08-28T13:06:03.180234+00:00",
+            "end_time": "2025-08-28T13:06:05.199676+00:00",
+            "duration_seconds": 2
+          },
+          {
+            "activity_type": "collaboration_view",
+            "start_time": "2025-08-28T13:06:05.199703+00:00",
+            "end_time": "2025-08-28T13:06:06.666031+00:00",
+            "duration_seconds": 1
+          },
+          {
+            "activity_type": "dashboard_home_view",
+            "start_time": "2025-08-28T13:06:06.666118+00:00",
+            "end_time": null,
+            "duration_seconds": 0
+          }
+        ]
+      }
+    ],
+    "total_time_spent_seconds": 2432,
+    "average_session_duration": 284.0,
+    "last_activity": "2025-08-28T12:42:12.032725+00:00"
+  },
+  "user_014": {
+    "sessions": [
+      {
+        "session_id": "session_eafb04d7_user_014",
+        "start_time": "2025-08-28T12:31:55.678146+00:00",
+        "end_time": null,
+        "duration_seconds": 0,
+        "activities": []
+      }
+    ],
+    "total_time_spent_seconds": 0,
+    "average_session_duration": 0,
+    "last_activity": null
+  },
+  "user_015": {
+    "sessions": [
+      {
+        "session_id": "session_32758d26_user_015",
+        "start_time": "2025-08-28T12:36:34.474614+00:00",
+        "end_time": "2025-08-28T12:36:34.477100+00:00",
+        "duration_seconds": 0,
+        "activities": []
+      },
+      {
+        "session_id": "session_f72c8e29_user_015",
+        "start_time": "2025-08-28T12:36:49.203250+00:00",
+        "end_time": "2025-08-28T12:36:49.205168+00:00",
+        "duration_seconds": 0,
+        "activities": []
+      }
+    ],
+    "total_time_spent_seconds": 0,
+    "average_session_duration": 0.0,
+    "last_activity": "2025-08-28T12:36:49.205168+00:00"
+  },
+  "user_016": {
+    "sessions": [
+      {
+        "session_id": "session_cbc9c246_user_016",
+        "start_time": "2025-08-28T13:22:04.523594+00:00",
+        "end_time": "2025-08-28T13:30:16.867984+00:00",
+        "duration_seconds": 492,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T13:22:04.738709+00:00",
+            "end_time": "2025-08-28T13:29:52.388407+00:00",
+            "duration_seconds": 467
+          }
+        ]
+      },
+      {
+        "session_id": "session_5dd902c3_user_016",
+        "start_time": "2025-08-28T13:30:16.424748+00:00",
+        "end_time": null,
+        "duration_seconds": 0,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T13:30:17.515978+00:00",
+            "end_time": null,
+            "duration_seconds": 0
+          }
+        ]
+      }
+    ],
+    "total_time_spent_seconds": 959,
+    "average_session_duration": 492.0,
+    "last_activity": "2025-08-28T13:30:16.867984+00:00"
+  },
+  "user_022": {
+    "sessions": [
+      {
+        "session_id": "session_26c9963e_user_022",
+        "start_time": "2025-08-28T20:03:21.617956+00:00",
+        "end_time": "2025-08-29T09:59:52.084186+00:00",
+        "duration_seconds": 50190,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T20:03:21.836834+00:00",
+            "end_time": "2025-08-28T20:06:28.720964+00:00",
+            "duration_seconds": 186
+          },
+          {
+            "activity_type": "learning_path_modules_view",
+            "start_time": "2025-08-28T20:06:28.721022+00:00",
+            "end_time": "2025-08-28T20:09:08.736452+00:00",
+            "duration_seconds": 160,
+            "learning_path_id": "4"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T20:09:08.736478+00:00",
+            "end_time": "2025-08-28T20:09:11.252555+00:00",
+            "duration_seconds": 2
+          },
+          {
+            "activity_type": "learning_path_modules_view",
+            "start_time": "2025-08-28T20:09:11.252602+00:00",
+            "end_time": "2025-08-28T20:09:13.206921+00:00",
+            "duration_seconds": 1,
+            "learning_path_id": "1"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T20:09:13.207529+00:00",
+            "end_time": "2025-08-28T20:09:14.948277+00:00",
+            "duration_seconds": 1
+          },
+          {
+            "activity_type": "learning_path_modules_view",
+            "start_time": "2025-08-28T20:09:14.948884+00:00",
+            "end_time": "2025-08-28T20:09:15.944055+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "2"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T20:09:15.944081+00:00",
+            "end_time": "2025-08-28T20:09:20.771998+00:00",
+            "duration_seconds": 4
+          },
+          {
+            "activity_type": "learning_path_modules_view",
+            "start_time": "2025-08-28T20:09:20.772027+00:00",
+            "end_time": "2025-08-28T20:09:23.405954+00:00",
+            "duration_seconds": 2,
+            "learning_path_id": "4"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T20:09:23.405982+00:00",
+            "end_time": "2025-08-29T09:59:42.215759+00:00",
+            "duration_seconds": 49818
+          }
+        ]
+      },
+      {
+        "session_id": "session_5714fcf4_user_022",
+        "start_time": "2025-08-29T10:00:32.499092+00:00",
+        "end_time": "2025-08-29T20:28:03.692327+00:00",
+        "duration_seconds": 37651,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T10:01:17.256453+00:00",
+            "end_time": "2025-08-29T20:28:03.644752+00:00",
+            "duration_seconds": 37606
+          }
+        ]
+      },
+      {
+        "session_id": "session_54898295_user_022",
+        "start_time": "2025-08-29T20:28:04.137874+00:00",
+        "end_time": "2025-08-29T20:41:50.862871+00:00",
+        "duration_seconds": 826,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T20:28:04.483844+00:00",
+            "end_time": "2025-08-29T20:41:50.828521+00:00",
+            "duration_seconds": 826
+          }
+        ]
+      },
+      {
+        "session_id": "session_323b103c_user_022",
+        "start_time": "2025-08-29T20:41:51.257755+00:00",
+        "end_time": "2025-08-29T20:44:52.363567+00:00",
+        "duration_seconds": 181,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T20:41:51.484030+00:00",
+            "end_time": "2025-08-29T20:44:52.312112+00:00",
+            "duration_seconds": 180
+          }
+        ]
+      },
+      {
+        "session_id": "session_057e3f37_user_022",
+        "start_time": "2025-08-29T20:44:52.918517+00:00",
+        "end_time": "2025-08-29T20:47:50.259825+00:00",
+        "duration_seconds": 177,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T20:44:53.128392+00:00",
+            "end_time": "2025-08-29T20:46:58.267300+00:00",
+            "duration_seconds": 125
+          }
+        ]
+      },
+      {
+        "session_id": "session_65904f10_user_022",
+        "start_time": "2025-08-29T20:47:32.008191+00:00",
+        "end_time": "2025-08-29T21:21:46.275303+00:00",
+        "duration_seconds": 2054,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T20:47:51.252168+00:00",
+            "end_time": "2025-08-29T21:18:46.033168+00:00",
+            "duration_seconds": 1854
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-29T21:18:46.033214+00:00",
+            "end_time": "2025-08-29T21:19:00.408503+00:00",
+            "duration_seconds": 14
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T21:19:00.408527+00:00",
+            "end_time": "2025-08-29T21:19:51.736091+00:00",
+            "duration_seconds": 51
+          },
+          {
+            "activity_type": "learning_paths_view",
+            "start_time": "2025-08-29T21:19:51.736128+00:00",
+            "end_time": "2025-08-29T21:19:56.428703+00:00",
+            "duration_seconds": 4
+          },
+          {
+            "activity_type": "dashboard_home_view",
+            "start_time": "2025-08-29T21:19:56.428748+00:00",
+            "end_time": "2025-08-29T21:21:38.271587+00:00",
+            "duration_seconds": 101
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T21:21:38.271707+00:00",
+            "end_time": "2025-08-29T21:21:46.265325+00:00",
+            "duration_seconds": 7
+          }
+        ]
+      },
+      {
+        "session_id": "session_ad1d0cad_user_022",
+        "start_time": "2025-08-29T21:21:54.282138+00:00",
+        "end_time": "2025-08-29T21:22:19.271319+00:00",
+        "duration_seconds": 24,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T21:22:02.261564+00:00",
+            "end_time": "2025-08-29T21:22:19.262806+00:00",
+            "duration_seconds": 17
+          }
+        ]
+      },
+      {
+        "session_id": "session_8d0e9240_user_022",
+        "start_time": "2025-08-29T21:22:25.280397+00:00",
+        "end_time": "2025-08-29T21:23:08.847044+00:00",
+        "duration_seconds": 43,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T21:22:31.261679+00:00",
+            "end_time": "2025-08-29T21:22:52.276082+00:00",
+            "duration_seconds": 21
+          }
+        ]
+      },
+      {
+        "session_id": "session_199de18f_user_022",
+        "start_time": "2025-08-29T21:23:07.000483+00:00",
+        "end_time": "2025-08-29T22:39:40.678439+00:00",
+        "duration_seconds": 4593,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T21:23:09.499132+00:00",
+            "end_time": "2025-08-29T21:23:15.859141+00:00",
+            "duration_seconds": 6
+          },
+          {
+            "activity_type": "learning_path_modules_view",
+            "start_time": "2025-08-29T21:23:15.859187+00:00",
+            "end_time": "2025-08-29T21:26:51.928560+00:00",
+            "duration_seconds": 216,
+            "learning_path_id": "LP2024DS001"
+          },
+          {
+            "activity_type": "module_interaction",
+            "start_time": "2025-08-29T21:26:51.928607+00:00",
+            "end_time": "2025-08-29T21:26:52.270334+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.270365+00:00",
+            "end_time": "2025-08-29T21:26:52.282804+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.294100+00:00",
+            "end_time": "2025-08-29T21:26:52.303297+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.311584+00:00",
+            "end_time": "2025-08-29T21:26:52.318040+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.323968+00:00",
+            "end_time": "2025-08-29T21:26:52.332064+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.363264+00:00",
+            "end_time": "2025-08-29T21:26:52.374807+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.385820+00:00",
+            "end_time": "2025-08-29T21:26:52.396860+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.404169+00:00",
+            "end_time": "2025-08-29T21:26:52.410803+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.418563+00:00",
+            "end_time": "2025-08-29T21:26:52.425672+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.432271+00:00",
+            "end_time": "2025-08-29T21:26:52.438161+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.446620+00:00",
+            "end_time": "2025-08-29T21:26:52.453891+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.461556+00:00",
+            "end_time": "2025-08-29T21:26:52.468872+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.475052+00:00",
+            "end_time": "2025-08-29T21:26:52.482331+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.490258+00:00",
+            "end_time": "2025-08-29T21:26:52.498096+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.506128+00:00",
+            "end_time": "2025-08-29T21:26:52.512525+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.518753+00:00",
+            "end_time": "2025-08-29T21:26:52.526763+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.533386+00:00",
+            "end_time": "2025-08-29T21:26:52.539328+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.545479+00:00",
+            "end_time": "2025-08-29T21:26:52.553521+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.559060+00:00",
+            "end_time": "2025-08-29T21:26:52.565229+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.571103+00:00",
+            "end_time": "2025-08-29T21:26:52.577175+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.591410+00:00",
+            "end_time": "2025-08-29T21:26:52.619470+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.627142+00:00",
+            "end_time": "2025-08-29T21:26:52.634716+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.642491+00:00",
+            "end_time": "2025-08-29T21:26:52.656259+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.667377+00:00",
+            "end_time": "2025-08-29T21:26:52.674629+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.683887+00:00",
+            "end_time": "2025-08-29T21:26:52.692424+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.699621+00:00",
+            "end_time": "2025-08-29T21:26:52.708606+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.717531+00:00",
+            "end_time": "2025-08-29T21:26:52.732375+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.739342+00:00",
+            "end_time": "2025-08-29T21:26:52.749354+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.754976+00:00",
+            "end_time": "2025-08-29T21:26:52.765102+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.780025+00:00",
+            "end_time": "2025-08-29T21:26:52.811881+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.819879+00:00",
+            "end_time": "2025-08-29T21:26:52.825808+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.834306+00:00",
+            "end_time": "2025-08-29T21:26:52.841886+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.851231+00:00",
+            "end_time": "2025-08-29T21:26:52.858810+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.864935+00:00",
+            "end_time": "2025-08-29T21:26:52.871573+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.877611+00:00",
+            "end_time": "2025-08-29T21:26:52.885757+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.891578+00:00",
+            "end_time": "2025-08-29T21:26:52.899548+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.905875+00:00",
+            "end_time": "2025-08-29T21:26:52.914155+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.920674+00:00",
+            "end_time": "2025-08-29T21:26:52.930071+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.936129+00:00",
+            "end_time": "2025-08-29T21:26:52.942148+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.948971+00:00",
+            "end_time": "2025-08-29T21:26:52.954630+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.962386+00:00",
+            "end_time": "2025-08-29T21:26:52.969369+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:52.975548+00:00",
+            "end_time": "2025-08-29T21:26:52.993699+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.004328+00:00",
+            "end_time": "2025-08-29T21:26:53.016685+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.025059+00:00",
+            "end_time": "2025-08-29T21:26:53.034000+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.042882+00:00",
+            "end_time": "2025-08-29T21:26:53.051612+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.058475+00:00",
+            "end_time": "2025-08-29T21:26:53.065241+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.071487+00:00",
+            "end_time": "2025-08-29T21:26:53.079402+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.084973+00:00",
+            "end_time": "2025-08-29T21:26:53.091215+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.099896+00:00",
+            "end_time": "2025-08-29T21:26:53.109986+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.119929+00:00",
+            "end_time": "2025-08-29T21:26:53.127737+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.133820+00:00",
+            "end_time": "2025-08-29T21:26:53.139702+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.149026+00:00",
+            "end_time": "2025-08-29T21:26:53.154852+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.161224+00:00",
+            "end_time": "2025-08-29T21:26:53.167307+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.173054+00:00",
+            "end_time": "2025-08-29T21:26:53.180576+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.190483+00:00",
+            "end_time": "2025-08-29T21:26:53.200717+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.206106+00:00",
+            "end_time": "2025-08-29T21:26:53.212643+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.221026+00:00",
+            "end_time": "2025-08-29T21:26:53.241902+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.251290+00:00",
+            "end_time": "2025-08-29T21:26:53.259978+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.272928+00:00",
+            "end_time": "2025-08-29T21:26:53.287677+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.295998+00:00",
+            "end_time": "2025-08-29T21:26:53.302164+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.308438+00:00",
+            "end_time": "2025-08-29T21:26:53.315944+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.321711+00:00",
+            "end_time": "2025-08-29T21:26:53.329404+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.340230+00:00",
+            "end_time": "2025-08-29T21:26:53.348152+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.354855+00:00",
+            "end_time": "2025-08-29T21:26:53.365082+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.371689+00:00",
+            "end_time": "2025-08-29T21:26:53.379555+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.387944+00:00",
+            "end_time": "2025-08-29T21:26:53.395618+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.402826+00:00",
+            "end_time": "2025-08-29T21:26:53.409054+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.423518+00:00",
+            "end_time": "2025-08-29T21:26:53.436187+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.444470+00:00",
+            "end_time": "2025-08-29T21:26:53.451809+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.457763+00:00",
+            "end_time": "2025-08-29T21:26:53.466630+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.474402+00:00",
+            "end_time": "2025-08-29T21:26:53.484047+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.491224+00:00",
+            "end_time": "2025-08-29T21:26:53.521977+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.538620+00:00",
+            "end_time": "2025-08-29T21:26:53.546805+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.554492+00:00",
+            "end_time": "2025-08-29T21:26:53.563184+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.569117+00:00",
+            "end_time": "2025-08-29T21:26:53.577498+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.585290+00:00",
+            "end_time": "2025-08-29T21:26:53.593322+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.600407+00:00",
+            "end_time": "2025-08-29T21:26:53.607686+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.616082+00:00",
+            "end_time": "2025-08-29T21:26:53.624323+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.635268+00:00",
+            "end_time": "2025-08-29T21:26:53.642121+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.649306+00:00",
+            "end_time": "2025-08-29T21:26:53.655537+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.662453+00:00",
+            "end_time": "2025-08-29T21:26:53.671904+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.684485+00:00",
+            "end_time": "2025-08-29T21:26:53.695385+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.704832+00:00",
+            "end_time": "2025-08-29T21:26:53.713451+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.720304+00:00",
+            "end_time": "2025-08-29T21:26:53.729605+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.736380+00:00",
+            "end_time": "2025-08-29T21:26:53.742838+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.750486+00:00",
+            "end_time": "2025-08-29T21:26:53.757216+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.764120+00:00",
+            "end_time": "2025-08-29T21:26:53.848348+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.857094+00:00",
+            "end_time": "2025-08-29T21:26:53.868867+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.876496+00:00",
+            "end_time": "2025-08-29T21:26:53.883670+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.889575+00:00",
+            "end_time": "2025-08-29T21:26:53.900293+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.906642+00:00",
+            "end_time": "2025-08-29T21:26:53.915655+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.922109+00:00",
+            "end_time": "2025-08-29T21:26:53.929391+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.938866+00:00",
+            "end_time": "2025-08-29T21:26:53.952821+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.962512+00:00",
+            "end_time": "2025-08-29T21:26:53.969309+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.979643+00:00",
+            "end_time": "2025-08-29T21:26:53.986666+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:53.994325+00:00",
+            "end_time": "2025-08-29T21:26:54.001192+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.009012+00:00",
+            "end_time": "2025-08-29T21:26:54.018275+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.023967+00:00",
+            "end_time": "2025-08-29T21:26:54.031670+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.069867+00:00",
+            "end_time": "2025-08-29T21:26:54.080124+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.102003+00:00",
+            "end_time": "2025-08-29T21:26:54.124064+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.131909+00:00",
+            "end_time": "2025-08-29T21:26:54.137898+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.143815+00:00",
+            "end_time": "2025-08-29T21:26:54.151485+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.157255+00:00",
+            "end_time": "2025-08-29T21:26:54.184441+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.203563+00:00",
+            "end_time": "2025-08-29T21:26:54.215288+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.222206+00:00",
+            "end_time": "2025-08-29T21:26:54.231562+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.238509+00:00",
+            "end_time": "2025-08-29T21:26:54.246664+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.273904+00:00",
+            "end_time": "2025-08-29T21:26:54.285537+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.298552+00:00",
+            "end_time": "2025-08-29T21:26:54.305651+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.318354+00:00",
+            "end_time": "2025-08-29T21:26:54.330658+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.356679+00:00",
+            "end_time": "2025-08-29T21:26:54.370998+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.383542+00:00",
+            "end_time": "2025-08-29T21:26:54.406542+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.434774+00:00",
+            "end_time": "2025-08-29T21:26:54.446248+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.459410+00:00",
+            "end_time": "2025-08-29T21:26:54.470753+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.481053+00:00",
+            "end_time": "2025-08-29T21:26:54.492996+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.507994+00:00",
+            "end_time": "2025-08-29T21:26:54.519106+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.531862+00:00",
+            "end_time": "2025-08-29T21:26:54.541478+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.556030+00:00",
+            "end_time": "2025-08-29T21:26:54.576209+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.588568+00:00",
+            "end_time": "2025-08-29T21:26:54.603105+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.612832+00:00",
+            "end_time": "2025-08-29T21:26:54.621820+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.633885+00:00",
+            "end_time": "2025-08-29T21:26:54.649939+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.657687+00:00",
+            "end_time": "2025-08-29T21:26:54.672117+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.682697+00:00",
+            "end_time": "2025-08-29T21:26:54.693283+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.710321+00:00",
+            "end_time": "2025-08-29T21:26:54.724839+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.751598+00:00",
+            "end_time": "2025-08-29T21:26:54.761897+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.773744+00:00",
+            "end_time": "2025-08-29T21:26:54.788521+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.797111+00:00",
+            "end_time": "2025-08-29T21:26:54.803942+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.810491+00:00",
+            "end_time": "2025-08-29T21:26:54.816791+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.824023+00:00",
+            "end_time": "2025-08-29T21:26:54.833337+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.853334+00:00",
+            "end_time": "2025-08-29T21:26:54.862078+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.868767+00:00",
+            "end_time": "2025-08-29T21:26:54.874965+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.882002+00:00",
+            "end_time": "2025-08-29T21:26:54.888126+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.897701+00:00",
+            "end_time": "2025-08-29T21:26:54.904110+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.912903+00:00",
+            "end_time": "2025-08-29T21:26:54.919428+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.926371+00:00",
+            "end_time": "2025-08-29T21:26:54.939460+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.946695+00:00",
+            "end_time": "2025-08-29T21:26:54.953561+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.960445+00:00",
+            "end_time": "2025-08-29T21:26:54.967433+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.978195+00:00",
+            "end_time": "2025-08-29T21:26:54.985349+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:54.993328+00:00",
+            "end_time": "2025-08-29T21:26:55.000147+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.007813+00:00",
+            "end_time": "2025-08-29T21:26:55.018592+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.028774+00:00",
+            "end_time": "2025-08-29T21:26:55.037532+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.044901+00:00",
+            "end_time": "2025-08-29T21:26:55.058735+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.067100+00:00",
+            "end_time": "2025-08-29T21:26:55.073475+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.080954+00:00",
+            "end_time": "2025-08-29T21:26:55.087464+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.094626+00:00",
+            "end_time": "2025-08-29T21:26:55.102082+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.108911+00:00",
+            "end_time": "2025-08-29T21:26:55.116371+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.122845+00:00",
+            "end_time": "2025-08-29T21:26:55.137731+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.152901+00:00",
+            "end_time": "2025-08-29T21:26:55.160323+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.169616+00:00",
+            "end_time": "2025-08-29T21:26:55.179534+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.188598+00:00",
+            "end_time": "2025-08-29T21:26:55.196112+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.202167+00:00",
+            "end_time": "2025-08-29T21:26:55.208382+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.215740+00:00",
+            "end_time": "2025-08-29T21:26:55.230653+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.237170+00:00",
+            "end_time": "2025-08-29T21:26:55.245005+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.263492+00:00",
+            "end_time": "2025-08-29T21:26:55.272617+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.286773+00:00",
+            "end_time": "2025-08-29T21:26:55.307846+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.317457+00:00",
+            "end_time": "2025-08-29T21:26:55.324140+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.331200+00:00",
+            "end_time": "2025-08-29T21:26:55.339558+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.348731+00:00",
+            "end_time": "2025-08-29T21:26:55.356076+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.363901+00:00",
+            "end_time": "2025-08-29T21:26:55.380465+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.391640+00:00",
+            "end_time": "2025-08-29T21:26:55.403513+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.410648+00:00",
+            "end_time": "2025-08-29T21:26:55.424667+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.435379+00:00",
+            "end_time": "2025-08-29T21:26:55.455257+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.467024+00:00",
+            "end_time": "2025-08-29T21:26:55.474175+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.487239+00:00",
+            "end_time": "2025-08-29T21:26:55.495766+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.503234+00:00",
+            "end_time": "2025-08-29T21:26:55.518727+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.527180+00:00",
+            "end_time": "2025-08-29T21:26:55.535412+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.542271+00:00",
+            "end_time": "2025-08-29T21:26:55.550531+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.557232+00:00",
+            "end_time": "2025-08-29T21:26:55.566101+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.578823+00:00",
+            "end_time": "2025-08-29T21:26:55.611777+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.651613+00:00",
+            "end_time": "2025-08-29T21:26:55.669392+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.685662+00:00",
+            "end_time": "2025-08-29T21:26:55.694598+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.704793+00:00",
+            "end_time": "2025-08-29T21:26:55.711708+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.718276+00:00",
+            "end_time": "2025-08-29T21:26:55.724574+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.732895+00:00",
+            "end_time": "2025-08-29T21:26:55.739690+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.752769+00:00",
+            "end_time": "2025-08-29T21:26:55.760754+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.788307+00:00",
+            "end_time": "2025-08-29T21:26:55.801386+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.807900+00:00",
+            "end_time": "2025-08-29T21:26:55.817961+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.824204+00:00",
+            "end_time": "2025-08-29T21:26:55.831507+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.841081+00:00",
+            "end_time": "2025-08-29T21:26:55.849038+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.855386+00:00",
+            "end_time": "2025-08-29T21:26:55.862145+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.870140+00:00",
+            "end_time": "2025-08-29T21:26:55.876100+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.887220+00:00",
+            "end_time": "2025-08-29T21:26:55.894130+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.902720+00:00",
+            "end_time": "2025-08-29T21:26:55.908913+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.919415+00:00",
+            "end_time": "2025-08-29T21:26:55.925267+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.931738+00:00",
+            "end_time": "2025-08-29T21:26:55.937884+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.944492+00:00",
+            "end_time": "2025-08-29T21:26:55.952582+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.959052+00:00",
+            "end_time": "2025-08-29T21:26:55.965983+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.974954+00:00",
+            "end_time": "2025-08-29T21:26:55.982395+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:55.989778+00:00",
+            "end_time": "2025-08-29T21:26:56.000135+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.007028+00:00",
+            "end_time": "2025-08-29T21:26:56.014442+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.058166+00:00",
+            "end_time": "2025-08-29T21:26:56.070282+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.079857+00:00",
+            "end_time": "2025-08-29T21:26:56.087951+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.105176+00:00",
+            "end_time": "2025-08-29T21:26:56.122812+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.135032+00:00",
+            "end_time": "2025-08-29T21:26:56.151184+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.159649+00:00",
+            "end_time": "2025-08-29T21:26:56.170663+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.179196+00:00",
+            "end_time": "2025-08-29T21:26:56.186414+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.197096+00:00",
+            "end_time": "2025-08-29T21:26:56.204836+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.213357+00:00",
+            "end_time": "2025-08-29T21:26:56.221129+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.231061+00:00",
+            "end_time": "2025-08-29T21:26:56.239081+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.249204+00:00",
+            "end_time": "2025-08-29T21:26:56.269625+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.278921+00:00",
+            "end_time": "2025-08-29T21:26:56.303308+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.312443+00:00",
+            "end_time": "2025-08-29T21:26:56.320506+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.328088+00:00",
+            "end_time": "2025-08-29T21:26:56.335522+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.348146+00:00",
+            "end_time": "2025-08-29T21:26:56.363756+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.372611+00:00",
+            "end_time": "2025-08-29T21:26:56.387930+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.397069+00:00",
+            "end_time": "2025-08-29T21:26:56.404236+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.411633+00:00",
+            "end_time": "2025-08-29T21:26:56.418634+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.432913+00:00",
+            "end_time": "2025-08-29T21:26:56.445028+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.454605+00:00",
+            "end_time": "2025-08-29T21:26:56.466593+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.476737+00:00",
+            "end_time": "2025-08-29T21:26:56.489315+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.495668+00:00",
+            "end_time": "2025-08-29T21:26:56.508265+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.520589+00:00",
+            "end_time": "2025-08-29T21:26:56.541756+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.561744+00:00",
+            "end_time": "2025-08-29T21:26:56.579473+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.593863+00:00",
+            "end_time": "2025-08-29T21:26:56.605029+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.614418+00:00",
+            "end_time": "2025-08-29T21:26:56.623708+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.636771+00:00",
+            "end_time": "2025-08-29T21:26:56.654296+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.671209+00:00",
+            "end_time": "2025-08-29T21:26:56.688302+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.700892+00:00",
+            "end_time": "2025-08-29T21:26:56.710127+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.721731+00:00",
+            "end_time": "2025-08-29T21:26:56.741823+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.758630+00:00",
+            "end_time": "2025-08-29T21:26:56.774077+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.787635+00:00",
+            "end_time": "2025-08-29T21:26:56.797623+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.816069+00:00",
+            "end_time": "2025-08-29T21:26:56.835161+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.850612+00:00",
+            "end_time": "2025-08-29T21:26:56.867853+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.877008+00:00",
+            "end_time": "2025-08-29T21:26:56.887913+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.901371+00:00",
+            "end_time": "2025-08-29T21:26:56.917551+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.927862+00:00",
+            "end_time": "2025-08-29T21:26:56.941745+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.963888+00:00",
+            "end_time": "2025-08-29T21:26:56.976766+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:56.995490+00:00",
+            "end_time": "2025-08-29T21:26:57.008326+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.021283+00:00",
+            "end_time": "2025-08-29T21:26:57.034155+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.051956+00:00",
+            "end_time": "2025-08-29T21:26:57.067345+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.077158+00:00",
+            "end_time": "2025-08-29T21:26:57.088755+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.098260+00:00",
+            "end_time": "2025-08-29T21:26:57.116066+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.135938+00:00",
+            "end_time": "2025-08-29T21:26:57.148711+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.170345+00:00",
+            "end_time": "2025-08-29T21:26:57.196603+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.222775+00:00",
+            "end_time": "2025-08-29T21:26:57.270303+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.283992+00:00",
+            "end_time": "2025-08-29T21:26:57.306306+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.320269+00:00",
+            "end_time": "2025-08-29T21:26:57.332170+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.343782+00:00",
+            "end_time": "2025-08-29T21:26:57.354920+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.363493+00:00",
+            "end_time": "2025-08-29T21:26:57.371759+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.384986+00:00",
+            "end_time": "2025-08-29T21:26:57.409982+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.421575+00:00",
+            "end_time": "2025-08-29T21:26:57.428955+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.437178+00:00",
+            "end_time": "2025-08-29T21:26:57.444115+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.455019+00:00",
+            "end_time": "2025-08-29T21:26:57.469625+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.480098+00:00",
+            "end_time": "2025-08-29T21:26:57.498831+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.510777+00:00",
+            "end_time": "2025-08-29T21:26:57.522448+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.533491+00:00",
+            "end_time": "2025-08-29T21:26:57.540215+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.547295+00:00",
+            "end_time": "2025-08-29T21:26:57.554449+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.562693+00:00",
+            "end_time": "2025-08-29T21:26:57.572721+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.580588+00:00",
+            "end_time": "2025-08-29T21:26:57.587159+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.594065+00:00",
+            "end_time": "2025-08-29T21:26:57.601884+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.623947+00:00",
+            "end_time": "2025-08-29T21:26:57.630743+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.638398+00:00",
+            "end_time": "2025-08-29T21:26:57.645481+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.654646+00:00",
+            "end_time": "2025-08-29T21:26:57.661648+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.675970+00:00",
+            "end_time": "2025-08-29T21:26:57.689769+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.699907+00:00",
+            "end_time": "2025-08-29T21:26:57.709695+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.722182+00:00",
+            "end_time": "2025-08-29T21:26:57.732267+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.742015+00:00",
+            "end_time": "2025-08-29T21:26:57.752134+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.758793+00:00",
+            "end_time": "2025-08-29T21:26:57.766985+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.779975+00:00",
+            "end_time": "2025-08-29T21:26:57.788404+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.801691+00:00",
+            "end_time": "2025-08-29T21:26:57.810924+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.823976+00:00",
+            "end_time": "2025-08-29T21:26:57.833943+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.840913+00:00",
+            "end_time": "2025-08-29T21:26:57.868271+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.875320+00:00",
+            "end_time": "2025-08-29T21:26:57.883290+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.889870+00:00",
+            "end_time": "2025-08-29T21:26:57.901577+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.909528+00:00",
+            "end_time": "2025-08-29T21:26:57.918474+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.928330+00:00",
+            "end_time": "2025-08-29T21:26:57.934905+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.941399+00:00",
+            "end_time": "2025-08-29T21:26:57.954686+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.973839+00:00",
+            "end_time": "2025-08-29T21:26:57.981185+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:57.987818+00:00",
+            "end_time": "2025-08-29T21:26:57.998775+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.009371+00:00",
+            "end_time": "2025-08-29T21:26:58.017874+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.025250+00:00",
+            "end_time": "2025-08-29T21:26:58.039296+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.047185+00:00",
+            "end_time": "2025-08-29T21:26:58.055869+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.070525+00:00",
+            "end_time": "2025-08-29T21:26:58.076838+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.083834+00:00",
+            "end_time": "2025-08-29T21:26:58.090198+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.097756+00:00",
+            "end_time": "2025-08-29T21:26:58.104839+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.112194+00:00",
+            "end_time": "2025-08-29T21:26:58.119240+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.130002+00:00",
+            "end_time": "2025-08-29T21:26:58.148155+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.158693+00:00",
+            "end_time": "2025-08-29T21:26:58.168390+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.180220+00:00",
+            "end_time": "2025-08-29T21:26:58.187381+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.194125+00:00",
+            "end_time": "2025-08-29T21:26:58.201061+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.305113+00:00",
+            "end_time": "2025-08-29T21:26:58.332927+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.352340+00:00",
+            "end_time": "2025-08-29T21:26:58.391141+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.406373+00:00",
+            "end_time": "2025-08-29T21:26:58.430971+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.445820+00:00",
+            "end_time": "2025-08-29T21:26:58.461980+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.484645+00:00",
+            "end_time": "2025-08-29T21:26:58.493035+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.503841+00:00",
+            "end_time": "2025-08-29T21:26:58.513789+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.522093+00:00",
+            "end_time": "2025-08-29T21:26:58.533189+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.540959+00:00",
+            "end_time": "2025-08-29T21:26:58.550291+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.568531+00:00",
+            "end_time": "2025-08-29T21:26:58.591722+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.605595+00:00",
+            "end_time": "2025-08-29T21:26:58.615272+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.624059+00:00",
+            "end_time": "2025-08-29T21:26:58.638971+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.659995+00:00",
+            "end_time": "2025-08-29T21:26:58.691196+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.706094+00:00",
+            "end_time": "2025-08-29T21:26:58.725053+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.747244+00:00",
+            "end_time": "2025-08-29T21:26:58.757357+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.768184+00:00",
+            "end_time": "2025-08-29T21:26:58.809590+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.855352+00:00",
+            "end_time": "2025-08-29T21:26:58.884869+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.892802+00:00",
+            "end_time": "2025-08-29T21:26:58.900642+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.907416+00:00",
+            "end_time": "2025-08-29T21:26:58.915048+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.925374+00:00",
+            "end_time": "2025-08-29T21:26:58.933820+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.940954+00:00",
+            "end_time": "2025-08-29T21:26:58.949128+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.960738+00:00",
+            "end_time": "2025-08-29T21:26:58.972131+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:58.983566+00:00",
+            "end_time": "2025-08-29T21:26:58.991266+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.001092+00:00",
+            "end_time": "2025-08-29T21:26:59.014003+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.021072+00:00",
+            "end_time": "2025-08-29T21:26:59.027823+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.035491+00:00",
+            "end_time": "2025-08-29T21:26:59.044715+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.052538+00:00",
+            "end_time": "2025-08-29T21:26:59.078484+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.086881+00:00",
+            "end_time": "2025-08-29T21:26:59.096528+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.106110+00:00",
+            "end_time": "2025-08-29T21:26:59.120073+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.138109+00:00",
+            "end_time": "2025-08-29T21:26:59.149954+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.158330+00:00",
+            "end_time": "2025-08-29T21:26:59.168481+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.177614+00:00",
+            "end_time": "2025-08-29T21:26:59.186784+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.194409+00:00",
+            "end_time": "2025-08-29T21:26:59.202662+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.210068+00:00",
+            "end_time": "2025-08-29T21:26:59.223195+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.239193+00:00",
+            "end_time": "2025-08-29T21:26:59.248834+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.260568+00:00",
+            "end_time": "2025-08-29T21:26:59.270012+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.279266+00:00",
+            "end_time": "2025-08-29T21:26:59.290591+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.301563+00:00",
+            "end_time": "2025-08-29T21:26:59.322618+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.333876+00:00",
+            "end_time": "2025-08-29T21:26:59.344315+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.358412+00:00",
+            "end_time": "2025-08-29T21:26:59.368296+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.375592+00:00",
+            "end_time": "2025-08-29T21:26:59.389838+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.399421+00:00",
+            "end_time": "2025-08-29T21:26:59.407218+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.418906+00:00",
+            "end_time": "2025-08-29T21:26:59.427747+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.439134+00:00",
+            "end_time": "2025-08-29T21:26:59.456103+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.484300+00:00",
+            "end_time": "2025-08-29T21:26:59.498692+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.509782+00:00",
+            "end_time": "2025-08-29T21:26:59.521752+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.534856+00:00",
+            "end_time": "2025-08-29T21:26:59.544254+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.555681+00:00",
+            "end_time": "2025-08-29T21:26:59.572305+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.599652+00:00",
+            "end_time": "2025-08-29T21:26:59.616870+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.625746+00:00",
+            "end_time": "2025-08-29T21:26:59.647290+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.658700+00:00",
+            "end_time": "2025-08-29T21:26:59.673265+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.684657+00:00",
+            "end_time": "2025-08-29T21:26:59.699235+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.710249+00:00",
+            "end_time": "2025-08-29T21:26:59.723564+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.738378+00:00",
+            "end_time": "2025-08-29T21:26:59.750121+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.760915+00:00",
+            "end_time": "2025-08-29T21:26:59.770241+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.778724+00:00",
+            "end_time": "2025-08-29T21:26:59.790434+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.799867+00:00",
+            "end_time": "2025-08-29T21:26:59.808090+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.816387+00:00",
+            "end_time": "2025-08-29T21:26:59.823851+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.834411+00:00",
+            "end_time": "2025-08-29T21:26:59.841554+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.853781+00:00",
+            "end_time": "2025-08-29T21:26:59.864674+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.871816+00:00",
+            "end_time": "2025-08-29T21:26:59.881688+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.888918+00:00",
+            "end_time": "2025-08-29T21:26:59.896550+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.904256+00:00",
+            "end_time": "2025-08-29T21:26:59.912743+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.922963+00:00",
+            "end_time": "2025-08-29T21:26:59.934517+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.942347+00:00",
+            "end_time": "2025-08-29T21:26:59.951341+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.959479+00:00",
+            "end_time": "2025-08-29T21:26:59.968910+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:26:59.991536+00:00",
+            "end_time": "2025-08-29T21:27:00.016982+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:27:00.040676+00:00",
+            "end_time": "2025-08-29T21:27:00.154177+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:27:00.172993+00:00",
+            "end_time": "2025-08-29T21:27:00.201887+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:27:00.219737+00:00",
+            "end_time": "2025-08-29T21:27:00.233469+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T21:27:00.257824+00:00",
+            "end_time": "2025-08-29T21:27:00.662776+00:00",
+            "duration_seconds": 0,
+            "learning_path_id": "LP2024DS001",
+            "module_id": "MOD2024002"
+          },
+          {
+            "activity_type": "learning_path_modules_view",
+            "start_time": "2025-08-29T21:27:00.662812+00:00",
+            "end_time": "2025-08-29T21:27:06.428719+00:00",
+            "duration_seconds": 5,
+            "learning_path_id": "LP2024DS001"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T21:27:06.428749+00:00",
+            "end_time": "2025-08-29T22:39:40.642608+00:00",
+            "duration_seconds": 4354
+          }
+        ]
+      },
+      {
+        "session_id": "session_512c22d2_user_022",
+        "start_time": "2025-08-29T22:39:44.786505+00:00",
+        "end_time": "2025-08-29T22:52:25.476346+00:00",
+        "duration_seconds": 760,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T22:39:48.563356+00:00",
+            "end_time": "2025-08-29T22:52:25.446163+00:00",
+            "duration_seconds": 756
+          }
+        ]
+      },
+      {
+        "session_id": "session_fdf8dce1_user_022",
+        "start_time": "2025-08-29T22:52:26.239784+00:00",
+        "end_time": "2025-08-29T22:55:08.243486+00:00",
+        "duration_seconds": 162,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T22:52:26.477379+00:00",
+            "end_time": "2025-08-29T22:55:08.196712+00:00",
+            "duration_seconds": 161
+          }
+        ]
+      },
+      {
+        "session_id": "session_75864d64_user_022",
+        "start_time": "2025-08-29T22:55:08.597425+00:00",
+        "end_time": "2025-08-29T22:57:00.437418+00:00",
+        "duration_seconds": 111,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T22:55:08.820603+00:00",
+            "end_time": "2025-08-29T22:57:00.426858+00:00",
+            "duration_seconds": 111
+          }
+        ]
+      },
+      {
+        "session_id": "session_39325a9e_user_022",
+        "start_time": "2025-08-29T22:57:13.408394+00:00",
+        "end_time": null,
+        "duration_seconds": 0,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T22:57:14.400337+00:00",
+            "end_time": null,
+            "duration_seconds": 0
+          }
+        ]
+      }
+    ],
+    "total_time_spent_seconds": 197290,
+    "average_session_duration": 8064.33,
+    "last_activity": "2025-08-29T22:57:00.437418+00:00"
+  },
+  "test_user": {
+    "sessions": [
+      {
+        "session_id": "session_c31599a4_test_user",
+        "start_time": "2025-08-29T07:39:36.709119+00:00",
+        "end_time": "2025-08-29T07:59:06.057739+00:00",
+        "duration_seconds": 1169,
+        "activities": []
+      },
+      {
+        "session_id": "session_85fad3b6_test_user",
+        "start_time": "2025-08-29T08:01:26.939439+00:00",
+        "end_time": "2025-08-29T08:02:04.016673+00:00",
+        "duration_seconds": 37,
+        "activities": []
+      },
+      {
+        "session_id": "session_0abe474e_test_user",
+        "start_time": "2025-08-29T08:03:18.922555+00:00",
+        "end_time": "2025-08-29T08:03:18.927495+00:00",
+        "duration_seconds": 0,
+        "activities": []
+      },
+      {
+        "session_id": "session_859f0fe0_test_user",
+        "start_time": "2025-08-29T08:03:18.929663+00:00",
+        "end_time": "2025-08-29T08:03:31.812731+00:00",
+        "duration_seconds": 12,
+        "activities": [
+          {
+            "activity_type": "quiz",
+            "start_time": "2025-08-29T08:03:18.930782+00:00",
+            "end_time": "2025-08-29T08:03:31.812731+00:00",
+            "duration_seconds": 12
+          }
+        ]
+      },
+      {
+        "session_id": "session_aa6682e5_test_user",
+        "start_time": "2025-08-29T08:03:31.815822+00:00",
+        "end_time": "2025-08-29T08:05:51.143619+00:00",
+        "duration_seconds": 139,
+        "activities": [
+          {
+            "activity_type": "quiz",
+            "start_time": "2025-08-29T08:03:31.816764+00:00",
+            "end_time": "2025-08-29T08:05:51.143619+00:00",
+            "duration_seconds": 139
+          }
+        ]
+      },
+      {
+        "session_id": "session_68ab46fe_test_user",
+        "start_time": "2025-08-29T08:05:51.146546+00:00",
+        "end_time": "2025-08-29T08:06:08.384761+00:00",
+        "duration_seconds": 17,
+        "activities": [
+          {
+            "activity_type": "quiz",
+            "start_time": "2025-08-29T08:05:51.147710+00:00",
+            "end_time": "2025-08-29T08:06:08.384761+00:00",
+            "duration_seconds": 17
+          }
+        ]
+      },
+      {
+        "session_id": "session_57d664f0_test_user",
+        "start_time": "2025-08-29T08:06:08.387116+00:00",
+        "end_time": "2025-08-29T08:58:01.020494+00:00",
+        "duration_seconds": 3112,
+        "activities": [
+          {
+            "activity_type": "quiz",
+            "start_time": "2025-08-29T08:06:08.388447+00:00",
+            "end_time": "2025-08-29T08:58:01.020494+00:00",
+            "duration_seconds": 3112
+          }
+        ]
+      },
+      {
+        "session_id": "session_b1660a0b_test_user",
+        "start_time": "2025-08-29T08:58:01.023743+00:00",
+        "end_time": "2025-08-29T09:03:34.898375+00:00",
+        "duration_seconds": 333,
+        "activities": [
+          {
+            "activity_type": "quiz",
+            "start_time": "2025-08-29T08:58:01.024842+00:00",
+            "end_time": "2025-08-29T09:03:34.898375+00:00",
+            "duration_seconds": 333
+          }
+        ]
+      },
+      {
+        "session_id": "session_06d00236_test_user",
+        "start_time": "2025-08-29T09:03:34.901253+00:00",
+        "end_time": null,
+        "duration_seconds": 0,
+        "activities": [
+          {
+            "activity_type": "quiz",
+            "start_time": "2025-08-29T09:03:34.904228+00:00",
+            "end_time": null,
+            "duration_seconds": 0
+          }
+        ]
+      }
+    ],
+    "total_time_spent_seconds": 4819,
+    "average_session_duration": 602.38,
+    "last_activity": "2025-08-29T09:03:34.898375+00:00"
+  },
+  "user_024": {
+    "sessions": [
+      {
+        "session_id": "session_91bb96a5_user_024",
+        "start_time": "2025-08-29T17:11:39.907096+00:00",
+        "end_time": null,
+        "duration_seconds": 0,
+        "activities": [
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T17:11:40.138168+00:00",
+            "end_time": "2025-08-29T17:12:25.072360+00:00",
+            "duration_seconds": 44
+          },
+          {
+            "activity_type": "learning_path_modules_view",
+            "start_time": "2025-08-29T17:12:25.072404+00:00",
+            "end_time": "2025-08-29T17:12:28.191080+00:00",
+            "duration_seconds": 3,
+            "learning_path_id": "LP2024DS001"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T17:12:28.191111+00:00",
+            "end_time": "2025-08-29T17:12:33.981375+00:00",
+            "duration_seconds": 5
+          },
+          {
+            "activity_type": "learning_path_modules_view",
+            "start_time": "2025-08-29T17:12:33.981399+00:00",
+            "end_time": "2025-08-29T17:12:35.509605+00:00",
+            "duration_seconds": 1,
+            "learning_path_id": "LP2024DS002"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T17:12:35.509621+00:00",
+            "end_time": null,
+            "duration_seconds": 0
+          }
+        ]
+      }
+    ],
+    "total_time_spent_seconds": 0,
+    "average_session_duration": 0,
+    "last_activity": null
+  },
+  "user_kyc_ds_001": {
+    "sessions": [
+      {
+        "session_id": "session_dadbf18fa171448d_user_kyc_ds_001",
+        "start_time": "2025-08-21T01:00:00+00:00",
+        "end_time": "2025-08-21T02:50:25+00:00",
+        "duration_seconds": 6625,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-21T01:10:19+00:00",
+            "end_time": "2025-08-21T02:11:59+00:00",
+            "duration_seconds": 1398,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_001"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-21T01:00:00+00:00",
+            "end_time": "2025-08-21T01:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_51830195aa00405a_user_kyc_ds_001",
+        "start_time": "2025-08-22T20:00:00+00:00",
+        "end_time": "2025-08-22T21:12:31+00:00",
+        "duration_seconds": 4351,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-22T20:01:40+00:00",
+            "end_time": "2025-08-22T20:50:05+00:00",
+            "duration_seconds": 1027,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_001"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-22T20:00:00+00:00",
+            "end_time": "2025-08-22T20:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_63d5ad2a15f74e74_user_kyc_ds_001",
+        "start_time": "2025-08-25T02:00:00+00:00",
+        "end_time": "2025-08-25T02:46:02+00:00",
+        "duration_seconds": 2762,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-25T02:05:18+00:00",
+            "end_time": "2025-08-25T02:37:44+00:00",
+            "duration_seconds": 1720,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_001"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-25T02:00:00+00:00",
+            "end_time": "2025-08-25T02:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_64913c48d01f4850_user_kyc_ds_001",
+        "start_time": "2025-08-28T01:00:00+00:00",
+        "end_time": "2025-08-28T02:08:35+00:00",
+        "duration_seconds": 4115,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-28T01:16:25+00:00",
+            "end_time": "2025-08-28T01:59:47+00:00",
+            "duration_seconds": 1458,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_002"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-28T01:00:00+00:00",
+            "end_time": "2025-08-28T01:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_a8b488e97cca4b08_user_kyc_ds_001",
+        "start_time": "2025-08-29T19:00:00+00:00",
+        "end_time": "2025-08-29T20:43:42+00:00",
+        "duration_seconds": 6222,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-29T19:00:50+00:00",
+            "end_time": "2025-08-29T20:02:55+00:00",
+            "duration_seconds": 1472,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_002"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-29T19:00:00+00:00",
+            "end_time": "2025-08-29T19:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_5921874d642c4ac3_user_kyc_ds_001",
+        "start_time": "2025-08-31T22:00:00+00:00",
+        "end_time": "2025-08-31T23:44:49+00:00",
+        "duration_seconds": 6289,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-08-31T22:07:15+00:00",
+            "end_time": "2025-08-31T23:18:10+00:00",
+            "duration_seconds": 1632,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_002"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-08-31T22:00:00+00:00",
+            "end_time": "2025-08-31T22:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_aa772db7727d4e1c_user_kyc_ds_001",
+        "start_time": "2025-09-03T02:00:00+00:00",
+        "end_time": "2025-09-03T03:31:53+00:00",
+        "duration_seconds": 5513,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-03T02:17:34+00:00",
+            "end_time": "2025-09-03T03:06:51+00:00",
+            "duration_seconds": 1324,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_002"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-09-03T02:00:00+00:00",
+            "end_time": "2025-09-03T02:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_bb8a0a4ae1814455_user_kyc_ds_001",
+        "start_time": "2025-09-04T20:00:00+00:00",
+        "end_time": "2025-09-04T21:39:13+00:00",
+        "duration_seconds": 5953,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-04T20:10:40+00:00",
+            "end_time": "2025-09-04T20:57:02+00:00",
+            "duration_seconds": 1524,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_002"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-09-04T20:00:00+00:00",
+            "end_time": "2025-09-04T20:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_d6e35297f9a14ab2_user_kyc_ds_001",
+        "start_time": "2025-09-06T23:00:00+00:00",
+        "end_time": "2025-09-07T00:21:33+00:00",
+        "duration_seconds": 4893,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-06T23:10:11+00:00",
+            "end_time": "2025-09-07T00:12:59+00:00",
+            "duration_seconds": 762,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_002"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-09-06T23:00:00+00:00",
+            "end_time": "2025-09-06T23:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_231316db207b4b5e_user_kyc_ds_001",
+        "start_time": "2025-09-03T20:00:00+00:00",
+        "end_time": "2025-09-03T21:08:09+00:00",
+        "duration_seconds": 4089,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-03T20:10:23+00:00",
+            "end_time": "2025-09-03T20:36:01+00:00",
+            "duration_seconds": 1728,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_003"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-09-03T20:00:00+00:00",
+            "end_time": "2025-09-03T20:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_2ea09174885749be_user_kyc_ds_001",
+        "start_time": "2025-09-06T02:00:00+00:00",
+        "end_time": "2025-09-06T03:26:43+00:00",
+        "duration_seconds": 5203,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-06T02:15:42+00:00",
+            "end_time": "2025-09-06T02:56:49+00:00",
+            "duration_seconds": 1181,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_003"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-09-06T02:00:00+00:00",
+            "end_time": "2025-09-06T02:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_a1abc8a522e94c4a_user_kyc_ds_001",
+        "start_time": "2025-09-07T19:00:00+00:00",
+        "end_time": "2025-09-07T20:52:03+00:00",
+        "duration_seconds": 6723,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-07T19:19:48+00:00",
+            "end_time": "2025-09-07T20:20:58+00:00",
+            "duration_seconds": 676,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_003"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-09-07T19:00:00+00:00",
+            "end_time": "2025-09-07T19:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_0fad472155c545b9_user_kyc_ds_001",
+        "start_time": "2025-09-09T22:00:00+00:00",
+        "end_time": "2025-09-09T23:26:58+00:00",
+        "duration_seconds": 5218,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-09T22:04:17+00:00",
+            "end_time": "2025-09-09T22:44:30+00:00",
+            "duration_seconds": 853,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_003"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-09-09T22:00:00+00:00",
+            "end_time": "2025-09-09T22:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_e65a526ea37b46b5_user_kyc_ds_001",
+        "start_time": "2025-09-10T18:00:00+00:00",
+        "end_time": "2025-09-10T18:40:12+00:00",
+        "duration_seconds": 2412,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-10T18:03:04+00:00",
+            "end_time": "2025-09-10T18:25:51+00:00",
+            "duration_seconds": 936,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_004"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-09-10T18:00:00+00:00",
+            "end_time": "2025-09-10T18:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_b6db91d5eecf4902_user_kyc_ds_001",
+        "start_time": "2025-09-13T00:00:00+00:00",
+        "end_time": "2025-09-13T01:07:07+00:00",
+        "duration_seconds": 4027,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-13T00:00:13+00:00",
+            "end_time": "2025-09-13T00:35:43+00:00",
+            "duration_seconds": 1774,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_004"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-09-13T00:00:00+00:00",
+            "end_time": "2025-09-13T00:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_e6aca499ce044c1b_user_kyc_ds_001",
+        "start_time": "2025-09-14T21:00:00+00:00",
+        "end_time": "2025-09-14T21:43:28+00:00",
+        "duration_seconds": 2608,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-14T21:01:24+00:00",
+            "end_time": "2025-09-14T21:37:17+00:00",
+            "duration_seconds": 1108,
+            "learning_path_id": "LP_KYC_PYTHON",
+            "module_id": "MOD_KYC_PY_004"
+          },
+          {
+            "activity_type": "dashboard_view",
+            "start_time": "2025-09-14T21:00:00+00:00",
+            "end_time": "2025-09-14T21:05:00+00:00",
+            "duration_seconds": 300
+          }
+        ]
+      },
+      {
+        "session_id": "session_e797f8a54aab4d29_user_kyc_ds_001",
+        "start_time": "2025-09-19T18:00:00+00:00",
+        "end_time": "2025-09-19T19:16:53+00:00",
+        "duration_seconds": 4613,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-19T18:19:00+00:00",
+            "end_time": "2025-09-19T19:11:16+00:00",
+            "duration_seconds": 993,
+            "learning_path_id": "LP_KYC_ML",
+            "module_id": "MOD_KYC_ML_001"
+          }
+        ]
+      },
+      {
+        "session_id": "session_1e46abbfae9f4647_user_kyc_ds_001",
+        "start_time": "2025-09-23T01:00:00+00:00",
+        "end_time": "2025-09-23T02:46:24+00:00",
+        "duration_seconds": 6384,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-23T01:01:41+00:00",
+            "end_time": "2025-09-23T02:37:40+00:00",
+            "duration_seconds": 1610,
+            "learning_path_id": "LP_KYC_ML",
+            "module_id": "MOD_KYC_ML_001"
+          }
+        ]
+      },
+      {
+        "session_id": "session_6064845a16054b85_user_kyc_ds_001",
+        "start_time": "2025-09-25T20:00:00+00:00",
+        "end_time": "2025-09-25T21:03:32+00:00",
+        "duration_seconds": 3812,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-25T20:06:52+00:00",
+            "end_time": "2025-09-25T20:59:14+00:00",
+            "duration_seconds": 2096,
+            "learning_path_id": "LP_KYC_ML",
+            "module_id": "MOD_KYC_ML_001"
+          }
+        ]
+      },
+      {
+        "session_id": "session_c087f7d1ea404790_user_kyc_ds_001",
+        "start_time": "2025-09-29T01:00:00+00:00",
+        "end_time": "2025-09-29T02:07:56+00:00",
+        "duration_seconds": 4076,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-29T01:04:25+00:00",
+            "end_time": "2025-09-29T02:01:25+00:00",
+            "duration_seconds": 1651,
+            "learning_path_id": "LP_KYC_ML",
+            "module_id": "MOD_KYC_ML_001"
+          }
+        ]
+      },
+      {
+        "session_id": "session_152c4227dd094fe4_user_kyc_ds_001",
+        "start_time": "2025-09-27T22:00:00+00:00",
+        "end_time": "2025-09-27T23:30:24+00:00",
+        "duration_seconds": 5424,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-27T22:02:12+00:00",
+            "end_time": "2025-09-27T23:21:49+00:00",
+            "duration_seconds": 1189,
+            "learning_path_id": "LP_KYC_ML",
+            "module_id": "MOD_KYC_ML_002"
+          }
+        ]
+      },
+      {
+        "session_id": "session_c347e2a2382746cf_user_kyc_ds_001",
+        "start_time": "2025-09-30T21:00:00+00:00",
+        "end_time": "2025-09-30T22:28:07+00:00",
+        "duration_seconds": 5287,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-09-30T21:00:37+00:00",
+            "end_time": "2025-09-30T22:14:25+00:00",
+            "duration_seconds": 1412,
+            "learning_path_id": "LP_KYC_ML",
+            "module_id": "MOD_KYC_ML_002"
+          }
+        ]
+      },
+      {
+        "session_id": "session_4fd5d4c0c6994f00_user_kyc_ds_001",
+        "start_time": "2025-10-04T01:00:00+00:00",
+        "end_time": "2025-10-04T02:27:31+00:00",
+        "duration_seconds": 5251,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-10-04T01:01:12+00:00",
+            "end_time": "2025-10-04T01:45:58+00:00",
+            "duration_seconds": 2192,
+            "learning_path_id": "LP_KYC_ML",
+            "module_id": "MOD_KYC_ML_002"
+          }
+        ]
+      },
+      {
+        "session_id": "session_abea6a1da62749b1_user_kyc_ds_001",
+        "start_time": "2025-10-06T02:00:00+00:00",
+        "end_time": "2025-10-06T03:21:32+00:00",
+        "duration_seconds": 4892,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-10-06T02:01:27+00:00",
+            "end_time": "2025-10-06T02:45:03+00:00",
+            "duration_seconds": 1801,
+            "learning_path_id": "LP_KYC_ML",
+            "module_id": "MOD_KYC_ML_003"
+          }
+        ]
+      },
+      {
+        "session_id": "session_d32b3465ff5e46d1_user_kyc_ds_001",
+        "start_time": "2025-10-09T02:00:00+00:00",
+        "end_time": "2025-10-09T02:58:29+00:00",
+        "duration_seconds": 3509,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-10-09T02:01:59+00:00",
+            "end_time": "2025-10-09T02:57:01+00:00",
+            "duration_seconds": 861,
+            "learning_path_id": "LP_KYC_ML",
+            "module_id": "MOD_KYC_ML_003"
+          }
+        ]
+      },
+      {
+        "session_id": "session_6ccbc498c09743fb_user_kyc_ds_001",
+        "start_time": "2025-10-11T19:00:00+00:00",
+        "end_time": "2025-10-11T20:02:53+00:00",
+        "duration_seconds": 3773,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-10-11T19:13:23+00:00",
+            "end_time": "2025-10-11T19:45:48+00:00",
+            "duration_seconds": 1264,
+            "learning_path_id": "LP_KYC_ML",
+            "module_id": "MOD_KYC_ML_003"
+          }
+        ]
+      },
+      {
+        "session_id": "session_73ff115b42654c3f_user_kyc_ds_001",
+        "start_time": "2025-10-19T22:00:00+00:00",
+        "end_time": "2025-10-19T22:54:59+00:00",
+        "duration_seconds": 3299,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-10-19T22:05:12+00:00",
+            "end_time": "2025-10-19T22:44:52+00:00",
+            "duration_seconds": 845,
+            "learning_path_id": "LP_KYC_EXCEL",
+            "module_id": "MOD_KYC_EX_001"
+          }
+        ]
+      },
+      {
+        "session_id": "session_4c2d0f1499e341e0_user_kyc_ds_001",
+        "start_time": "2025-10-22T00:00:00+00:00",
+        "end_time": "2025-10-22T00:26:29+00:00",
+        "duration_seconds": 1589,
+        "activities": [
+          {
+            "activity_type": "module_study",
+            "start_time": "2025-10-22T00:03:27+00:00",
+            "end_time": "2025-10-22T00:22:45+00:00",
+            "duration_seconds": 592,
+            "learning_path_id": "LP_KYC_EXCEL",
+            "module_id": "MOD_KYC_EX_001"
+          }
+        ]
+      }
+    ]
+  }
+}

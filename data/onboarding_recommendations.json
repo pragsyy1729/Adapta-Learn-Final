@@ -1,0 +1,2163 @@
+{
+  "recommendations": {
+    "test_pragathi": {
+      "user_id": "test_pragathi",
+      "department": "ENG2024001",
+      "role": "Frontend Developer",
+      "recommended_learning_paths": [
+        "LP2024ENG001"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "JavaScript",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "React",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "HTML",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "CSS",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Git",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 3,
+          "priority": "medium",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "JavaScript",
+        "React",
+        "Problem Solving",
+        "HTML",
+        "CSS"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 1,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "beginner": [
+            "Git"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Git",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": []
+      },
+      "created_at": "2025-08-28T18:18:59.961697"
+    },
+    "user_013": {
+      "user_id": "user_013",
+      "department": "ENG2024001",
+      "role": "Frontend Developer",
+      "recommended_learning_paths": [
+        "LP2024ENG001"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "JavaScript",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "React",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "HTML",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "CSS",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Git",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 3,
+          "priority": "medium",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "JavaScript",
+        "React",
+        "Problem Solving",
+        "HTML",
+        "CSS"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 1,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "beginner": [
+            "Git"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Git",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": []
+      },
+      "created_at": "2025-08-28T17:44:17.125595"
+    },
+    "user_016": {
+      "user_id": "user_016",
+      "department": "engineering",
+      "role": "Frontend Developer",
+      "recommended_learning_paths": [],
+      "skill_gaps": [
+        {
+          "skill": "JavaScript",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "React",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "HTML",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "CSS",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Git",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 3,
+          "priority": "medium",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "JavaScript",
+        "React",
+        "Problem Solving",
+        "HTML",
+        "CSS"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 1,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "beginner": [
+            "Git"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Git",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": []
+      },
+      "created_at": "2025-08-28T18:48:27.880725"
+    },
+    "user_017": {
+      "user_id": "user_017",
+      "department": "engineering",
+      "role": "Frontend Developer",
+      "recommended_learning_paths": [],
+      "skill_gaps": [
+        {
+          "skill": "JavaScript",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "React",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "HTML",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "CSS",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Git",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 3,
+          "priority": "medium",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "JavaScript",
+        "React",
+        "Problem Solving",
+        "HTML",
+        "CSS"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 1,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "beginner": [
+            "Git"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Git",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": []
+      },
+      "created_at": "2025-08-28T19:01:46.911543"
+    },
+    "test_gemini": {
+      "user_id": "test_gemini",
+      "department": "engineering",
+      "role": "Frontend Developer",
+      "recommended_learning_paths": [],
+      "skill_gaps": [
+        {
+          "skill": "JavaScript",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "React",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "HTML",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "CSS",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Git",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 3,
+          "priority": "medium",
+          "confidence": 0.1,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "JavaScript",
+        "React",
+        "Problem Solving",
+        "HTML",
+        "CSS"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 0,
+        "skills_found_in_resume": 0,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "basic": [],
+          "beginner": [
+            "JavaScript",
+            "React",
+            "HTML",
+            "CSS",
+            "Git",
+            "Communication",
+            "Problem Solving"
+          ]
+        },
+        "top_skills": [],
+        "areas_for_development": [
+          "JavaScript",
+          "React",
+          "HTML",
+          "CSS",
+          "Git",
+          "Communication",
+          "Problem Solving"
+        ],
+        "transferable_skills_bonus": "Analysis unavailable",
+        "analysis_method": "gemini-ai",
+        "average_proficiency": 1.0
+      },
+      "created_at": "2025-08-28T19:20:20.633298"
+    },
+    "test_user_fix": {
+      "user_id": "test_user_fix",
+      "department": "KYC",
+      "role": "Data Analyst",
+      "recommended_learning_paths": [
+        "React Development Track"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        }
+      ],
+      "estimated_completion_weeks": 12,
+      "priority_skills": [
+        "Communication",
+        "Problem Solving"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 2,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "beginner": [
+            "Communication",
+            "Problem Solving"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Communication",
+            "proficiency": 1.0,
+            "confidence": 0.1
+          },
+          {
+            "skill": "Problem Solving",
+            "proficiency": 1.0,
+            "confidence": 0.1
+          }
+        ],
+        "skills_with_experience": []
+      },
+      "created_at": "2025-08-29T00:56:28.610575"
+    },
+    "test_user_final": {
+      "user_id": "test_user_final",
+      "department": "KYC",
+      "role": "Data Analyst",
+      "recommended_learning_paths": [
+        "LP2024ENG001"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        }
+      ],
+      "estimated_completion_weeks": 12,
+      "priority_skills": [
+        "Communication",
+        "Problem Solving"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 2,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "beginner": [
+            "Communication",
+            "Problem Solving"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Communication",
+            "proficiency": 1.0,
+            "confidence": 0.1
+          },
+          {
+            "skill": "Problem Solving",
+            "proficiency": 1.0,
+            "confidence": 0.1
+          }
+        ],
+        "skills_with_experience": []
+      },
+      "created_at": "2025-08-29T00:57:58.341747"
+    },
+    "test_complete_workflow": {
+      "user_id": "test_complete_workflow",
+      "department": "KYC",
+      "role": "Data Analyst",
+      "recommended_learning_paths": [
+        "LP2024ENG001"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        }
+      ],
+      "estimated_completion_weeks": 12,
+      "priority_skills": [
+        "Communication",
+        "Problem Solving"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 2,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "beginner": [
+            "Communication",
+            "Problem Solving"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Communication",
+            "proficiency": 1.0,
+            "confidence": 0.1
+          },
+          {
+            "skill": "Problem Solving",
+            "proficiency": 1.0,
+            "confidence": 0.1
+          }
+        ],
+        "skills_with_experience": []
+      },
+      "created_at": "2025-08-29T01:00:47.260642"
+    },
+    "user_022": {
+      "user_id": "user_022",
+      "department": "KYC",
+      "role": "Data Scientist",
+      "recommended_learning_paths": [
+        "9cbc0df890d546729a36dca20d24a9ba",
+        "LP2024DS001",
+        "LP2024DS002"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        }
+      ],
+      "estimated_completion_weeks": 12,
+      "priority_skills": [
+        "Communication",
+        "Problem Solving"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 2,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "beginner": [
+            "Communication",
+            "Problem Solving"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Communication",
+            "proficiency": 1.0,
+            "confidence": 0.1
+          },
+          {
+            "skill": "Problem Solving",
+            "proficiency": 1.0,
+            "confidence": 0.1
+          }
+        ],
+        "skills_with_experience": []
+      },
+      "created_at": "2025-08-29T01:32:43.742470"
+    },
+    "test_department_fix": {
+      "user_id": "test_department_fix",
+      "department": "Engineering",
+      "role": "Frontend Developer",
+      "recommended_learning_paths": [
+        "LP2024ENG001"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        }
+      ],
+      "estimated_completion_weeks": 12,
+      "priority_skills": [
+        "Communication",
+        "Problem Solving"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 2,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "beginner": [
+            "Communication",
+            "Problem Solving"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Communication",
+            "proficiency": 1.0,
+            "confidence": 0.1
+          },
+          {
+            "skill": "Problem Solving",
+            "proficiency": 1.0,
+            "confidence": 0.1
+          }
+        ],
+        "skills_with_experience": []
+      },
+      "created_at": "2025-08-29T01:04:59.695753"
+    },
+    "test_kyc_data_scientist": {
+      "user_id": "test_kyc_data_scientist",
+      "department": "KYC",
+      "role": "Data Scientist",
+      "recommended_learning_paths": [
+        "LP2024DS001",
+        "9cbc0df890d546729a36dca20d24a9ba"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        }
+      ],
+      "estimated_completion_weeks": 12,
+      "priority_skills": [
+        "Communication",
+        "Problem Solving"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 2,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "beginner": [
+            "Communication",
+            "Problem Solving"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Communication",
+            "proficiency": 1.0,
+            "confidence": 0.1
+          },
+          {
+            "skill": "Problem Solving",
+            "proficiency": 1.0,
+            "confidence": 0.1
+          }
+        ],
+        "skills_with_experience": []
+      },
+      "created_at": "2025-08-29T01:09:33.457554"
+    },
+    "test_user": {
+      "user_id": "test_user",
+      "department": "ENG2024001",
+      "role": "entry_level",
+      "recommended_learning_paths": [
+        "LP2024GEN001"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high"
+        }
+      ],
+      "estimated_completion_weeks": 8,
+      "priority_skills": [
+        "Communication"
+      ],
+      "created_at": "2025-08-29T14:33:34.875962"
+    },
+    "user_024": {
+      "user_id": "user_024",
+      "department": "KYC",
+      "role": "Data Scientist",
+      "recommended_learning_paths": [
+        "9cbc0df890d546729a36dca20d24a9ba"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high"
+        }
+      ],
+      "estimated_completion_weeks": 8,
+      "priority_skills": [
+        "Communication"
+      ],
+      "created_at": "2025-08-29T22:40:48.891762"
+    },
+    "user_034": {
+      "user_id": "user_034",
+      "department": "KYC",
+      "role": "Data Scientist",
+      "recommended_learning_paths": [
+        "LP_KYC_EXCEL",
+        "LP2024DS001",
+        "LP2024DS002"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Machine Learning",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        },
+        {
+          "skill": "Data Analysis",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Statistics",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Python",
+          "current_level": 2.5,
+          "required_level": 4.0,
+          "gap": 1.5,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.8,
+          "category": "technical"
+        },
+        {
+          "skill": "Excel",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "SQL",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "Machine Learning",
+        "Data Analysis",
+        "Statistics",
+        "Python",
+        "Excel"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 5,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [
+            "Python"
+          ],
+          "beginner": [
+            "Machine Learning",
+            "Data Analysis",
+            "SQL",
+            "Statistics"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Python",
+            "proficiency": 2.5,
+            "confidence": 0.8
+          },
+          {
+            "skill": "Data Analysis",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Statistics",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Machine Learning",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          },
+          {
+            "skill": "SQL",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": [],
+        "analysis_method": "heuristic"
+      },
+      "created_at": "2025-08-31T19:43:33.276311"
+    },
+    "user_test_01": {
+      "user_id": "user_test_01",
+      "department": "KYC",
+      "role": "Data Scientist",
+      "recommended_learning_paths": [],
+      "skill_gaps": [
+        {
+          "skill": "Machine Learning",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        },
+        {
+          "skill": "Data Analysis",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Statistics",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Python",
+          "current_level": 2.5,
+          "required_level": 4.0,
+          "gap": 1.5,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.8,
+          "category": "technical"
+        },
+        {
+          "skill": "Excel",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "SQL",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "Machine Learning",
+        "Data Analysis",
+        "Statistics",
+        "Python",
+        "Excel"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 5,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [
+            "Python"
+          ],
+          "beginner": [
+            "Machine Learning",
+            "Data Analysis",
+            "SQL",
+            "Statistics"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Python",
+            "proficiency": 2.5,
+            "confidence": 0.8
+          },
+          {
+            "skill": "Data Analysis",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Statistics",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Machine Learning",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          },
+          {
+            "skill": "SQL",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": [],
+        "analysis_method": "heuristic"
+      },
+      "created_at": "2025-08-31T19:27:51.631543"
+    },
+    "user_test_02": {
+      "user_id": "user_test_02",
+      "department": "KYC",
+      "role": "Data Scientist",
+      "recommended_learning_paths": [],
+      "skill_gaps": [
+        {
+          "skill": "Machine Learning",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        },
+        {
+          "skill": "Data Analysis",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Statistics",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Python",
+          "current_level": 2.5,
+          "required_level": 4.0,
+          "gap": 1.5,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.8,
+          "category": "technical"
+        },
+        {
+          "skill": "Excel",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "SQL",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "Machine Learning",
+        "Data Analysis",
+        "Statistics",
+        "Python",
+        "Excel"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 5,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [
+            "Python"
+          ],
+          "beginner": [
+            "Machine Learning",
+            "Data Analysis",
+            "SQL",
+            "Statistics"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Python",
+            "proficiency": 2.5,
+            "confidence": 0.8
+          },
+          {
+            "skill": "Data Analysis",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Statistics",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Machine Learning",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          },
+          {
+            "skill": "SQL",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": [],
+        "analysis_method": "heuristic"
+      },
+      "created_at": "2025-08-31T19:28:32.373817"
+    },
+    "user_test_03": {
+      "user_id": "user_test_03",
+      "department": "KYC",
+      "role": "Data Scientist",
+      "recommended_learning_paths": [
+        "LP_KYC_EXCEL",
+        "LP2024DS001",
+        "LP2024DS002"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Machine Learning",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        },
+        {
+          "skill": "Data Analysis",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Statistics",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Python",
+          "current_level": 2.5,
+          "required_level": 4.0,
+          "gap": 1.5,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.8,
+          "category": "technical"
+        },
+        {
+          "skill": "Excel",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "SQL",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "Machine Learning",
+        "Data Analysis",
+        "Statistics",
+        "Python",
+        "Excel"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 5,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [
+            "Python"
+          ],
+          "beginner": [
+            "Machine Learning",
+            "Data Analysis",
+            "SQL",
+            "Statistics"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Python",
+            "proficiency": 2.5,
+            "confidence": 0.8
+          },
+          {
+            "skill": "Data Analysis",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Statistics",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Machine Learning",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          },
+          {
+            "skill": "SQL",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": [],
+        "analysis_method": "heuristic"
+      },
+      "created_at": "2025-08-31T19:40:02.920501"
+    },
+    "user_test_04": {
+      "user_id": "user_test_04",
+      "department": "KYC",
+      "role": "Data Scientist",
+      "recommended_learning_paths": [
+        "LP_KYC_EXCEL",
+        "LP2024DS001",
+        "LP2024DS002"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Machine Learning",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        },
+        {
+          "skill": "Data Analysis",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Statistics",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Python",
+          "current_level": 2.5,
+          "required_level": 4.0,
+          "gap": 1.5,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.8,
+          "category": "technical"
+        },
+        {
+          "skill": "Excel",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "SQL",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "Machine Learning",
+        "Data Analysis",
+        "Statistics",
+        "Python",
+        "Excel"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 5,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [
+            "Python"
+          ],
+          "beginner": [
+            "Machine Learning",
+            "Data Analysis",
+            "SQL",
+            "Statistics"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Python",
+            "proficiency": 2.5,
+            "confidence": 0.8
+          },
+          {
+            "skill": "Data Analysis",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Statistics",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Machine Learning",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          },
+          {
+            "skill": "SQL",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": [],
+        "analysis_method": "heuristic"
+      },
+      "created_at": "2025-08-31T19:41:13.879450"
+    },
+    "test_resume_user": {
+      "user_id": "test_resume_user",
+      "department": "KYC",
+      "role": "Data Scientist",
+      "recommended_learning_paths": [
+        "LP_KYC_EXCEL",
+        "LP2024DS001",
+        "LP2024DS002"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Machine Learning",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        },
+        {
+          "skill": "Data Analysis",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Statistics",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Python",
+          "current_level": 2.5,
+          "required_level": 4.0,
+          "gap": 1.5,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.8,
+          "category": "technical"
+        },
+        {
+          "skill": "Excel",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "SQL",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "Machine Learning",
+        "Data Analysis",
+        "Statistics",
+        "Python",
+        "Excel"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 5,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [
+            "Python"
+          ],
+          "beginner": [
+            "Machine Learning",
+            "Data Analysis",
+            "SQL",
+            "Statistics"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Python",
+            "proficiency": 2.5,
+            "confidence": 0.8
+          },
+          {
+            "skill": "Data Analysis",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Statistics",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Machine Learning",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          },
+          {
+            "skill": "SQL",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": [],
+        "analysis_method": "heuristic"
+      },
+      "created_at": "2025-08-31T19:51:49.834119"
+    },
+    "test_defaults_user": {
+      "user_id": "test_defaults_user",
+      "department": "engineering",
+      "role": "Frontend Developer",
+      "recommended_learning_paths": [
+        "LP_SOFT_001",
+        "LP_SOFT_002",
+        "LP_SOFT_003",
+        "LP_SOFT_004",
+        "LP_SOFT_005",
+        "LP2024ENG001"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "JavaScript",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "React",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "HTML",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "CSS",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Git",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 3,
+          "priority": "medium",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "JavaScript",
+        "React",
+        "Problem Solving",
+        "HTML",
+        "CSS"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 1,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "beginner": [
+            "Git"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Git",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": [],
+        "analysis_method": "heuristic"
+      },
+      "created_at": "2025-08-31T20:00:14.974995"
+    },
+    "test_groq_debug": {
+      "user_id": "test_groq_debug",
+      "department": "engineering",
+      "role": "Frontend Developer",
+      "recommended_learning_paths": [
+        "LP_SOFT_001",
+        "LP_SOFT_002",
+        "LP_SOFT_003",
+        "LP_SOFT_004",
+        "LP_SOFT_005",
+        "LP2024ENG001"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "JavaScript",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "React",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Problem Solving",
+          "current_level": 1.0,
+          "required_level": 4.0,
+          "gap": 3.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "HTML",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "CSS",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "Git",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 3,
+          "priority": "medium",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "JavaScript",
+        "React",
+        "Problem Solving",
+        "HTML",
+        "CSS"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 1,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [],
+          "beginner": [
+            "Git"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Git",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": [],
+        "analysis_method": "heuristic"
+      },
+      "created_at": "2025-08-31T20:04:05.848926"
+    },
+    "user_035": {
+      "user_id": "user_035",
+      "department": "KYC",
+      "role": "Data Scientist",
+      "recommended_learning_paths": [
+        "LP_SOFT_001",
+        "LP_SOFT_002",
+        "LP_SOFT_003",
+        "LP_SOFT_004",
+        "LP_SOFT_005",
+        "LP_KYC_EXCEL",
+        "LP2024DS001",
+        "LP2024DS002"
+      ],
+      "skill_gaps": [
+        {
+          "skill": "Machine Learning",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        },
+        {
+          "skill": "Data Analysis",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Statistics",
+          "current_level": 2.0,
+          "required_level": 4.0,
+          "gap": 2.0,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.4,
+          "category": "technical"
+        },
+        {
+          "skill": "Python",
+          "current_level": 2.5,
+          "required_level": 4.0,
+          "gap": 1.5,
+          "importance": 5,
+          "priority": "high",
+          "confidence": 0.8,
+          "category": "technical"
+        },
+        {
+          "skill": "Excel",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "technical"
+        },
+        {
+          "skill": "Communication",
+          "current_level": 1.0,
+          "required_level": 3.0,
+          "gap": 2.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.1,
+          "category": "soft"
+        },
+        {
+          "skill": "SQL",
+          "current_level": 2.0,
+          "required_level": 3.0,
+          "gap": 1.0,
+          "importance": 4,
+          "priority": "high",
+          "confidence": 0.2,
+          "category": "technical"
+        }
+      ],
+      "estimated_completion_weeks": 20,
+      "priority_skills": [
+        "Machine Learning",
+        "Data Analysis",
+        "Statistics",
+        "Python",
+        "Excel"
+      ],
+      "resume_analysis_summary": {
+        "total_skills_found": 5,
+        "skills_by_level": {
+          "expert": [],
+          "advanced": [],
+          "intermediate": [
+            "Python"
+          ],
+          "beginner": [
+            "Machine Learning",
+            "Data Analysis",
+            "SQL",
+            "Statistics"
+          ],
+          "basic": []
+        },
+        "top_skills": [
+          {
+            "skill": "Python",
+            "proficiency": 2.5,
+            "confidence": 0.8
+          },
+          {
+            "skill": "Data Analysis",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Statistics",
+            "proficiency": 2.0,
+            "confidence": 0.4
+          },
+          {
+            "skill": "Machine Learning",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          },
+          {
+            "skill": "SQL",
+            "proficiency": 2.0,
+            "confidence": 0.2
+          }
+        ],
+        "skills_with_experience": [],
+        "analysis_method": "heuristic"
+      },
+      "created_at": "2025-08-31T20:10:57.631372"
+    }
+  },
+  "last_updated": "2025-08-31T20:10:57.631695"
+}

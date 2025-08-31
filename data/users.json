@@ -84,7 +84,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "eve.brown@company.com"
     }
   },
   "bob.smith@company.com": {
@@ -117,7 +118,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "eve.brown@company.com"
     }
   },
   "carol.davis@company.com": {
@@ -152,7 +154,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "eve.brown@company.com"
     }
   },
   "david.wilson@company.com": {
@@ -183,7 +186,9 @@
         "dashboard_view": "manager"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "eve.brown@company.com",
+      "reports": []
     }
   },
   "eve.brown@company.com": {
@@ -213,7 +218,16 @@
         "dashboard_view": "manager"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "reports": [
+        "user_003",
+        "user_004",
+        "user_005",
+        "user_006",
+        "user_023",
+        "user_028"
+      ],
+      "manager": "sarah.johnson@company.com"
     }
   },
   "frank.miller@company.com": {
@@ -243,7 +257,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "henry.taylor@company.com"
     }
   },
   "grace.lee@company.com": {
@@ -274,7 +289,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "henry.taylor@company.com"
     }
   },
   "henry.taylor@company.com": {
@@ -306,7 +322,13 @@
         "dashboard_view": "manager"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "ivy.chen@company.com",
+      "reports": [
+        "user_008",
+        "user_009",
+        "user_025"
+      ]
     }
   },
   "ivy.chen@company.com": {
@@ -336,7 +358,10 @@
         "dashboard_view": "manager"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "reports": [
+        "user_010"
+      ]
     }
   },
   "jack.anderson@company.com": {
@@ -366,7 +391,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "maya.patel@company.com"
     }
   },
   "kate.martinez@company.com": {
@@ -398,7 +424,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "maya.patel@company.com"
     }
   },
   "liam.garcia@company.com": {
@@ -432,7 +459,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "maya.patel@company.com"
     }
   },
   "maya.patel@company.com": {
@@ -463,7 +491,13 @@
         "dashboard_view": "manager"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "reports": [
+        "user_012",
+        "user_013",
+        "user_014",
+        "user_024"
+      ]
     }
   },
   "nina.rodriguez@company.com": {
@@ -492,7 +526,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "paula.gonzalez@company.com"
     }
   },
   "oscar.lopez@company.com": {
@@ -522,7 +557,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "paula.gonzalez@company.com"
     }
   },
   "paula.gonzalez@company.com": {
@@ -531,7 +567,7 @@
     "name": "Paula Gonzalez",
     "password_hash": "scrypt:32768:8:1$88vmeieU2WyJgjZX$092acad58c447454eec774ec38ce2e486c8fd901cb4508b53f344585fb3e7dfcdcb9b1cf88446b8ea0850e0685663b2515b96dbc59868547fdbeb7c738770bee",
     "created_at": "2024-12-08T03:31:23.972739Z",
-    "roleType": "Manager",
+    "roleType": "Hiring Manager",
     "newJoiner": "No",
     "dateOfJoining": "2023-12-02",
     "profile": {
@@ -553,7 +589,12 @@
         "dashboard_view": "manager"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "reports": [
+        "user_016",
+        "user_017"
+      ],
+      "manager": "sarah.johnson@company.com"
     }
   },
   "quentin.white@company.com": {
@@ -583,7 +624,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "finance.manager@company.com"
     }
   },
   "rachel.kim@company.com": {
@@ -615,7 +657,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "finance.manager@company.com"
     }
   },
   "sam.thomas@company.com": {
@@ -644,7 +687,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "tina.wong@company.com"
     }
   },
   "tina.wong@company.com": {
@@ -674,14 +718,17 @@
         "dashboard_view": "manager"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "reports": [
+        "user_021"
+      ]
     }
   },
   "uma.sharma@company.com": {
     "email": "uma.sharma@company.com",
     "user_id": "user_023",
     "name": "Uma Sharma",
-    "password_hash": "scrypt:32768:8:1$fiB6peKt2lK85tyn$a2d2a527980b24536d1ea4166076894a1765affc859b3a88b1db4e960f963f242a23654652ff7b5625c97a9a7a3613bfc6abd4a781862dcc4c4ea598b08cb9a1",
+    "password_hash": "scrypt:32768:8:1$FAddijnXUFIYLc0D$378fd451df03517b",
     "created_at": "2025-02-21T03:31:24.340082Z",
     "roleType": "Associate",
     "newJoiner": "Yes",
@@ -705,7 +752,33 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [
+        {
+          "learning_path_id": "LP2024ENG001",
+          "enrolled_at": "2025-08-31T10:00:00.000000Z",
+          "status": "active",
+          "progress": 0
+        },
+        {
+          "learning_path_id": "LP_SOFT_001",
+          "enrolled_at": "2025-08-31T10:00:00.000000Z",
+          "status": "active",
+          "progress": 0
+        },
+        {
+          "learning_path_id": "LP_SOFT_003",
+          "enrolled_at": "2025-08-31T10:00:00.000000Z",
+          "status": "active",
+          "progress": 0
+        },
+        {
+          "learning_path_id": "LP_SOFT_005",
+          "enrolled_at": "2025-08-31T10:00:00.000000Z",
+          "status": "active",
+          "progress": 0
+        }
+      ],
+      "manager": "eve.brown@company.com"
     }
   },
   "victor.nguyen@company.com": {
@@ -737,7 +810,8 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
-      "enrollments": []
+      "enrollments": [],
+      "manager": "maya.patel@company.com"
     }
   },
   "wendy.zhang@company.com": {
@@ -767,7 +841,598 @@
         "dashboard_view": "employee"
       },
       "learning_paths": [],
+      "enrollments": [],
+      "manager": "henry.taylor@company.com"
+    }
+  },
+  "sarah.johnson@company.com": {
+    "email": "sarah.johnson@company.com",
+    "user_id": "user_026",
+    "name": "Sarah Johnson",
+    "password_hash": "scrypt:32768:8:1$HRDirector2025$8906737d1eaa642456ce4110dd8feec8ddc323dc691d64a5d70c337948b52239e25970070476f26657e1371f15f6f222f4615c92be9005f5aab39f8343d9eebb",
+    "created_at": "2024-01-15T09:00:00.000000Z",
+    "roleType": "Hiring Manager",
+    "newJoiner": "No",
+    "dateOfJoining": "2023-01-15",
+    "profile": {
+      "role": "Chief HR Officer",
+      "department": "HR",
+      "title": "Chief HR Officer",
+      "level": "Senior",
+      "team": "Executive Team",
+      "skills": [
+        "Strategic HR Planning",
+        "Leadership Development",
+        "Talent Management",
+        "Organizational Development",
+        "Executive Coaching",
+        "Change Management"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "executive"
+      },
+      "learning_paths": [],
+      "enrollments": [],
+      "reports": [
+        "user_007",
+        "user_018"
+      ]
+    }
+  },
+  "kyc.manager@adapta.com": {
+    "email": "kyc.manager@adapta.com",
+    "user_id": "user_kyc_mgr_001",
+    "name": "KYC Manager",
+    "password_hash": "scrypt:32768:8:1$test1234567890$8906737d1eaa642456ce4110dd8feec8ddc323dc691d64a5d70c337948b52239e25970070476f26657e1371f15f6f222f4615c92be9005f5aab39f8343d9eebb",
+    "created_at": "2024-12-01T10:00:00.000000Z",
+    "roleType": "Manager",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-01-15",
+    "profile": {
+      "role": "KYC Manager",
+      "department": "KYC",
+      "title": "KYC Manager",
+      "level": "Manager",
+      "team": "KYC Team",
+      "skills": [
+        "Customer Due Diligence",
+        "Risk Assessment",
+        "Compliance Management",
+        "Team Leadership",
+        "Regulatory Compliance",
+        "AML/KYC Standards"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "manager"
+      },
+      "learning_paths": [],
+      "enrollments": [],
+      "reports": [
+        "user_kyc_ana_001",
+        "user_kyc_ana_002",
+        "user_kyc_ana_003",
+        "user_035"
+      ]
+    }
+  },
+  "kyc.analyst1@adapta.com": {
+    "email": "kyc.analyst1@adapta.com",
+    "user_id": "user_kyc_ana_001",
+    "name": "KYC Analyst 1",
+    "password_hash": "scrypt:32768:8:1$test1234567890$8906737d1eaa642456ce4110dd8feec8ddc323dc691d64a5d70c337948b52239e25970070476f26657e1371f15f6f222f4615c92be9005f5aab39f8343d9eebb",
+    "created_at": "2024-12-15T10:00:00.000000Z",
+    "roleType": "Employee",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-06-01",
+    "profile": {
+      "role": "KYC Analyst",
+      "department": "KYC",
+      "title": "KYC Analyst",
+      "level": "Associate",
+      "team": "KYC Team",
+      "manager": "kyc.manager@adapta.com",
+      "skills": [
+        "Customer Due Diligence",
+        "Risk Assessment",
+        "Compliance",
+        "Data Analysis",
+        "Document Verification"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
       "enrollments": []
+    }
+  },
+  "kyc.analyst2@adapta.com": {
+    "email": "kyc.analyst2@adapta.com",
+    "user_id": "user_kyc_ana_002",
+    "name": "KYC Analyst 2",
+    "password_hash": "scrypt:32768:8:1$test1234567890$8906737d1eaa642456ce4110dd8feec8ddc323dc691d64a5d70c337948b52239e25970070476f26657e1371f15f6f222f4615c92be9005f5aab39f8343d9eebb",
+    "created_at": "2024-12-20T10:00:00.000000Z",
+    "roleType": "Employee",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-07-15",
+    "profile": {
+      "role": "KYC Analyst",
+      "department": "KYC",
+      "title": "KYC Analyst",
+      "level": "Associate",
+      "team": "KYC Team",
+      "manager": "kyc.manager@adapta.com",
+      "skills": [
+        "Customer Due Diligence",
+        "Risk Assessment",
+        "Compliance",
+        "Data Analysis",
+        "Regulatory Reporting"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "kyc.analyst3@adapta.com": {
+    "email": "kyc.analyst3@adapta.com",
+    "user_id": "user_kyc_ana_003",
+    "name": "KYC Analyst 3",
+    "password_hash": "scrypt:32768:8:1$test1234567890$8906737d1eaa642456ce4110dd8feec8ddc323dc691d64a5d70c337948b52239e25970070476f26657e1371f15f6f222f4615c92be9005f5aab39f8343d9eebb",
+    "created_at": "2025-01-05T10:00:00.000000Z",
+    "roleType": "Employee",
+    "newJoiner": "Yes",
+    "dateOfJoining": "2025-01-05",
+    "profile": {
+      "role": "KYC Analyst",
+      "department": "KYC",
+      "title": "KYC Analyst",
+      "level": "Associate",
+      "team": "KYC Team",
+      "manager": "kyc.manager@adapta.com",
+      "skills": [
+        "Customer Due Diligence",
+        "Risk Assessment",
+        "Compliance",
+        "Data Analysis",
+        "AML Monitoring"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "smoke.test@example.com": {
+    "email": "smoke.test@example.com",
+    "user_id": "user_027",
+    "name": "Smoke Test",
+    "password_hash": "scrypt:32768:8:1$gXtvuRcj66SWLnGu$d062a36a420ea8ecae2fdb6d2e389adeda17cb6cb36ffde4cc25b19d888652749f72b2f781033e99d649d891474e765cafc481e6f0aafffb607df50eda71b9c1",
+    "created_at": "2025-08-31T11:49:00Z",
+    "roleType": "",
+    "newJoiner": "",
+    "dateOfJoining": "",
+    "profile": {
+      "role": "",
+      "department": "",
+      "manager": "",
+      "preferences": {}
+    }
+  },
+  "test.newuser@example.com": {
+    "email": "test.newuser@example.com",
+    "user_id": "user_028",
+    "name": "Test Newuser",
+    "password_hash": "scrypt:32768:8:1$ARkbBDr7RbWN4zGA$16df4b92152595c453e297166050e44c597b3a269a3f9e72c9bddf2c6e9c82077247a084c4cfe90f9ab73deee3221b84f7e18f16d226431d7ba2b8e8587b402d",
+    "created_at": "2025-08-31T12:22:58Z",
+    "roleType": "Associate",
+    "newJoiner": "Yes",
+    "dateOfJoining": "2025-08-31",
+    "profile": {
+      "role": "Software Engineer",
+      "department": "Engineering",
+      "manager": "Eve Brown",
+      "preferences": {},
+      "employeeId": "E999",
+      "gender": "Other",
+      "college": "State Univ",
+      "latestDegree": "BSc",
+      "cgpa": "9.0",
+      "country": "India",
+      "city": "Bengaluru",
+      "profilePicture": "https://example.com/pic.jpg",
+      "disabilities": []
+    }
+  },
+  "new.manager@example.com": {
+    "email": "new.manager@example.com",
+    "user_id": "user_029",
+    "name": "New Manager",
+    "password_hash": "scrypt:32768:8:1$Ack0gu69SIw1LQBL$90f940e27b63f3f77dc80aaed17f75b16d8a1d5e70c82fcbb873a1da7f1d864ddfc1312d3565827acbea49ceb982dd3675590478349bb4ab2575636af48d7e24",
+    "created_at": "2025-08-31T12:47:19Z",
+    "roleType": "Manager",
+    "newJoiner": "",
+    "dateOfJoining": "",
+    "profile": {
+      "role": "",
+      "department": "Engineering",
+      "manager": "",
+      "preferences": {},
+      "employeeId": "",
+      "gender": "",
+      "college": "",
+      "latestDegree": "",
+      "cgpa": "",
+      "country": "",
+      "city": "",
+      "profilePicture": "",
+      "disabilities": ""
+    }
+  },
+  "new.manager1@example.com": {
+    "email": "new.manager1@example.com",
+    "user_id": "user_030",
+    "name": "New Manager",
+    "password_hash": "scrypt:32768:8:1$6Cdo9t1JMdnQfbfX$94f6866399074d5c48b42450acd04a0385667f6014d076e802c1bcacbdd0cc1e2fad259f527ab6ac1ec22a5a9aacac87a8e1ade618770400fa84a1386c2fd712",
+    "created_at": "2025-08-31T12:47:53Z",
+    "roleType": "Manager",
+    "newJoiner": "",
+    "dateOfJoining": "",
+    "profile": {
+      "role": "",
+      "department": "Engineering",
+      "manager": "",
+      "preferences": {},
+      "employeeId": "",
+      "gender": "",
+      "college": "",
+      "latestDegree": "",
+      "cgpa": "",
+      "country": "",
+      "city": "",
+      "profilePicture": "",
+      "disabilities": ""
+    }
+  },
+  "test.user1@example.com": {
+    "email": "test.user1@example.com",
+    "user_id": "user_031",
+    "name": "Test User 1",
+    "password_hash": "scrypt:32768:8:1$jt3CPF2UaPP7cQGM$3dda9164b17d04699dea3370a3821668626295d84fdce52b2609122cf4447b3ee09fe70a242b96a005986015fa914a5dfb9c719b00ecbdb8ba800d3bb30bf344",
+    "created_at": "2025-08-31T13:10:56Z",
+    "roleType": "Employee",
+    "newJoiner": "yes",
+    "dateOfJoining": "2025-08-31",
+    "profile": {
+      "role": "Engineer",
+      "department": "DS2024001",
+      "manager": "",
+      "preferences": {},
+      "employeeId": "",
+      "gender": "",
+      "college": "",
+      "latestDegree": "",
+      "cgpa": "",
+      "country": "",
+      "city": "",
+      "profilePicture": "",
+      "disabilities": "",
+      "enrollments": [
+        {
+          "learning_path_id": "LP_SOFT_001",
+          "enrolled_at": "2025-08-31T13:10:56Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_002",
+          "enrolled_at": "2025-08-31T13:10:56Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_003",
+          "enrolled_at": "2025-08-31T13:10:56Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_004",
+          "enrolled_at": "2025-08-31T13:10:56Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_005",
+          "enrolled_at": "2025-08-31T13:10:56Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP2024DS001",
+          "enrolled_at": "2025-08-31T13:10:56Z",
+          "status": "enrolled",
+          "source": "department"
+        },
+        {
+          "learning_path_id": "LP2024DS002",
+          "enrolled_at": "2025-08-31T13:10:56Z",
+          "status": "enrolled",
+          "source": "department"
+        }
+      ]
+    }
+  },
+  "test.user2@example.com": {
+    "email": "test.user2@example.com",
+    "user_id": "user_032",
+    "name": "Test User 2",
+    "password_hash": "scrypt:32768:8:1$n9qMTIWuUSCkL5BB$585dac27b9f14450d909b3682bbc8e7392e36c2d6067468c59d8af9065db705876815bd8b8aa9d4cd789bd4fbf80d43658662b2b29d8210d46925ecf83d1cd08",
+    "created_at": "2025-08-31T13:10:57Z",
+    "roleType": "Employee",
+    "newJoiner": "",
+    "dateOfJoining": "",
+    "profile": {
+      "role": "",
+      "department": "",
+      "manager": "",
+      "preferences": {},
+      "employeeId": "",
+      "gender": "",
+      "college": "",
+      "latestDegree": "",
+      "cgpa": "",
+      "country": "",
+      "city": "",
+      "profilePicture": "",
+      "disabilities": "",
+      "enrollments": [
+        {
+          "learning_path_id": "LP_SOFT_001",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_002",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_003",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_004",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_005",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled"
+        }
+      ]
+    }
+  },
+  "test.user3@example.com": {
+    "email": "test.user3@example.com",
+    "user_id": "user_033",
+    "name": "Test User 3",
+    "password_hash": "scrypt:32768:8:1$GQ9DrI2EjDIJ1k5b$0e9fd0781a93ab33b6c71b562e5ee2ce2d7439864f94bedc2bbbf394e93da8337d7a29bc2f965c5b3c9c5149c0a6e3195edf82bde9136ace6a2cdf9b16880e25",
+    "created_at": "2025-08-31T13:10:57Z",
+    "roleType": "Employee",
+    "newJoiner": "",
+    "dateOfJoining": "",
+    "profile": {
+      "role": "",
+      "department": "",
+      "manager": "",
+      "preferences": {},
+      "employeeId": "",
+      "gender": "",
+      "college": "",
+      "latestDegree": "",
+      "cgpa": "",
+      "country": "",
+      "city": "",
+      "profilePicture": "",
+      "disabilities": "",
+      "enrollments": [
+        {
+          "learning_path_id": "LP_SOFT_001",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_002",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_003",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_004",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_005",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "9cbc0df890d546729a36dca20d24a9ba",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled",
+          "source": "department"
+        },
+        {
+          "learning_path_id": "LP2024DS001",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled",
+          "source": "department"
+        },
+        {
+          "learning_path_id": "LP2024DS002",
+          "enrolled_at": "2025-08-31T13:10:57Z",
+          "status": "enrolled",
+          "source": "department"
+        }
+      ]
+    }
+  },
+  "harvey.specter@gmail.com": {
+    "email": "harvey.specter@gmail.com",
+    "user_id": "user_034",
+    "name": "Harvey Specter",
+    "password_hash": "scrypt:32768:8:1$eF0uqEbnb6CVddpz$82bbe2e20849f48116de5f5ff27a84922c604f65192e7b6ea09da1c5f5f38d3049190fd6fe135dd81b60238367c21caba533a6d2508d3f846f8d5f8bf270e514",
+    "created_at": "2025-08-31T13:17:52Z",
+    "roleType": "Associate",
+    "newJoiner": "Yes",
+    "dateOfJoining": "2025-08-29",
+    "profile": {
+      "role": "Data Scientist",
+      "department": "KYC",
+      "manager": "Other",
+      "preferences": {},
+      "employeeId": "23344",
+      "gender": "Male",
+      "college": "CMU",
+      "latestDegree": "MSc Data Science",
+      "cgpa": "3.5",
+      "country": "India",
+      "city": "Bengaluru",
+      "profilePicture": "",
+      "disabilities": "ADHD",
+      "enrollments": [
+        {
+          "learning_path_id": "LP_SOFT_001",
+          "enrolled_at": "2025-08-31T13:17:52Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_002",
+          "enrolled_at": "2025-08-31T13:17:52Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_003",
+          "enrolled_at": "2025-08-31T13:17:52Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_004",
+          "enrolled_at": "2025-08-31T13:17:52Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_005",
+          "enrolled_at": "2025-08-31T13:17:52Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "9cbc0df890d546729a36dca20d24a9ba",
+          "enrolled_at": "2025-08-31T13:33:17Z",
+          "status": "enrolled",
+          "source": "resume_analysis"
+        },
+        {
+          "learning_path_id": "LP2024DS001",
+          "enrolled_at": "2025-08-31T13:33:17Z",
+          "status": "enrolled",
+          "source": "resume_analysis"
+        },
+        {
+          "learning_path_id": "LP2024DS002",
+          "enrolled_at": "2025-08-31T13:33:17Z",
+          "status": "enrolled",
+          "source": "resume_analysis"
+        },
+        {
+          "learning_path_id": "LP_KYC_EXCEL",
+          "enrolled_at": "2025-08-31T14:12:15Z",
+          "status": "enrolled",
+          "source": "resume_analysis"
+        }
+      ],
+      "learning_style": "Visual"
+    }
+  },
+  "will.jacks@gmail.com": {
+    "email": "will.jacks@gmail.com",
+    "user_id": "user_035",
+    "name": "Will Jacks",
+    "password_hash": "scrypt:32768:8:1$nsztyNJr2idUANTQ$4957ee0e743af094d6beca3e1e4c09eac8a8a809578b43ef7cec039aae630e6e0d926acb91d26ec488779ac1ce4ae1e77f02f0e40de836b96ee7fa621bbd85d7",
+    "created_at": "2025-08-31T14:40:46Z",
+    "roleType": "Associate",
+    "newJoiner": "Yes",
+    "dateOfJoining": "2025-08-29",
+    "profile": {
+      "role": "Data Scientist",
+      "department": "KYC",
+      "manager": "KYC Manager",
+      "preferences": {},
+      "employeeId": "23453",
+      "gender": "Male",
+      "college": "CMU",
+      "latestDegree": "MSc Data Science",
+      "cgpa": "3.5",
+      "country": "India",
+      "city": "Bengaluru",
+      "profilePicture": "",
+      "disabilities": "None",
+      "enrollments": [
+        {
+          "learning_path_id": "LP_SOFT_001",
+          "enrolled_at": "2025-08-31T14:40:46Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_002",
+          "enrolled_at": "2025-08-31T14:40:46Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_003",
+          "enrolled_at": "2025-08-31T14:40:46Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_004",
+          "enrolled_at": "2025-08-31T14:40:46Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_SOFT_005",
+          "enrolled_at": "2025-08-31T14:40:46Z",
+          "status": "enrolled"
+        },
+        {
+          "learning_path_id": "LP_KYC_EXCEL",
+          "enrolled_at": "2025-08-31T14:40:46Z",
+          "status": "enrolled",
+          "source": "resume_analysis"
+        },
+        {
+          "learning_path_id": "LP2024DS001",
+          "enrolled_at": "2025-08-31T14:40:46Z",
+          "status": "enrolled",
+          "source": "resume_analysis"
+        },
+        {
+          "learning_path_id": "LP2024DS002",
+          "enrolled_at": "2025-08-31T14:40:46Z",
+          "status": "enrolled",
+          "source": "resume_analysis"
+        }
+      ],
+      "learning_style": "Visual"
     }
   }
 }

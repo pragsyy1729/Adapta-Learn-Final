@@ -37,7 +37,7 @@ def get_managers():
 
         managers = []
         for user_key, user in users.items():
-            if user.get('roleType') == 'Manager':
+            if user.get('roleType') == 'Manager' or user.get('roleType') == 'Hiring Manager':
                 if department:
                     profile = user.get('profile', {})
                     if profile.get('department') and profile['department'] != department:
@@ -49,6 +49,45 @@ def get_managers():
                 })
 
         return jsonify(managers)
+
+    except Exception as e:
+        return jsonify({
+            "success": False,
+            "error": str(e)
+        }), 500
+
+
+@user_bp.route('/managers/list', methods=['GET'])
+def get_managers_list():
+    """
+    Explicit managers list endpoint that returns an envelope { success, data }
+    This avoids conflicts with the dynamic '/<user_id>' route in some setups.
+    """
+    try:
+        department = request.args.get('department')
+        users_path = get_data_file_path('users.json')
+        users = _read_json(users_path, {})
+
+        managers = []
+        for user_key, user in users.items():
+            if user.get('roleType') == 'Manager' or user.get('roleType') == 'Hiring Manager':
+                if department:
+                    profile = user.get('profile', {})
+                    if profile.get('department') and profile['department'] != department:
+                        continue
+                managers.append({
+                    'email': user.get('email'),
+                    'name': user.get('name'),
+                    'department': user.get('profile', {}).get('department', None)
+                })
+
+        return jsonify({"success": True, "data": managers})
+
+    except Exception as e:
+        return jsonify({
+            "success": False,
+            "error": str(e)
+        }), 500
 
     except Exception as e:
         return jsonify({
@@ -92,7 +131,17 @@ def get_user_by_id(user_id):
                 "join_date": user_data.get("profile", {}).get("join_date", user_data.get("created_at")),
                 "manager": user_data.get("profile", {}).get("manager"),
                 "skills": user_data.get("profile", {}).get("skills", []),
-                "certifications": user_data.get("profile", {}).get("certifications", [])
+                "certifications": user_data.get("profile", {}).get("certifications", []),
+                # Persisted onboarding/profile fields
+                "employeeId": user_data.get("profile", {}).get("employeeId"),
+                "gender": user_data.get("profile", {}).get("gender"),
+                "college": user_data.get("profile", {}).get("college"),
+                "latestDegree": user_data.get("profile", {}).get("latestDegree"),
+                "cgpa": user_data.get("profile", {}).get("cgpa"),
+                "country": user_data.get("profile", {}).get("country"),
+                "city": user_data.get("profile", {}).get("city"),
+                "profilePicture": user_data.get("profile", {}).get("profilePicture"),
+                "disabilities": user_data.get("profile", {}).get("disabilities", [])
             }
         }
 

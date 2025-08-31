@@ -4,6 +4,9 @@
       "id": "ENG2024001",
       "name": "Engineering",
       "description": "Software development and technical teams",
+      "managers": [
+        "New Manager"
+      ],
       "onboarding_duration_weeks": 8,
       "documentation": [
         {
@@ -17,30 +20,35 @@
       "id": "DS2024001",
       "name": "Data Science",
       "description": "Data analysis, machine learning, and analytics teams",
+      "managers": [],
       "onboarding_duration_weeks": 10
     },
     {
       "id": "PM2024001",
       "name": "Product Management",
       "description": "Product strategy and management teams",
+      "managers": [],
       "onboarding_duration_weeks": 6
     },
     {
       "id": "DES2024001",
       "name": "Design",
       "description": "UX/UI design and creative teams",
+      "managers": [],
       "onboarding_duration_weeks": 6
     },
     {
       "id": "MKT2024001",
       "name": "Marketing",
       "description": "Marketing and growth teams",
+      "managers": [],
       "onboarding_duration_weeks": 4
     },
     {
       "id": "KYC2024001",
       "name": "KYC",
       "description": "Know Your Customer compliance and verification teams",
+      "managers": [],
       "onboarding_duration_weeks": 6,
       "documentation": [
         {

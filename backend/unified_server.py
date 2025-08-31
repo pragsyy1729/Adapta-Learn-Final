@@ -241,7 +241,7 @@ def create_unified_app():
     
     # Import and register authentication routes
     try:
-        from auth_server import app as auth_app
+        from backend.auth_server import app as auth_app
         print("✅ Authentication routes loaded")
         
         # Copy auth routes to main app

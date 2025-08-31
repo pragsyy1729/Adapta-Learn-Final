@@ -1,0 +1,54 @@
+{
+  "user123": {
+    "user_id": "user123",
+    "role_id": "python_dev",
+    "skills": {
+      "Python": {
+        "level": 1,
+        "confidence": 0.3
+      },
+      "Flask": {
+        "level": 1,
+        "confidence": 0.3
+      },
+      "SQL": {
+        "level": 1,
+        "confidence": 0.3
+      },
+      "Docker": {
+        "level": 1,
+        "confidence": 0.3
+      }
+    }
+  },
+  "demo_user": {
+    "user_id": "demo_user",
+    "role_id": "jr_data_eng",
+    "skills": {
+      "Python": {
+        "level": 1,
+        "confidence": 0.3
+      },
+      "SQL": {
+        "level": 1,
+        "confidence": 0.3
+      },
+      "Git": {
+        "level": 1,
+        "confidence": 0.3
+      },
+      "python_basics": {
+        "level": 1.92,
+        "confidence": 0.52
+      },
+      "python_intermediate": {
+        "level": 1.96,
+        "confidence": 0.53
+      },
+      "python_project_1": {
+        "level": 1.49,
+        "confidence": 0.54
+      }
+    }
+  }
+}
