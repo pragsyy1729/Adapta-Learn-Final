@@ -20,7 +20,7 @@ Link to the Architecture Overview - [Technical Architecture](adaptalearn_archite
 
 ### **UI Components**
 
-- **ConversationAgent.tsx** - AI-powered chat interface with department-specific knowledge
+- **ConversationAgent.tsx** - AI-powered chat interface with department-specific knowledge base
 - **Dashboard.tsx** - Reusable dashboard layout component
 - **Hero.tsx** - Landing page hero section with feature highlights
 - **Notifications.tsx** - User notification system
@@ -37,6 +37,7 @@ Link to the Architecture Overview - [Technical Architecture](adaptalearn_archite
 - **Gamification**: Points, badges, and achievement system
 - **Session Tracking**: Real-time activity monitoring and analytics
 - **Responsive Design**: Mobile-first with Tailwind CSS and Radix UI components
+- **Skill Gap Analysis**: AI Powered Skill Gap analysis and resume parser
 
 ## **BACKEND (Flask/Python)**
 
@@ -51,13 +52,13 @@ Link to the Architecture Overview - [Technical Architecture](adaptalearn_archite
 1. **User Authentication** : Sign-in/sign-up, session management, rate limiting
 2. **Dashboard** : Role-based dashboard data (Admin, Manager, Hiring Manager, Learner)
 3. **Learning Paths** : Course management, module tracking, progress updates
-4. **Onboarding** ([onboarding.py](vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench.html)): AI-powered resume analysis, skill gap detection, auto-enrollment
+4. **Onboarding** : AI-powered resume analysis, skill gap detection, auto-enrollment
 5. **Conversation** : AI chat interface with department-specific knowledge
 6. **Assessment** : Quiz engine and evaluation system
 7. **Gamification**: Points, badges, and achievement tracking
 8. **Admin** : Administrative functions and system management
 
-### **AI/ML Agent System**
+### **LLM/ML Agent System**
 
 - **Onboarding Agent** : Complete AI-powered onboarding orchestration
 - **Resume Analyzer** : Document parsing and skill extraction
@@ -148,21 +149,23 @@ Link to the Architecture Overview - [Technical Architecture](adaptalearn_archite
 This comprehensive system provides an AI-powered adaptive learning management platform with personalized onboarding, intelligent content recommendations, and real-time progress tracking across multiple user roles and departments.
 
 
-## **MAJOR IMPROVEMENTS**
+## **MAJOR NEXT STEPS**
 
 1. Functional Manager View & HR View
 2. Make the collaboration possible by communication through servers
 3. Make AI Rate the user based on the questions asked to the Conversation Agent
-
+4. Tailor the solution that can work in our office laptops
 
 ## UNIQUE COMPONENTS IN THIS SOLUTION
 
 
 ##### Graph RAG for Conversational AI (Tailored to each department)- [Graph RAG Architecture](graph_rag_architecture_modern.png)
 The AdaptaLearn system implements a sophisticated Graph RAG (Retrieval-Augmented Generation) architecture that combines vector embeddings, knowledge graphs, and large language models to provide intelligent, context-aware responses for department-specific onboarding and learning assistance.
+
+
 #### AI Recommendation Engine
 
-### Powered by Groq LLaMA 3.1-8B Instant
+### Powered by Groq LLaMA 3.1-8B Instance
 
 The AI recommendations use language models to analyze:
 
