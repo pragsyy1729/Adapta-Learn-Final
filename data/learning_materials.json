@@ -1,0 +1,188 @@
+[
+  {
+    "id": "MAT001",
+    "learning_path_id": "LP_SOFT_001",
+    "module_id": "MOD_COMM_001",
+    "chapter_id": "CH_COMM_001",
+    "title": "Introduction to Communication",
+    "materials": {
+      "visual": [
+        {
+          "type": "video",
+          "title": "Communication Fundamentals Video",
+          "url": "/materials/videos/communication_intro.mp4",
+          "duration": "15 minutes",
+          "description": "Visual overview of communication principles"
+        },
+        {
+          "type": "infographic",
+          "title": "Communication Process Diagram",
+          "url": "/materials/infographics/communication_process.png",
+          "description": "Visual diagram showing communication flow"
+        }
+      ],
+      "auditory": [
+        {
+          "type": "podcast",
+          "title": "Communication Skills Podcast",
+          "url": "/materials/audio/communication_podcast.mp3",
+          "duration": "25 minutes",
+          "description": "Audio lecture on communication fundamentals"
+        },
+        {
+          "type": "audio_book",
+          "title": "Communication Mastery Audio Book",
+          "url": "/materials/audio/communication_audiobook.mp3",
+          "duration": "45 minutes",
+          "description": "Complete audio guide to communication skills"
+        }
+      ],
+      "reading_writing": [
+        {
+          "type": "pdf",
+          "title": "Communication Skills Guide",
+          "url": "/materials/pdfs/communication_guide.pdf",
+          "pages": 25,
+          "description": "Comprehensive written guide to communication"
+        },
+        {
+          "type": "article",
+          "title": "Effective Communication Techniques",
+          "url": "/materials/articles/communication_techniques.pdf",
+          "description": "In-depth article on communication methods"
+        },
+        {
+          "type": "worksheet",
+          "title": "Communication Self-Assessment",
+          "url": "/materials/worksheets/communication_assessment.pdf",
+          "description": "Interactive worksheet for self-assessment"
+        }
+      ],
+      "kinesthetic": [
+        {
+          "type": "interactive_exercise",
+          "title": "Role-Playing Scenarios",
+          "url": "/materials/exercises/communication_roleplay.pdf",
+          "description": "Hands-on role-playing exercises"
+        },
+        {
+          "type": "case_study",
+          "title": "Real-World Communication Cases",
+          "url": "/materials/case_studies/communication_cases.pdf",
+          "description": "Practical case studies for hands-on learning"
+        },
+        {
+          "type": "simulation",
+          "title": "Communication Simulation Game",
+          "url": "/materials/simulations/communication_game.html",
+          "description": "Interactive simulation for practicing communication"
+        }
+      ]
+    },
+    "learning_objectives": [
+      "Understand the communication process",
+      "Identify different communication styles",
+      "Learn active listening techniques"
+    ],
+    "difficulty_level": "beginner",
+    "estimated_time": "30 minutes"
+  },
+  {
+    "id": "MAT002",
+    "learning_path_id": "LP_SOFT_002",
+    "module_id": "MOD_LEAD_001",
+    "chapter_id": "CH_LEAD_001",
+    "title": "Leadership Styles and Theories",
+    "materials": {
+      "visual": [
+        {
+          "type": "video",
+          "title": "Leadership Styles Overview",
+          "url": "/materials/videos/leadership_styles.mp4",
+          "duration": "20 minutes",
+          "description": "Visual presentation of different leadership styles"
+        },
+        {
+          "type": "diagram",
+          "title": "Leadership Style Comparison Chart",
+          "url": "/materials/diagrams/leadership_comparison.png",
+          "description": "Visual comparison of leadership approaches"
+        }
+      ],
+      "auditory": [
+        {
+          "type": "podcast",
+          "title": "Leadership Theories Explained",
+          "url": "/materials/audio/leadership_theories.mp3",
+          "duration": "35 minutes",
+          "description": "Audio discussion of leadership theories"
+        }
+      ],
+      "reading_writing": [
+        {
+          "type": "pdf",
+          "title": "Leadership Styles Handbook",
+          "url": "/materials/pdfs/leadership_handbook.pdf",
+          "pages": 40,
+          "description": "Comprehensive guide to leadership styles"
+        },
+        {
+          "type": "research_paper",
+          "title": "Modern Leadership Research",
+          "url": "/materials/articles/leadership_research.pdf",
+          "description": "Academic research on leadership effectiveness"
+        }
+      ],
+      "kinesthetic": [
+        {
+          "type": "role_play",
+          "title": "Leadership Style Role-Playing",
+          "url": "/materials/exercises/leadership_roleplay.pdf",
+          "description": "Practice different leadership styles through role-playing"
+        },
+        {
+          "type": "group_activity",
+          "title": "Leadership Workshop Activities",
+          "url": "/materials/activities/leadership_workshop.pdf",
+          "description": "Hands-on group activities for leadership development"
+        }
+      ]
+    },
+    "learning_objectives": [
+      "Identify different leadership styles",
+      "Understand situational leadership",
+      "Learn to adapt leadership approach"
+    ],
+    "difficulty_level": "intermediate",
+    "estimated_time": "45 minutes"
+  },
+  {
+    "id": "CH_mod-001_edc9106d",
+    "module_id": "mod-001",
+    "title": "Test Chapter",
+    "materials": {
+      "visual": [
+        {
+          "type": "video",
+          "title": "Test Material",
+          "url": "/uploads/materials/62a7345af3114faa995874af7b8019f4_videoplayback.mp4",
+          "description": "Test Description",
+          "duration": "0 minutes",
+          "material_type": "video_content"
+        }
+      ],
+      "auditory": [],
+      "reading_writing": [
+        {
+          "type": "pdf",
+          "title": "Test Material",
+          "url": "/uploads/materials/f56e2fdd02f14cd8b4fe167db9aadd07_test.pdf",
+          "description": "",
+          "pages": 0,
+          "material_type": "reading_material"
+        }
+      ]
+    },
+    "chapter_id": "CH_mod-001_1a9933be"
+  }
+]

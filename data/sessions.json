@@ -1,0 +1,314 @@
+{
+  "42d6471a-16fa-4126-8351-e3c274de02c7": {
+    "email": "admin@adapta.com",
+    "created_at": "2025-08-06T03:31:24.483581Z"
+  },
+  "823b5d0f-4dde-4076-9f17-681e3bce4afb": {
+    "email": "admin@adapta.com",
+    "created_at": "2025-08-06T03:31:24.483591Z"
+  },
+  "9ca01779-abf4-4397-bf81-0e03c30edaab": {
+    "email": "admin@adapta.com",
+    "created_at": "2025-08-21T03:31:24.483597Z"
+  },
+  "f28ebc14-6ff4-4f16-9d2a-e48bda8d48bf": {
+    "email": "hr.admin@adapta.com",
+    "created_at": "2025-08-29T03:31:24.483602Z"
+  },
+  "83f46018-4af2-48ba-a1c2-328106d8420d": {
+    "email": "alice.johnson@company.com",
+    "created_at": "2025-08-08T03:31:24.483607Z"
+  },
+  "89e3796b-7fcf-410e-89c0-02321738c339": {
+    "email": "alice.johnson@company.com",
+    "created_at": "2025-08-26T03:31:24.483611Z"
+  },
+  "2a554537-b2ce-49bc-bd14-ad60d21ce8cb": {
+    "email": "bob.smith@company.com",
+    "created_at": "2025-08-31T03:31:24.483616Z"
+  },
+  "7f668b2c-c443-4388-aeac-980c00e2eb20": {
+    "email": "bob.smith@company.com",
+    "created_at": "2025-08-12T03:31:24.483620Z"
+  },
+  "63768ce2-fd7a-404e-800e-d7a59284d2d1": {
+    "email": "carol.davis@company.com",
+    "created_at": "2025-08-28T03:31:24.483625Z"
+  },
+  "498cfaee-e210-4ff2-8d35-eb361221e851": {
+    "email": "carol.davis@company.com",
+    "created_at": "2025-08-22T03:31:24.483629Z"
+  },
+  "8bb97cee-da49-4a28-9a07-b4f34d700f49": {
+    "email": "carol.davis@company.com",
+    "created_at": "2025-08-12T03:31:24.483633Z"
+  },
+  "f2e993fc-c827-402b-b80b-714357a4fdcb": {
+    "email": "carol.davis@company.com",
+    "created_at": "2025-08-01T03:31:24.483637Z"
+  },
+  "9424c24a-555a-4be8-8b76-eb780caeeab0": {
+    "email": "carol.davis@company.com",
+    "created_at": "2025-08-12T03:31:24.483641Z"
+  },
+  "9a862d09-8a87-4b64-9a51-4cf4840d97b1": {
+    "email": "david.wilson@company.com",
+    "created_at": "2025-08-03T03:31:24.483648Z"
+  },
+  "c3da8a76-e03f-43b0-bca7-29dc7b21e479": {
+    "email": "eve.brown@company.com",
+    "created_at": "2025-08-12T03:31:24.483653Z"
+  },
+  "365a41a5-8373-46b9-a7ab-6b3101b13f4e": {
+    "email": "eve.brown@company.com",
+    "created_at": "2025-08-09T03:31:24.483657Z"
+  },
+  "d706a1ca-a29f-419f-9dde-f0131f573ad8": {
+    "email": "eve.brown@company.com",
+    "created_at": "2025-08-09T03:31:24.483661Z"
+  },
+  "951862ed-994e-4dfe-8655-04e925a18aaa": {
+    "email": "frank.miller@company.com",
+    "created_at": "2025-08-25T03:31:24.483665Z"
+  },
+  "5de27e47-18e3-42b0-b744-a7dfcf57f17a": {
+    "email": "frank.miller@company.com",
+    "created_at": "2025-08-02T03:31:24.483669Z"
+  },
+  "65249ab1-668c-4038-ac5d-632e2bba1d23": {
+    "email": "frank.miller@company.com",
+    "created_at": "2025-08-12T03:31:24.483673Z"
+  },
+  "cd7ccf61-062f-4700-883d-39d6ae805e8b": {
+    "email": "grace.lee@company.com",
+    "created_at": "2025-08-20T03:31:24.483677Z"
+  },
+  "de590a74-6757-439b-a774-3eb3e269caac": {
+    "email": "grace.lee@company.com",
+    "created_at": "2025-08-28T03:31:24.483682Z"
+  },
+  "e097d908-9aac-4c7f-a982-e3ff69f3a15f": {
+    "email": "grace.lee@company.com",
+    "created_at": "2025-08-04T03:31:24.483687Z"
+  },
+  "aa4d575a-770f-4840-84be-779e9bce13d2": {
+    "email": "henry.taylor@company.com",
+    "created_at": "2025-08-04T03:31:24.483692Z"
+  },
+  "4a1646d4-d25b-42e3-b338-e4fe12de6dab": {
+    "email": "henry.taylor@company.com",
+    "created_at": "2025-08-28T03:31:24.483696Z"
+  },
+  "809511b5-755c-4120-ae9c-057974c19330": {
+    "email": "ivy.chen@company.com",
+    "created_at": "2025-08-15T03:31:24.483700Z"
+  },
+  "37dedcf6-e255-434d-9598-ebd3481344c7": {
+    "email": "ivy.chen@company.com",
+    "created_at": "2025-08-04T03:31:24.483704Z"
+  },
+  "e43a51c2-1e13-4161-a865-7c8755cea7b7": {
+    "email": "jack.anderson@company.com",
+    "created_at": "2025-08-08T03:31:24.483709Z"
+  },
+  "eb0b1104-ff6c-476c-b9f6-e2bdc953e821": {
+    "email": "jack.anderson@company.com",
+    "created_at": "2025-08-18T03:31:24.483713Z"
+  },
+  "4df1f839-0d1b-4131-9411-490bc2218574": {
+    "email": "jack.anderson@company.com",
+    "created_at": "2025-08-26T03:31:24.483716Z"
+  },
+  "5673b38c-d562-4b3c-8448-10232d69a5c9": {
+    "email": "jack.anderson@company.com",
+    "created_at": "2025-08-03T03:31:24.483720Z"
+  },
+  "030bafb5-c416-4a01-9077-13fb9d7f5f0e": {
+    "email": "kate.martinez@company.com",
+    "created_at": "2025-08-31T03:31:24.483725Z"
+  },
+  "08d0fec6-9f6b-4f47-a3ee-375d652d8ba5": {
+    "email": "kate.martinez@company.com",
+    "created_at": "2025-08-26T03:31:24.483729Z"
+  },
+  "01a11772-9982-4e0f-a553-2a0c249e7d18": {
+    "email": "kate.martinez@company.com",
+    "created_at": "2025-08-21T03:31:24.483733Z"
+  },
+  "1a2f490d-7ae6-419d-b502-c7b765a0a0fe": {
+    "email": "liam.garcia@company.com",
+    "created_at": "2025-08-12T03:31:24.483738Z"
+  },
+  "e3b995d5-c626-4e89-8d09-70e8f33f9514": {
+    "email": "liam.garcia@company.com",
+    "created_at": "2025-08-30T03:31:24.483742Z"
+  },
+  "d407a1dd-ac47-43e6-b254-d6b53eaa5e3c": {
+    "email": "liam.garcia@company.com",
+    "created_at": "2025-08-07T03:31:24.483746Z"
+  },
+  "11feab31-f692-4d52-b88b-7d9483f983f3": {
+    "email": "liam.garcia@company.com",
+    "created_at": "2025-08-03T03:31:24.483749Z"
+  },
+  "1f8b945e-a3ed-41eb-925d-bd351d23f853": {
+    "email": "maya.patel@company.com",
+    "created_at": "2025-08-07T03:31:24.483754Z"
+  },
+  "9fde44e4-9705-4fa2-9050-f53c3b2f8591": {
+    "email": "maya.patel@company.com",
+    "created_at": "2025-08-11T03:31:24.483758Z"
+  },
+  "cfcd9235-1ae2-4a1d-9fdc-b9ab08de915b": {
+    "email": "maya.patel@company.com",
+    "created_at": "2025-08-05T03:31:24.483762Z"
+  },
+  "c082f024-3d90-47ff-b2bc-47a5dd39f53f": {
+    "email": "nina.rodriguez@company.com",
+    "created_at": "2025-08-25T03:31:24.483766Z"
+  },
+  "8e558226-b83c-48b6-be53-28ee4951d17b": {
+    "email": "oscar.lopez@company.com",
+    "created_at": "2025-08-19T03:31:24.483770Z"
+  },
+  "126f3e82-1081-4981-a5fa-35ab8eed297f": {
+    "email": "oscar.lopez@company.com",
+    "created_at": "2025-08-03T03:31:24.483780Z"
+  },
+  "ec0c765c-5443-4604-9268-23bf9e95e191": {
+    "email": "paula.gonzalez@company.com",
+    "created_at": "2025-08-17T03:31:24.483785Z"
+  },
+  "2c39b2f9-1e43-4281-8064-44bfe2a5d677": {
+    "email": "paula.gonzalez@company.com",
+    "created_at": "2025-08-04T03:31:24.483789Z"
+  },
+  "56f0d9b9-870f-445e-bca0-e71c1c137994": {
+    "email": "paula.gonzalez@company.com",
+    "created_at": "2025-08-08T03:31:24.483801Z"
+  },
+  "5577effb-0e79-4684-8afa-9a44ab5e5ce0": {
+    "email": "paula.gonzalez@company.com",
+    "created_at": "2025-08-25T03:31:24.483818Z"
+  },
+  "ab1a7f6f-5bb9-433d-952e-ea677a57a747": {
+    "email": "quentin.white@company.com",
+    "created_at": "2025-08-04T03:31:24.483826Z"
+  },
+  "a4aefa38-9954-447a-b31c-d416f68314c8": {
+    "email": "quentin.white@company.com",
+    "created_at": "2025-08-15T03:31:24.483830Z"
+  },
+  "5e113e46-1710-47a7-9e2d-6647c38dc2e0": {
+    "email": "quentin.white@company.com",
+    "created_at": "2025-08-28T03:31:24.483835Z"
+  },
+  "a08c42d4-7d98-4e0b-a8b7-074d8b01ff9e": {
+    "email": "quentin.white@company.com",
+    "created_at": "2025-08-19T03:31:24.483839Z"
+  },
+  "3261b1bd-4d2e-43ba-a7ee-08ccb1caedb2": {
+    "email": "quentin.white@company.com",
+    "created_at": "2025-08-27T03:31:24.483904Z"
+  },
+  "b400b2f0-2a06-44af-b160-01d4df8fa2fa": {
+    "email": "rachel.kim@company.com",
+    "created_at": "2025-08-26T03:31:24.483913Z"
+  },
+  "3f5cfda3-58db-4fa1-b843-ae7e5b38775c": {
+    "email": "rachel.kim@company.com",
+    "created_at": "2025-08-08T03:31:24.483917Z"
+  },
+  "269efd1d-1039-421e-b829-dfdf620634dd": {
+    "email": "sam.thomas@company.com",
+    "created_at": "2025-08-17T03:31:24.483921Z"
+  },
+  "78af36d0-e9ef-40b4-bfa7-0833f18da1e3": {
+    "email": "sam.thomas@company.com",
+    "created_at": "2025-08-10T03:31:24.483957Z"
+  },
+  "ed4a8bdf-7d38-4d0a-87d9-befe692ea757": {
+    "email": "sam.thomas@company.com",
+    "created_at": "2025-08-12T03:31:24.483971Z"
+  },
+  "d1486ebf-54f3-4bde-bbed-5a2caf4a120a": {
+    "email": "sam.thomas@company.com",
+    "created_at": "2025-08-31T03:31:24.483977Z"
+  },
+  "599bb6ea-df00-438a-97c0-5b70a9f759f8": {
+    "email": "sam.thomas@company.com",
+    "created_at": "2025-08-12T03:31:24.483982Z"
+  },
+  "7b8727ed-e476-4f51-9f8a-9935598b2795": {
+    "email": "tina.wong@company.com",
+    "created_at": "2025-08-06T03:31:24.483988Z"
+  },
+  "86f863d8-09e9-4f83-bdbe-650df75b49f2": {
+    "email": "tina.wong@company.com",
+    "created_at": "2025-08-25T03:31:24.483992Z"
+  },
+  "ef87d58d-cb86-45f0-9b55-846f13a52186": {
+    "email": "tina.wong@company.com",
+    "created_at": "2025-08-28T03:31:24.483996Z"
+  },
+  "d0de34d3-ed0a-4ade-b352-51653014c90f": {
+    "email": "tina.wong@company.com",
+    "created_at": "2025-08-25T03:31:24.484000Z"
+  },
+  "818c15c7-9efa-4f24-b6f9-e3ab372c0db0": {
+    "email": "tina.wong@company.com",
+    "created_at": "2025-08-17T03:31:24.484004Z"
+  },
+  "36bdb69c-7854-42fa-bac5-41c83da922c6": {
+    "email": "uma.sharma@company.com",
+    "created_at": "2025-08-31T03:31:24.484008Z"
+  },
+  "f62bcb96-c8c7-4961-aadd-535c54ea5e13": {
+    "email": "uma.sharma@company.com",
+    "created_at": "2025-08-29T03:31:24.484012Z"
+  },
+  "a76c7d30-fc2a-450d-9863-02eaf10423b4": {
+    "email": "uma.sharma@company.com",
+    "created_at": "2025-08-08T03:31:24.484016Z"
+  },
+  "24c547f8-6d03-41f4-b2fc-e5398707cd16": {
+    "email": "uma.sharma@company.com",
+    "created_at": "2025-08-15T03:31:24.484020Z"
+  },
+  "8c0fde5f-c425-4374-8863-b5b27d6eacb6": {
+    "email": "victor.nguyen@company.com",
+    "created_at": "2025-08-04T03:31:24.484024Z"
+  },
+  "ab007ce8-acec-49d0-be81-05777b37ce45": {
+    "email": "victor.nguyen@company.com",
+    "created_at": "2025-08-12T03:31:24.484028Z"
+  },
+  "2dbd074b-d1f3-4ba1-8e38-5b0d3414197d": {
+    "email": "victor.nguyen@company.com",
+    "created_at": "2025-08-21T03:31:24.484032Z"
+  },
+  "f7c16664-8168-4566-9d81-2663e195c4fe": {
+    "email": "victor.nguyen@company.com",
+    "created_at": "2025-08-24T03:31:24.484036Z"
+  },
+  "47fd0f1b-3ba6-4e3b-b9fa-44c93d741680": {
+    "email": "wendy.zhang@company.com",
+    "created_at": "2025-08-07T03:31:24.484040Z"
+  },
+  "09066603-0441-430f-8dc8-e332a71e3bdd": {
+    "email": "wendy.zhang@company.com",
+    "created_at": "2025-08-10T03:31:24.484045Z"
+  },
+  "9db64fda-b9d5-46bd-a163-5e8d0f616cc2": {
+    "email": "wendy.zhang@company.com",
+    "created_at": "2025-08-26T03:31:24.484048Z"
+  },
+  "09d20397ea19404b847c9f643c1a2f32": {
+    "email": "tina.wong@company.com",
+    "created_at": "2025-08-30T22:02:26Z"
+  },
+  "afc16bc61448454c851ed7c3061f24e1": {
+    "email": "victor.nguyen@company.com",
+    "created_at": "2025-08-30T22:02:51Z"
+  }
+}

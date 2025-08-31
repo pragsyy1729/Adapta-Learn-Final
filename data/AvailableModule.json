@@ -1,0 +1,74 @@
+[
+  {
+    "attributes": {
+      "id": "am-001",
+      "title": "Introduction to Python Programming",
+      "module_type": "mixed",
+      "description": "A comprehensive introduction to Python programming covering basic syntax, data types, control structures, and functions. This module combines video tutorials, text-based exercises, and interactive coding challenges.",
+      "duration_hours": 12.5,
+      "tags": ["python", "programming", "beginner", "syntax", "functions"],
+      "created_at": "2025-08-20T10:00:00Z",
+      "updated_at": "2025-08-25T14:30:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "am-002",
+      "title": "Data Structures and Algorithms",
+      "module_type": "video",
+      "description": "Learn fundamental data structures (arrays, linked lists, trees, graphs) and algorithms (sorting, searching, dynamic programming) through comprehensive video lectures and visual demonstrations.",
+      "duration_hours": 18.0,
+      "tags": ["algorithms", "data-structures", "computer-science", "intermediate", "problem-solving"],
+      "created_at": "2025-08-18T09:15:00Z",
+      "updated_at": "2025-08-22T16:45:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "am-003",
+      "title": "Web Development Fundamentals",
+      "module_type": "mixed",
+      "description": "Master the basics of web development including HTML, CSS, JavaScript, and responsive design principles. Includes hands-on projects and real-world examples.",
+      "duration_hours": 20.0,
+      "tags": ["web-development", "html", "css", "javascript", "responsive-design", "frontend"],
+      "created_at": "2025-08-15T11:30:00Z",
+      "updated_at": "2025-08-26T13:20:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "am-004",
+      "title": "Database Design Principles",
+      "module_type": "text",
+      "description": "Comprehensive text-based guide covering relational database design, normalization, SQL queries, and database optimization techniques. Includes detailed examples and practice exercises.",
+      "duration_hours": 8.5,
+      "tags": ["database", "sql", "relational-design", "normalization", "optimization"],
+      "created_at": "2025-08-12T08:45:00Z",
+      "updated_at": "2025-08-20T12:10:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "am-005",
+      "title": "Machine Learning Fundamentals",
+      "module_type": "audio",
+      "description": "Audio-based learning module covering the theoretical foundations of machine learning, including supervised and unsupervised learning, neural networks, and model evaluation techniques.",
+      "duration_hours": 15.0,
+      "tags": ["machine-learning", "ai", "neural-networks", "supervised-learning", "data-science"],
+      "created_at": "2025-08-10T14:20:00Z",
+      "updated_at": "2025-08-24T10:55:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "am-006",
+      "title": "DevOps and Cloud Computing",
+      "module_type": "mixed",
+      "description": "Learn modern DevOps practices and cloud computing concepts through a combination of video demonstrations, text documentation, and hands-on lab exercises covering Docker, Kubernetes, and AWS.",
+      "duration_hours": 22.5,
+      "tags": ["devops", "cloud-computing", "docker", "kubernetes", "aws", "automation"],
+      "created_at": "2025-08-08T16:00:00Z",
+      "updated_at": "2025-08-27T09:30:00Z"
+    }
+  }
+]

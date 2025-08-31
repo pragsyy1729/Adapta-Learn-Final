@@ -1,0 +1,643 @@
+[
+  {
+    "id": "QUIZ001",
+    "chapter_id": "CH001",
+    "difficulty": "easy",
+    "title": "Python Basics - Easy Quiz",
+    "description": "Test your understanding of Python fundamentals",
+    "questions": [
+      {
+        "id": "Q001",
+        "question": "What is the output of print(2 + 3)?",
+        "type": "multiple_choice",
+        "options": [
+          "5",
+          "23",
+          "2+3",
+          "Error"
+        ],
+        "correct_answer": "5",
+        "explanation": "The + operator performs addition on numbers"
+      },
+      {
+        "id": "Q002",
+        "question": "Which of these is a valid Python variable name?",
+        "type": "multiple_choice",
+        "options": [
+          "2variable",
+          "variable-name",
+          "variable_name",
+          "variable.name"
+        ],
+        "correct_answer": "variable_name",
+        "explanation": "Variable names can contain letters, numbers, and underscores, but cannot start with a number"
+      }
+    ],
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "created_by": "admin_001",
+    "created_at": "2025-08-30T10:00:00Z"
+  },
+  {
+    "id": "QUIZ002",
+    "chapter_id": "CH001",
+    "difficulty": "medium",
+    "title": "Python Basics - Medium Quiz",
+    "description": "Intermediate Python concepts assessment",
+    "questions": [
+      {
+        "id": "Q003",
+        "question": "What does the 'len()' function return?",
+        "type": "multiple_choice",
+        "options": [
+          "Length of a string",
+          "Length of a list",
+          "Both A and B",
+          "None of the above"
+        ],
+        "correct_answer": "Both A and B",
+        "explanation": "len() works with strings, lists, tuples, and other sequence types"
+      }
+    ],
+    "passing_score": 75,
+    "time_limit_minutes": 20,
+    "created_by": "admin_001",
+    "created_at": "2025-08-30T10:00:00Z"
+  },
+  {
+    "id": "QUIZ003",
+    "chapter_id": "CH002",
+    "difficulty": "easy",
+    "title": "Data Structures - Easy Quiz",
+    "description": "Basic data structures concepts",
+    "questions": [
+      {
+        "id": "Q004",
+        "question": "Which of these is NOT a Python data structure?",
+        "type": "multiple_choice",
+        "options": [
+          "List",
+          "Dictionary",
+          "Tree",
+          "Tuple"
+        ],
+        "correct_answer": "Tree",
+        "explanation": "Tree is not a built-in Python data structure, though it can be implemented"
+      }
+    ],
+    "passing_score": 70,
+    "time_limit_minutes": 10,
+    "created_by": "admin_001",
+    "created_at": "2025-08-30T10:00:00Z"
+  },
+  {
+    "id": "QUIZ_mod-001_CH_mod-001_1a9933be_beginner_1e06298e",
+    "module_id": "mod-001",
+    "chapter_id": "CH_mod-001_1a9933be",
+    "difficulty": "beginner",
+    "title": "Test Quiz",
+    "description": "Quiz for beginner level understanding of chapter CH_mod-001_1a9933be",
+    "questions": [
+      {
+        "question": "Test?",
+        "options": [
+          "A",
+          "B"
+        ],
+        "correct_answer": 0
+      }
+    ],
+    "passing_score": 70,
+    "time_limit_minutes": 10,
+    "created_by": "admin",
+    "created_at": "2025-08-30T23:52:26.161980Z"
+  },
+  {
+    "id": "QUIZ_mod-001_CH_mod-001_1a9933be_beginner_a0da8579",
+    "module_id": "mod-001",
+    "chapter_id": "CH_mod-001_1a9933be",
+    "difficulty": "beginner",
+    "title": "Test Quiz",
+    "description": "Quiz for beginner level understanding of chapter CH_mod-001_1a9933be",
+    "questions": [
+      {
+        "question": "Test?",
+        "options": [
+          "A",
+          "B"
+        ],
+        "correct_answer": 0
+      }
+    ],
+    "passing_score": 70,
+    "time_limit_minutes": 10,
+    "created_by": "admin",
+    "created_at": "2025-08-30T23:55:04.516557Z"
+  },
+  {
+    "id": "QUIZ_mod-001_CH_mod-001_1a9933be_intermediate_c350b26a",
+    "module_id": "mod-001",
+    "chapter_id": "CH_mod-001_1a9933be",
+    "difficulty": "intermediate",
+    "title": "Intermediate Quiz from File - Chapter CH_mod-001_1a9933be",
+    "description": "Quiz for intermediate level understanding of chapter CH_mod-001_1a9933be",
+    "questions": [
+      {
+        "id": "Q_46023f48",
+        "question": "What is the capital of France?",
+        "type": "multiple_choice",
+        "options": [
+          "London",
+          "Paris",
+          "Berlin",
+          "Madrid"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_fee1dc29",
+        "question": "What is 2 + 2?",
+        "type": "multiple_choice",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      }
+    ],
+    "passing_score": 75,
+    "time_limit_minutes": 15,
+    "created_by": "admin",
+    "created_at": "2025-08-31T00:01:50.458557Z"
+  },
+  {
+    "id": "QUIZ_mod-001_CH_mod-001_1a9933be_beginner_f3af02e3",
+    "module_id": "mod-001",
+    "chapter_id": "CH_mod-001_1a9933be",
+    "difficulty": "beginner",
+    "title": "Manual Quiz Test",
+    "description": "Quiz for beginner level understanding of chapter CH_mod-001_1a9933be",
+    "questions": [
+      {
+        "question": "What is 3 + 3?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correct_answer": "6"
+      },
+      {
+        "question": "What color is the sky?",
+        "options": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "correct_answer": "Blue"
+      }
+    ],
+    "passing_score": 70,
+    "time_limit_minutes": 10,
+    "created_by": "admin",
+    "created_at": "2025-08-31T00:02:08.442460Z"
+  },
+  {
+    "id": "QUIZ_mod-001_CH_mod-001_1a9933be_beginner_d0aa9778",
+    "module_id": "mod-001",
+    "chapter_id": "CH_mod-001_1a9933be",
+    "difficulty": "beginner",
+    "title": "React Fundamentals",
+    "description": "Quiz for beginner level understanding of chapter CH_mod-001_1a9933be",
+    "questions": [
+      {
+        "id": "Q_9f1fc804",
+        "question": "What is React?",
+        "type": "multiple_choice",
+        "options": [
+          "A backend framework for databases",
+          "A frontend JavaScript library for building user interfaces",
+          "A programming language",
+          "A package manager"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_75d91f77",
+        "question": "What is JSX in React?",
+        "type": "multiple_choice",
+        "options": [
+          "A CSS framework",
+          "A templating engine",
+          "A syntax extension that allows writing HTML-like code in JavaScript",
+          "A database query language"
+        ],
+        "correct_answer": 2,
+        "explanation": "Correct answer is option C"
+      },
+      {
+        "id": "Q_21972857",
+        "question": "What is the purpose of ReactDOM in React?",
+        "type": "multiple_choice",
+        "options": [
+          "To manage application state",
+          "To provide routing functionalities",
+          "To render React components into the DOM",
+          "To connect React with databases"
+        ],
+        "correct_answer": 2,
+        "explanation": "Correct answer is option C"
+      },
+      {
+        "id": "Q_64e2b886",
+        "question": "What is a React component?",
+        "type": "multiple_choice",
+        "options": [
+          "A database record",
+          "A reusable piece of UI defined in JavaScript/JSX",
+          "A CSS class",
+          "A server configuration file"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_e04e9c23",
+        "question": "What is the significance of the `key` prop in React lists?",
+        "type": "multiple_choice",
+        "options": [
+          "It defines the style of the list items",
+          "It uniquely identifies elements to help React optimize rendering",
+          "It connects the list to the backend",
+          "It sorts the list automatically"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_cd32b3c9",
+        "question": "Which hook is used for managing state in functional components?",
+        "type": "multiple_choice",
+        "options": [
+          "useReducer",
+          "useState",
+          "useEffect",
+          "useMemo"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_09763bcf",
+        "question": "What does the `useEffect` hook do in React?",
+        "type": "multiple_choice",
+        "options": [
+          "Manages global state",
+          "Handles side effects like data fetching, subscriptions, or DOM manipulation",
+          "Improves performance of expensive computations",
+          "Provides routing functionality"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_04a90ed1",
+        "question": "What is the Virtual DOM in React?",
+        "type": "multiple_choice",
+        "options": [
+          "A browser feature to speed up rendering",
+          "A lightweight copy of the real DOM used by React for efficient updates",
+          "A CSS property",
+          "A backend database"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_eb4c132d",
+        "question": "What happens when state is updated in React?",
+        "type": "multiple_choice",
+        "options": [
+          "The entire web page reloads",
+          "Only the component and its children that depend on the updated state re-render",
+          "Nothing happens",
+          "The server is restarted"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_06f97f62",
+        "question": "What is props drilling in React?",
+        "type": "multiple_choice",
+        "options": [
+          "Passing data from parent to child components through multiple levels of components",
+          "Using hooks incorrectly",
+          "Storing data in local storage",
+          "A performance optimization method"
+        ],
+        "correct_answer": 0,
+        "explanation": "Correct answer is option A"
+      }
+    ],
+    "passing_score": 70,
+    "time_limit_minutes": 10,
+    "created_by": "admin",
+    "created_at": "2025-08-31T00:02:42.076405Z"
+  },
+  {
+    "id": "QUIZ_mod-001_CH_mod-001_1a9933be_intermediate_f418479b",
+    "module_id": "mod-001",
+    "chapter_id": "CH_mod-001_1a9933be",
+    "difficulty": "intermediate",
+    "title": "React Fundamentals",
+    "description": "Quiz for intermediate level understanding of chapter CH_mod-001_1a9933be",
+    "questions": [
+      {
+        "id": "Q_2acacaf6",
+        "question": "What is the main purpose of React\u2019s reconciliation process?",
+        "type": "multiple_choice",
+        "options": [
+          "To handle database transactions",
+          "To update the DOM efficiently by comparing Virtual DOM and Real DOM",
+          "To compile JSX into JavaScript",
+          "To manage CSS in components"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_2758abe7",
+        "question": "What is the difference between controlled and uncontrolled components in React?",
+        "type": "multiple_choice",
+        "options": [
+          "Controlled components manage their state internally, uncontrolled use props",
+          "Controlled components rely on React state, uncontrolled rely on the DOM for state",
+          "Controlled components cannot use hooks, uncontrolled can",
+          "Controlled components are class-based, uncontrolled are functional"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_1d2c0d08",
+        "question": "Why should you avoid mutating state directly in React?",
+        "type": "multiple_choice",
+        "options": [
+          "It causes JSX errors",
+          "It prevents React from detecting changes and re-rendering properly",
+          "It breaks the Virtual DOM",
+          "It stops the application from compiling"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_508f2fe3",
+        "question": "What is the purpose of React\u2019s Context API?",
+        "type": "multiple_choice",
+        "options": [
+          "To make HTTP requests",
+          "To avoid prop drilling by providing global data accessible to components",
+          "To handle side effects",
+          "To debug React applications"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_e4b36279",
+        "question": "What is the difference between useMemo and useCallback?",
+        "type": "multiple_choice",
+        "options": [
+          "useMemo memoizes values, useCallback memoizes functions",
+          "useMemo memoizes functions, useCallback memoizes values",
+          "Both memoize state variables",
+          "Both are used for side effects"
+        ],
+        "correct_answer": 0,
+        "explanation": "Correct answer is option A"
+      },
+      {
+        "id": "Q_b2fdc17b",
+        "question": "What is React.lazy used for?",
+        "type": "multiple_choice",
+        "options": [
+          "To optimize state updates",
+          "To dynamically import components and enable code-splitting",
+          "To handle event listeners",
+          "To delay rendering of hooks"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_727a5849",
+        "question": "What is the difference between React.Fragment and a div wrapper?",
+        "type": "multiple_choice",
+        "options": [
+          "Fragment creates an extra node in the DOM, div does not",
+          "Fragment avoids adding extra DOM nodes, div adds one",
+          "Fragment can contain only text, div can contain elements",
+          "Fragment is slower than div"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_12b20ffe",
+        "question": "What is the purpose of error boundaries in React?",
+        "type": "multiple_choice",
+        "options": [
+          "To manage state updates",
+          "To catch JavaScript errors in the component tree and display fallback UI",
+          "To prevent Virtual DOM updates",
+          "To optimize rendering performance"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_b1668dc7",
+        "question": "When should you use useReducer instead of useState?",
+        "type": "multiple_choice",
+        "options": [
+          "When managing simple local state",
+          "When state logic is complex or involves multiple sub-values",
+          "When using class components",
+          "When updating DOM directly"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_56a151fc",
+        "question": "What is the difference between React.PureComponent and React.Component?",
+        "type": "multiple_choice",
+        "options": [
+          "PureComponent automatically implements shouldComponentUpdate with shallow prop/state comparison",
+          "Component is faster than PureComponent",
+          "PureComponent works only with hooks, Component does not",
+          "PureComponent cannot have lifecycle methods"
+        ],
+        "correct_answer": 0,
+        "explanation": "Correct answer is option A"
+      }
+    ],
+    "passing_score": 75,
+    "time_limit_minutes": 15,
+    "created_by": "admin",
+    "created_at": "2025-08-31T00:02:56.100113Z"
+  },
+  {
+    "id": "QUIZ_mod-001_CH_mod-001_1a9933be_advanced_4bef39c8",
+    "module_id": "mod-001",
+    "chapter_id": "CH_mod-001_1a9933be",
+    "difficulty": "advanced",
+    "title": "React Fundamentals",
+    "description": "Quiz for advanced level understanding of chapter CH_mod-001_1a9933be",
+    "questions": [
+      {
+        "id": "Q_3f090eb4",
+        "question": "What is React Fiber and why was it introduced?",
+        "type": "multiple_choice",
+        "options": [
+          "A CSS-in-JS library for styling components",
+          "A new reconciliation engine introduced in React 16 to enable incremental rendering and improve performance",
+          "A testing library for React",
+          "A replacement for JSX"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_9f7dea30",
+        "question": "What is concurrent rendering in React?",
+        "type": "multiple_choice",
+        "options": [
+          "Rendering multiple apps simultaneously in one DOM",
+          "React\u2019s ability to interrupt rendering to prioritize more urgent updates for better user experience",
+          "Rendering components on multiple servers at once",
+          "Rendering components only when requested by the user"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_58f0159c",
+        "question": "How does React\u2019s Suspense work?",
+        "type": "multiple_choice",
+        "options": [
+          "It blocks rendering of the entire UI until all data is fetched",
+          "It lets components wait for asynchronous operations (like data fetching or lazy loading) and shows fallback UI until completion",
+          "It prevents errors in child components",
+          "It improves CSS animations in React"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_5e3f5ecd",
+        "question": "What is the main purpose of React\u2019s useImperativeHandle hook?",
+        "type": "multiple_choice",
+        "options": [
+          "To fetch data from APIs",
+          "To customize the instance value exposed when using ref with forwardRef",
+          "To memoize expensive computations",
+          "To prevent unnecessary state updates"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_2ad6bc25",
+        "question": "What problem does React\u2019s key prop solve during reconciliation?",
+        "type": "multiple_choice",
+        "options": [
+          "It increases security of list rendering",
+          "It prevents data loss when switching pages",
+          "It helps React identify which items have changed, added, or removed for efficient re-rendering",
+          "It sorts the list automatically"
+        ],
+        "correct_answer": 2,
+        "explanation": "Correct answer is option C"
+      },
+      {
+        "id": "Q_d4ade9a6",
+        "question": "What is the difference between server-side rendering (SSR) and client-side rendering (CSR) in React?",
+        "type": "multiple_choice",
+        "options": [
+          "SSR renders components in the browser, CSR renders them on the server",
+          "SSR improves SEO and initial load performance by rendering HTML on the server, CSR renders everything in the client browser",
+          "SSR is faster in all cases, CSR is obsolete",
+          "CSR only works with React hooks, SSR does not"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_0e41e401",
+        "question": "What is hydration in React?",
+        "type": "multiple_choice",
+        "options": [
+          "The process of combining CSS and JavaScript into a single bundle",
+          "The process of attaching event listeners to pre-rendered HTML (from SSR) so it becomes interactive",
+          "The process of synchronizing props with state",
+          "The process of loading React apps into Web Workers"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_e4707c5d",
+        "question": "Why is it recommended to use React.StrictMode in development?",
+        "type": "multiple_choice",
+        "options": [
+          "To disable lazy loading",
+          "To highlight potential problems like unsafe lifecycle methods, side effects, or deprecated APIs",
+          "To prevent rendering errors in production",
+          "To improve bundle size"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_d0ccc6bf",
+        "question": "What is the difference between shallow rendering and full rendering in testing React components?",
+        "type": "multiple_choice",
+        "options": [
+          "Shallow rendering renders children deeply, full rendering does not",
+          "Shallow rendering renders only the component itself without children, full rendering renders the full component tree",
+          "Both are identical but shallow rendering is faster",
+          "Shallow rendering is used in production, full rendering is for development only"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      },
+      {
+        "id": "Q_0150a3a4",
+        "question": "What is React\u2019s reconciliation strategy for handling nested component updates?",
+        "type": "multiple_choice",
+        "options": [
+          "It always re-renders the entire DOM subtree regardless of changes",
+          "It uses a diffing algorithm comparing Virtual DOM trees and re-renders only the changed nodes",
+          "It re-renders only class components but not functional components",
+          "It caches all DOM trees to avoid re-rendering"
+        ],
+        "correct_answer": 1,
+        "explanation": "Correct answer is option B"
+      }
+    ],
+    "passing_score": 80,
+    "time_limit_minutes": 20,
+    "created_by": "admin",
+    "created_at": "2025-08-31T00:03:10.813418Z"
+  }
+]

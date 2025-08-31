@@ -1,0 +1,7 @@
+{
+  "module_id": "python_project_1",
+  "skills_covered": [{"skill": "Python", "weight": 0.9, "target_level": 4}],
+  "est_minutes": 180,
+  "has_assessment": true,
+  "pass_threshold": 0.7
+}

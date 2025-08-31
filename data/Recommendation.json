@@ -1,0 +1,58 @@
+[
+  {
+    "attributes": {
+      "id": "rec-001",
+      "user_id": "user_001",
+      "title": "Focus on Data Structures",
+      "description": "Your quiz results suggest reviewing Python data structures.",
+      "source": "quiz_results",
+      "recommendation_type": "skill_focus",
+      "confidence_score": 0.92,
+      "expires_at": "2025-09-10T23:59:00Z",
+      "action_url": "https://example.com/learn/data-structures",
+      "created_at": "2025-08-27T11:00:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "rec-004",
+      "user_id": "user_001",
+      "title": "Practice Code Reviews",
+      "description": "Your team collaboration skills are strong, time for technical review practice.",
+      "source": "ai_analysis",
+      "recommendation_type": "skill_focus",
+      "confidence_score": 0.88,
+      "expires_at": "2025-09-15T23:59:00Z",
+      "action_url": "https://example.com/learn/code-reviews",
+      "created_at": "2025-08-27T11:30:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "rec-002",
+      "user_id": "user_002",
+      "title": "Try Practice Activity: ETL Pipeline",
+      "description": "Based on your progress, we recommend this hands-on ETL activity.",
+      "source": "progress",
+      "recommendation_type": "practice_activity",
+      "confidence_score": 0.85,
+      "expires_at": null,
+      "action_url": "https://example.com/practice/etl-pipeline",
+      "created_at": "2025-08-27T11:10:00Z"
+    }
+  },
+  {
+    "attributes": {
+      "id": "rec-003",
+      "user_id": "user_003",
+      "title": "Content Suggestion: ML Algorithms",
+      "description": "AI analysis recommends reviewing advanced ML algorithms.",
+      "source": "ai_analysis",
+      "recommendation_type": "content_suggestion",
+      "confidence_score": 0.78,
+      "expires_at": "2025-09-05T23:59:00Z",
+      "action_url": "https://example.com/learn/ml-algorithms",
+      "created_at": "2025-08-27T11:20:00Z"
+    }
+  }
+]

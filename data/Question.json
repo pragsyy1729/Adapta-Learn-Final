@@ -1,0 +1,38 @@
+[
+  {
+    "attributes": {
+      "id": "q-001",
+      "assessment_id": "asmt-001",
+      "order": 1,
+      "text": "Which of the following statements about Python is true?",
+      "question_type": "single_choice",
+      "points": 2,
+      "time_limit_seconds": 60,
+      "metadata": {"shuffle": true, "difficulty": "easy"}
+    }
+  },
+  {
+    "attributes": {
+      "id": "q-002",
+      "assessment_id": "asmt-001",
+      "order": 2,
+      "text": "Select all correct statements about Python data structures.",
+      "question_type": "multiple_choice",
+      "points": 3,
+      "time_limit_seconds": 90,
+      "metadata": {"shuffle": true, "difficulty": "medium"}
+    }
+  },
+  {
+    "attributes": {
+      "id": "q-003",
+      "assessment_id": "asmt-002",
+      "order": 1,
+      "text": "Write a function to reverse a list in Python.",
+      "question_type": "code",
+      "points": 5,
+      "time_limit_seconds": null,
+      "metadata": {"difficulty": "hard"}
+    }
+  }
+]

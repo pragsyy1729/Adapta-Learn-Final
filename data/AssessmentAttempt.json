@@ -1,0 +1,198 @@
+[
+  {
+    "attributes": {
+      "id": "aat-001",
+      "assessment_id": "asmt-001",
+      "user_id": "user_001",
+      "status": "graded",
+      "started_at": "2025-08-28T09:00:00Z",
+      "submitted_at": "2025-08-28T09:25:00Z",
+      "graded_at": "2025-08-28T10:00:00Z",
+      "raw_score": 18.0,
+      "score_percent": 90.0,
+      "duration_seconds": 1500,
+      "current_question_index": 3,
+      "responses": [
+        {
+          "question_id": "q1",
+          "answer": "A",
+          "timestamp": "2025-08-28T09:05:00Z"
+        },
+        {
+          "question_id": "q2",
+          "answer": "B",
+          "timestamp": "2025-08-28T09:15:00Z"
+        },
+        {
+          "question_id": "q3",
+          "answer": "C",
+          "timestamp": "2025-08-28T09:25:00Z"
+        }
+      ],
+      "response_blob": {
+        "answers": {
+          "q1": "A",
+          "q2": "B",
+          "q3": "C"
+        }
+      },
+      "feedback": "Great job!",
+      "attempt_number": 1,
+      "version_taken": 1
+    }
+  },
+  {
+    "attributes": {
+      "id": "aat-002",
+      "assessment_id": "asmt-002",
+      "user_id": "user_002",
+      "status": "submitted",
+      "started_at": "2025-08-29T14:00:00Z",
+      "submitted_at": "2025-08-29T15:30:00Z",
+      "graded_at": null,
+      "raw_score": null,
+      "score_percent": null,
+      "duration_seconds": 5400,
+      "current_question_index": 0,
+      "responses": [],
+      "response_blob": {
+        "project_url": "https://example.com/projects/user_002_mod_002.zip"
+      },
+      "feedback": null,
+      "attempt_number": 1,
+      "version_taken": 1
+    }
+  },
+  {
+    "attributes": {
+      "id": "aat-003",
+      "assessment_id": "asmt-010",
+      "user_id": "user_003",
+      "status": "in_progress",
+      "started_at": "2025-08-30T11:00:00Z",
+      "submitted_at": null,
+      "graded_at": null,
+      "raw_score": null,
+      "score_percent": null,
+      "duration_seconds": 600,
+      "current_question_index": 2,
+      "responses": [
+        {
+          "question_id": "q1",
+          "answer": "D",
+          "timestamp": "2025-08-30T11:10:00Z"
+        },
+        {
+          "question_id": "q2",
+          "answer": "A",
+          "timestamp": "2025-08-30T11:20:00Z"
+        }
+      ],
+      "response_blob": {
+        "answers": {
+          "q1": "D",
+          "q2": "A"
+        }
+      },
+      "feedback": null,
+      "attempt_number": 1,
+      "version_taken": 1
+    }
+  },
+  {
+    "attributes": {
+      "id": "5b50c4df-08da-4c39-8514-5372ed934123",
+      "assessment_id": "asmt-002",
+      "user_id": "user_001",
+      "status": "in_progress",
+      "started_at": "2025-08-27T15:47:48.398704Z",
+      "submitted_at": null,
+      "graded_at": null,
+      "raw_score": null,
+      "score_percent": null,
+      "duration_seconds": 0,
+      "current_question_index": 0,
+      "responses": [],
+      "response_blob": {},
+      "feedback": null,
+      "attempt_number": 1,
+      "version_taken": 1
+    }
+  },
+  {
+    "attributes": {
+      "id": "bae391cf-8e49-4854-a276-9c7c6e37e761",
+      "assessment_id": "asmt-001",
+      "user_id": "user_001",
+      "status": "in_progress",
+      "started_at": "2025-08-27T15:49:40.967212Z",
+      "submitted_at": null,
+      "graded_at": null,
+      "raw_score": null,
+      "score_percent": null,
+      "duration_seconds": 0,
+      "current_question_index": 0,
+      "responses": [],
+      "response_blob": {},
+      "feedback": null,
+      "attempt_number": 2,
+      "version_taken": 1
+    }
+  },
+  {
+    "attributes": {
+      "id": "138d0fb3-b9a8-4998-b6d3-1ffb671a7de6",
+      "assessment_id": "asmt-003",
+      "user_id": "user_001",
+      "status": "in_progress",
+      "started_at": "2025-08-27T15:49:49.083324Z",
+      "submitted_at": null,
+      "graded_at": null,
+      "raw_score": null,
+      "score_percent": null,
+      "duration_seconds": 0,
+      "current_question_index": 0,
+      "responses": [],
+      "response_blob": {},
+      "feedback": null,
+      "attempt_number": 1,
+      "version_taken": 1
+    }
+  },
+  {
+    "attributes": {
+      "id": "1bbf1d96-4351-49ac-bd30-3299c340081f",
+      "assessment_id": "asmt-001",
+      "user_id": "user_016",
+      "status": "in_progress",
+      "started_at": "2025-08-28T13:27:21.215016Z",
+      "submitted_at": null,
+      "graded_at": null,
+      "raw_score": null,
+      "score_percent": null,
+      "duration_seconds": 0,
+      "response_blob": {},
+      "feedback": null,
+      "attempt_number": 1,
+      "version_taken": 1
+    }
+  },
+  {
+    "attributes": {
+      "id": "8fc35555-48d1-49ad-9d44-3bce2548e78b",
+      "assessment_id": "asmt-001",
+      "user_id": "test_user",
+      "status": "in_progress",
+      "started_at": "2025-08-29T08:00:09.385891Z",
+      "submitted_at": null,
+      "graded_at": null,
+      "raw_score": null,
+      "score_percent": null,
+      "duration_seconds": 0,
+      "response_blob": {},
+      "feedback": null,
+      "attempt_number": 1,
+      "version_taken": 1
+    }
+  }
+]

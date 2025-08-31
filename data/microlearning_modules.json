@@ -1,0 +1,113 @@
+{
+  "MICRO_001": {
+    "id": "MICRO_001",
+    "title": "5-Minute Communication Tip",
+    "description": "Quick tip for better workplace communication",
+    "type": "video",
+    "duration_minutes": 5,
+    "difficulty": "beginner",
+    "category": "communication",
+    "content": {
+      "video_url": "/microlearning/videos/comm_tip_001.mp4",
+      "thumbnail": "/microlearning/thumbnails/comm_tip_001.jpg",
+      "transcript": "Start your day with a positive greeting...",
+      "key_points": [
+        "Greet colleagues positively",
+        "Use active listening",
+        "Be concise but clear"
+      ]
+    },
+    "completion_points": 10,
+    "tags": ["communication", "soft-skills", "quick-tip"]
+  },
+  "MICRO_002": {
+    "id": "MICRO_002",
+    "title": "Time Management Hack",
+    "description": "One simple technique to boost productivity",
+    "type": "infographic",
+    "duration_minutes": 3,
+    "difficulty": "beginner",
+    "category": "productivity",
+    "content": {
+      "image_url": "/microlearning/infographics/time_hack_001.png",
+      "key_points": [
+        "Use the 2-minute rule",
+        "Batch similar tasks",
+        "Set specific time blocks"
+      ]
+    },
+    "completion_points": 15,
+    "tags": ["productivity", "time-management", "hack"]
+  },
+  "MICRO_003": {
+    "id": "MICRO_003",
+    "title": "Leadership Quick Quiz",
+    "description": "Test your leadership knowledge in 2 minutes",
+    "type": "quiz",
+    "duration_minutes": 2,
+    "difficulty": "intermediate",
+    "category": "leadership",
+    "content": {
+      "questions": [
+        {
+          "question": "What is situational leadership?",
+          "options": ["Fixed leadership style", "Adapting to team needs", "Only for managers", "Never changing approach"],
+          "correct_answer": "Adapting to team needs",
+          "explanation": "Situational leadership involves adapting your style based on team maturity and task complexity."
+        }
+      ]
+    },
+    "completion_points": 20,
+    "tags": ["leadership", "quiz", "situational"]
+  },
+  "MICRO_004": {
+    "id": "MICRO_004",
+    "title": "Emotional Intelligence Check",
+    "description": "Daily EI self-assessment",
+    "type": "assessment",
+    "duration_minutes": 4,
+    "difficulty": "intermediate",
+    "category": "emotional-intelligence",
+    "content": {
+      "questions": [
+        {
+          "question": "How do you typically respond to criticism?",
+          "type": "scale",
+          "scale": ["Defensive", "Neutral", "Reflective", "Grateful"],
+          "points": [1, 2, 3, 4]
+        }
+      ],
+      "scoring_guide": {
+        "high": "Great self-awareness!",
+        "medium": "Room for growth in emotional regulation",
+        "low": "Consider focusing on emotional intelligence development"
+      }
+    },
+    "completion_points": 25,
+    "tags": ["emotional-intelligence", "self-assessment", "daily"]
+  },
+  "MICRO_005": {
+    "id": "MICRO_005",
+    "title": "Problem Solving Technique",
+    "description": "5-step approach to any problem",
+    "type": "interactive",
+    "duration_minutes": 6,
+    "difficulty": "intermediate",
+    "category": "problem-solving",
+    "content": {
+      "steps": [
+        "Define the problem clearly",
+        "Gather relevant information",
+        "Generate possible solutions",
+        "Evaluate and choose best solution",
+        "Implement and follow up"
+      ],
+      "interactive_elements": [
+        "Problem definition template",
+        "Solution evaluation checklist"
+      ]
+    },
+    "completion_points": 30,
+    "tags": ["problem-solving", "technique", "methodology"]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "LP2024ENG001": {
+    "id": "LP2024ENG001",
+    "title": "Full Stack Development Bootcamp",
+    "description": "Complete guide to modern full-stack development",
+    "department": "Engineering",
+    "difficulty": "Intermediate",
+    "estimated_weeks": 12,
+    "modules": [
+      "MOD_ENG_001",
+      "MOD_ENG_002",
+      "MOD_ENG_003",
+      "MOD_ENG_004"
+    ],
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  "LP2024DS001": {
+    "id": "LP2024DS001",
+    "title": "Data Science Fundamentals",
+    "description": "Learn the basics of data science and machine learning",
+    "department": "Data Science",
+    "difficulty": "Beginner",
+    "estimated_weeks": 8,
+    "modules": [
+      "MOD_DS_001",
+      "MOD_DS_002",
+      "MOD_DS_003"
+    ],
+    "skills": [
+      "Python",
+      "Statistics",
+      "Machine Learning"
+    ],
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  "LP2024KYC001": {
+    "id": "LP2024KYC001",
+    "title": "KYC Compliance Training",
+    "description": "Comprehensive KYC and AML compliance training",
+    "department": "KYC",
+    "difficulty": "Intermediate",
+    "estimated_weeks": 6,
+    "modules": [
+      "MOD_KYC_001",
+      "MOD_KYC_002"
+    ],
+    "skills": [
+      "Compliance",
+      "Risk Assessment",
+      "Regulatory Knowledge"
+    ],
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  "LP2024HR001": {
+    "id": "LP2024HR001",
+    "title": "Leadership and Management Skills",
+    "description": "Develop essential leadership and management competencies",
+    "department": "HR",
+    "difficulty": "Intermediate",
+    "estimated_weeks": 10,
+    "modules": [
+      "MOD_HR_001",
+      "MOD_HR_002",
+      "MOD_HR_003"
+    ],
+    "skills": [
+      "Leadership",
+      "Communication",
+      "Team Management"
+    ],
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  "LP2024GEN001": {
+    "id": "LP2024GEN001",
+    "title": "Professional Development Essentials",
+    "description": "Essential skills for professional growth",
+    "department": "General",
+    "difficulty": "Beginner",
+    "estimated_weeks": 4,
+    "modules": [
+      "MOD_GEN_001",
+      "MOD_GEN_002"
+    ],
+    "skills": [
+      "Communication",
+      "Time Management",
+      "Professional Skills"
+    ],
+    "created_at": "2024-01-01T00:00:00Z"
+  }
+}

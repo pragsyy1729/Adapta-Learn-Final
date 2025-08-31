@@ -1,0 +1,53 @@
+{
+  "departments": [
+    {
+      "id": "ENG2024001",
+      "name": "Engineering",
+      "description": "Software development and technical teams",
+      "onboarding_duration_weeks": 8,
+      "documentation": [
+        {
+          "name": "Onboarding Guide",
+          "content": "Updated content!",
+          "document_content": "Updated content!"
+        }
+      ]
+    },
+    {
+      "id": "DS2024001",
+      "name": "Data Science",
+      "description": "Data analysis, machine learning, and analytics teams",
+      "onboarding_duration_weeks": 10
+    },
+    {
+      "id": "PM2024001",
+      "name": "Product Management",
+      "description": "Product strategy and management teams",
+      "onboarding_duration_weeks": 6
+    },
+    {
+      "id": "DES2024001",
+      "name": "Design",
+      "description": "UX/UI design and creative teams",
+      "onboarding_duration_weeks": 6
+    },
+    {
+      "id": "MKT2024001",
+      "name": "Marketing",
+      "description": "Marketing and growth teams",
+      "onboarding_duration_weeks": 4
+    },
+    {
+      "id": "KYC2024001",
+      "name": "KYC",
+      "description": "Know Your Customer compliance and verification teams",
+      "onboarding_duration_weeks": 6,
+      "documentation": [
+        {
+          "name": "Know-Your-Customer_v3_pages.pdf",
+          "document_content": "BRINGING AI TO ENTERPRISE\nUsing Artificial Intelligence and \nMachine Learning to Help Financial \nInstitutions Increase Compliance \nwith Know Your Customer (KYC) Regulations\nSolution Brief\nRecent years saw an increased focus on regulations \nenforcing anti-money laundering (AML) laws in both \nthe US and abroad. One of the key components of AML \nis a Know Your Customer (KYC) guidelines - a globally \ndeveloped set of directives designed to ensure that \ncompanies collect detailed anti-corruption due-diligence \ninformation to know exactly whom they are doing \nbusiness with and avoid interacting with parties involved in illicit and unlawful business. \nWhile it’s difficult to assess the total amount of money \nthat goes through laundering circles worldwide, \norganizations such as UNODOC (United Nations Office \non Drugs and Crime) estimate that between 2-5% of \nglobal GDP, as much as 2 trillion US Dollars, may be laundered every year. KYC and other related regulations \nare designed to provide a framework for financial \ninstitutions operating on a global scale to use data to \ncombat the money laundering problem. However, it is \noften challenging for companies to determine precisely \nwhat information to gather as part of the AML risk \nassessment and to set up operational procedures to handle large amounts of data from multiple sources.\nWhile certain processes can be outsourced to third \nparties, the final responsibility for compliance ultimately \nlies within the financial institutions themselves. With an increased effort on enforcing adherence to AML \nstandards and a growing number of penalties levied \nagainst global financial institutions in recent years, \ncompanies must step up their efforts to improve \ntheir understanding of the AML requirements and \ndevelop efficient solutions for risk assessment and \nmitigation. For financial institutions, KYC compliance is not an optional requirement. Regardless of whom \nyou are doing business with: international or domestic \ncorporations, non-profits, or foreign governments, \nfailure to follow AML guidelines can result in audits, \nfines, or a ban on conducting business in specific \ncountries or regions.  \nWith millions of transactions going through every day, \nhow do you differentiate between the potentially risky \nand compliant transactions? How do you weed out the false positives and focus on the records that may require \nfurther investigation? To help make sense of the ever-\ngrowing volume of information, many companies are \nturning to Artificial Intelligence (AI) to help them navigate \nthe sea of data, analyze suspicious transactions, and \nidentify patterns and trends that might point to risky and \nmalicious behavior.Changing fraud landscape requires new approaches to detection tools and practices\nMoney laundering and financial fraud constantly evolve \nto avoid detection in manners similar to smuggling, \ntrafficking, etc. As new and promising techniques are \ndeveloped to identify and flag suspicious behaviors, \nillicit business methods change and adapt to stay under \nthe radar. Monitoring these complex and constantly evolving practices using legacy methods based on \nbusiness rules and traditional statistical approaches can \nbe slow, laborious, and costly. Trying to manually deduce \npatterns from merchant behaviors by sifting through \nlarge pools of unstructured data, often in different formats and languages, and dealing with a possibility \nof a high volume of false positive results can consume \nextensive human and infrastructure resources, and not \nget an organization any closer to being assured that they \nare dealing with a legitimate business partner.\nUsing conventional automation and data mining \ntechniques for fraud detection is further complicated by \nthe fact that there’s very little organized historical data available for companies on what types of activities to \nlook for, and what types of transactions should trigger \nalerts. \nMachine Learning (ML) and Artificial Intelligence \n(AI) are fueling innovation by transforming the way \norganizations view data analytics. Instead of giving \ncomputers rules to solve problems, businesses are \ngranting machines access to data and asking them \nquestions, so that they can learn and “think” of solutions \nfor themselves. These technologies are ideally suited for \nbuilding a comprehensive, 360° view of the customer by integrating information from various sources, studying \nthe typical money transfer patterns and learning to \ndifferentiate between usual and suspicious behaviors. AI \nsolutions are able to find patterns that rule-based tools \naren’t able to detect, and can continuously learn and \nadapt in response to changing behaviors, environments \nand regulations.  \nA global survey of 424 senior executives from financial \ninstitutions and fintech companies and leading experts in the field found that nearly six in ten (58%) \nrespondents believe that machine learning will help \nthem “greatly enhance” their risk-assessment processes. \nF...\n\n[Content truncated for display]"
+        }
+      ]
+    }
+  ]
+}

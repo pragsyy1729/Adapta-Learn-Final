@@ -1,0 +1,42 @@
+[
+  {
+    "attributes": {
+      "id": "opt-001",
+      "question_id": "q-001",
+      "text": "Python is a dynamically typed language.",
+      "is_correct": true,
+      "order": 1,
+      "feedback": "Correct! Python does not require variable type declarations."
+    }
+  },
+  {
+    "attributes": {
+      "id": "opt-002",
+      "question_id": "q-001",
+      "text": "Python uses curly braces for code blocks.",
+      "is_correct": false,
+      "order": 2,
+      "feedback": "Incorrect. Python uses indentation for code blocks."
+    }
+  },
+  {
+    "attributes": {
+      "id": "opt-003",
+      "question_id": "q-002",
+      "text": "A list in Python is mutable.",
+      "is_correct": true,
+      "order": 1,
+      "feedback": "Correct! Lists can be changed after creation."
+    }
+  },
+  {
+    "attributes": {
+      "id": "opt-004",
+      "question_id": "q-002",
+      "text": "A tuple in Python is mutable.",
+      "is_correct": false,
+      "order": 2,
+      "feedback": "Incorrect. Tuples are immutable."
+    }
+  }
+]

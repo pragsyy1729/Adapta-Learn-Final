@@ -1,0 +1,50 @@
+[
+  {
+    "attributes": {
+      "id": "lm-001",
+      "chapter_id": "ch-001",
+      "title": "Python Syntax Overview",
+      "material_type": "video",
+      "duration_minutes": 15,
+      "content_url": "https://example.com/videos/python_syntax.mp4",
+      "order": 1,
+      "status": "completed"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lm-002",
+      "chapter_id": "ch-001",
+      "title": "Basic Data Types Reading",
+      "material_type": "reading",
+      "duration_minutes": 10,
+      "content_url": "https://example.com/docs/basic_data_types.pdf",
+      "order": 2,
+      "status": "in_progress"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lm-003",
+      "chapter_id": "ch-002",
+      "title": "Practice: Variables and Expressions",
+      "material_type": "exercise",
+      "duration_minutes": 20,
+      "content_url": "https://example.com/exercises/variables_expressions.html",
+      "order": 1,
+      "status": "not_started"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lm-004",
+      "chapter_id": "ch-002",
+      "title": "Control Flow Video",
+      "material_type": "video",
+      "duration_minutes": 18,
+      "content_url": "https://example.com/videos/control_flow.mp4",
+      "order": 2,
+      "status": "not_started"
+    }
+  }
+]

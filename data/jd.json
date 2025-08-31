@@ -1,0 +1,17 @@
+{
+  "python_dev": {
+    "skills": {
+      "Python": {"required_level": 4, "importance": 5},
+      "Flask": {"required_level": 3, "importance": 4},
+      "SQL": {"required_level": 3, "importance": 3},
+      "Docker": {"required_level": 2, "importance": 2}
+    }
+  },
+  "jr_data_eng": {
+    "skills": {
+      "Python": {"required_level": 3, "importance": 5},
+      "SQL": {"required_level": 3, "importance": 4},
+      "Git": {"required_level": 2, "importance": 3}
+    }
+  }
+}

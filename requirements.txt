@@ -1,0 +1,12 @@
+Flask
+Flask-Cors
+Werkzeug
+groq
+PyPDF2
+python-docx
+langchain
+langchain-community
+faiss-cpu
+python-multipart
+uuid
+pathlib

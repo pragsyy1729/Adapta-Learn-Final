@@ -1,0 +1,83 @@
+{
+  "hari.123@gmail.com": {
+    "email": "hari.123@gmail.com",
+    "user_id": "user_007",
+    "name": "hari.123",
+    "password_hash": "scrypt:32768:8:1$Jh5t9vlsHRdY937p$dc71e975b100b40448ef378d5dd033a5cfb98985d7293878463fff21643761b46cf70d4939d8d61d56436d47d7e8f46c823213d87a468d895288123c6548a329",
+    "created_at": "2025-08-24T21:57:18Z",
+    "profile": {
+      "role": null,
+      "preferences": {}
+    }
+  },
+  "johndoe@gmail.com": {
+    "email": "johndoe@gmail.com",
+    "user_id": "user_002",
+    "name": "Narasimhan Seshadri",
+    "password_hash": "scrypt:32768:8:1$H1z1Z4SBRq1v1XpE$e738544c97e2dccad24eaf801743bb7bce5b05880506ca7553688f558055ebd12c00ab2ae2dc62b01576b461b63f531e9db0dbf3c3454f0309f20b97a110534b",
+    "created_at": "2025-08-24T22:08:41Z",
+    "roleType": "Manager",
+    "newJoiner": "No",
+    "profile": {
+      "role": "Manager",
+      "department": "Data Science",
+      "preferences": {}
+    }
+  },
+  "admin123@gmail.com": {
+    "email": "admin123@gmail.com",
+    "user_id": "user_003",
+    "name": "Admin",
+    "password_hash": "scrypt:32768:8:1$AZhWuEZA3UjMkUO6$d714da32aea90fe1ff92227343fac25ed08959fb40fe625b3d906a8336688109160ebd629b89609fe62067cd8399f22ff9bfe4690587ba22dd6864a7b7388bc5",
+    "created_at": "2025-08-24T22:15:13Z",
+    "roleType": "Admin",
+    "newJoiner": "No",
+    "dateOfJoining": "2025-08-25",
+    "profile": {
+      "role": "Admin",
+      "preferences": {}
+    }
+  },
+  "admin.123@gmail.com": {
+    "email": "admin.123@gmail.com",
+    "user_id": "user_004",
+    "name": "admin.123",
+    "password_hash": "scrypt:32768:8:1$JbmKncVchjRw98nw$461a1ea7d498b95d5d05bc905ecc32d4aac7987b9e4c6df286361e0dcb9aa62b200fbda881409090d9056e3c58a43b293897c6481b232a2493499969b7814f63",
+    "created_at": "2025-08-25T06:26:38Z",
+    "roleType": null,
+    "newJoiner": null,
+    "dateOfJoining": null,
+    "profile": {
+      "role": null,
+      "preferences": {}
+    }
+  },
+  "priyadarshan.123@gmail.com": {
+    "email": "priyadarshan.123@gmail.com",
+    "user_id": "user_005",
+    "name": "Priyadarshan K V",
+    "password_hash": "scrypt:32768:8:1$yqByMbaj8VKM0lNY$4e1283a83a7ed5c0d56de620c0e2dfb695bf1ca4f8b219c00ced4c00d819a76f3e416d2ca87f6c438a2ce36c3e6b4e4e6dd1ae0207b434ef625046b9cf56c6a9",
+    "created_at": "2025-08-25T19:19:12Z",
+    "roleType": "Manager",
+    "newJoiner": "No",
+    "dateOfJoining": "2020-01-01",
+    "profile": {
+      "role": "Manager",
+      "preferences": {}
+    }
+  },
+  "pragathivetrivelmurugan@gmail.com": {
+    "email": "pragathivetrivelmurugan@gmail.com",
+    "user_id": "user_001",
+    "name": "Pragathi Kalidasan Vetrivel Murugan",
+    "password_hash": "scrypt:32768:8:1$UYQOtmn6H3X9tOKW$07d9d50a062732c368cdf57d63abcec61b511abd32e19d05d9ed521e000bf0bdd3ea0da4e22cf38e91743d6b01ebfe5f5d624727ea02a2820d00d4c26b6d5cb4",
+    "created_at": "2025-08-25T19:31:07Z",
+    "roleType": "Associate",
+    "newJoiner": "Yes",
+    "dateOfJoining": "2025-08-26",
+    "profile": {
+      "role": "Associate",
+      "preferences": {}
+    }
+  }
+}

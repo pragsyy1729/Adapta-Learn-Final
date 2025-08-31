@@ -1,0 +1,151 @@
+{
+  "LP_SOFT_001": {
+    "id": "LP_SOFT_001",
+    "title": "Communication Skills Mastery",
+    "description": "Develop essential communication skills for professional success",
+    "department": "all",
+    "difficulty": "Beginner",
+    "duration": "4 weeks",
+    "category": "soft_skills",
+    "is_default": true,
+    "modules": [
+      "MOD_COMM_001",
+      "MOD_COMM_002",
+      "MOD_COMM_003"
+    ],
+    "tags": [
+      "communication",
+      "presentation",
+      "writing",
+      "soft-skills"
+    ],
+    "status": "published",
+    "learning_objectives": [
+      "Master verbal and written communication",
+      "Develop presentation skills",
+      "Learn active listening techniques",
+      "Understand non-verbal communication"
+    ],
+    "prerequisites": [],
+    "estimated_completion_time": "4 weeks"
+  },
+  "LP_SOFT_002": {
+    "id": "LP_SOFT_002",
+    "title": "Leadership and Team Management",
+    "description": "Build leadership skills and learn effective team management",
+    "department": "all",
+    "difficulty": "Intermediate",
+    "duration": "6 weeks",
+    "category": "soft_skills",
+    "is_default": true,
+    "modules": [
+      "MOD_LEAD_001",
+      "MOD_LEAD_002",
+      "MOD_LEAD_003",
+      "MOD_LEAD_004"
+    ],
+    "tags": [
+      "leadership",
+      "team-management",
+      "motivation",
+      "soft-skills"
+    ],
+    "status": "published",
+    "learning_objectives": [
+      "Understand leadership styles",
+      "Learn team building techniques",
+      "Develop conflict resolution skills",
+      "Master performance management"
+    ],
+    "prerequisites": ["LP_SOFT_001"],
+    "estimated_completion_time": "6 weeks"
+  },
+  "LP_SOFT_003": {
+    "id": "LP_SOFT_003",
+    "title": "Time Management and Productivity",
+    "description": "Master time management techniques and boost productivity",
+    "department": "all",
+    "difficulty": "Beginner",
+    "duration": "3 weeks",
+    "category": "soft_skills",
+    "is_default": true,
+    "modules": [
+      "MOD_TIME_001",
+      "MOD_TIME_002"
+    ],
+    "tags": [
+      "time-management",
+      "productivity",
+      "organization",
+      "soft-skills"
+    ],
+    "status": "published",
+    "learning_objectives": [
+      "Learn time management techniques",
+      "Understand priority setting",
+      "Develop productivity habits",
+      "Master goal setting and planning"
+    ],
+    "prerequisites": [],
+    "estimated_completion_time": "3 weeks"
+  },
+  "LP_SOFT_004": {
+    "id": "LP_SOFT_004",
+    "title": "Emotional Intelligence",
+    "description": "Develop emotional intelligence for better relationships and decision making",
+    "department": "all",
+    "difficulty": "Intermediate",
+    "duration": "5 weeks",
+    "category": "soft_skills",
+    "is_default": true,
+    "modules": [
+      "MOD_EQ_001",
+      "MOD_EQ_002",
+      "MOD_EQ_003"
+    ],
+    "tags": [
+      "emotional-intelligence",
+      "self-awareness",
+      "empathy",
+      "soft-skills"
+    ],
+    "status": "published",
+    "learning_objectives": [
+      "Develop self-awareness",
+      "Learn emotional regulation",
+      "Build empathy and social skills",
+      "Understand motivation and resilience"
+    ],
+    "prerequisites": [],
+    "estimated_completion_time": "5 weeks"
+  },
+  "LP_SOFT_005": {
+    "id": "LP_SOFT_005",
+    "title": "Problem Solving and Critical Thinking",
+    "description": "Enhance problem-solving skills and critical thinking abilities",
+    "department": "all",
+    "difficulty": "Intermediate",
+    "duration": "4 weeks",
+    "category": "soft_skills",
+    "is_default": true,
+    "modules": [
+      "MOD_PROB_001",
+      "MOD_PROB_002"
+    ],
+    "tags": [
+      "problem-solving",
+      "critical-thinking",
+      "decision-making",
+      "soft-skills"
+    ],
+    "status": "published",
+    "learning_objectives": [
+      "Learn systematic problem-solving approaches",
+      "Develop critical thinking skills",
+      "Understand decision-making frameworks",
+      "Practice creative problem-solving"
+    ],
+    "prerequisites": [],
+    "estimated_completion_time": "4 weeks"
+  }
+}

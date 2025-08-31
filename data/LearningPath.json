@@ -1,0 +1,98 @@
+[
+  {
+    "attributes": {
+      "id": "lp-1111-aaaa-bbbb-cccc-000000000001",
+      "title": "Frontend Development Foundations",
+      "slug": "frontend-development-foundations",
+      "description": "Master the fundamentals of modern frontend development with React, TypeScript, and best practices",
+      "tags": ["react", "typescript", "frontend", "javascript"],
+      "difficulty_level": "beginner",
+      "estimated_duration_minutes": 1020,
+      "prerequisite_path_ids": [],
+      "owner_id": "user_001",
+      "visibility": "public",
+      "status": "published",
+      "version": 1,
+      "module_items": [
+        {"module_id": "mod-001", "order": 1, "is_required": true},
+        {"module_id": "mod-002", "order": 2, "is_required": true},
+        {"module_id": "mod-003", "order": 3, "is_required": true},
+        {"module_id": "mod-004", "order": 4, "is_required": true},
+        {"module_id": "mod-005", "order": 5, "is_required": true},
+        {"module_id": "mod-006", "order": 6, "is_required": true},
+        {"module_id": "mod-007", "order": 7, "is_required": true},
+        {"module_id": "mod-008", "order": 8, "is_required": true}
+      ],
+      "cover_image_url": "https://example.com/images/frontend_foundations.png",
+      "enroll_count": 150,
+      "completion_rate": 0.68,
+      "rating_avg": 4.7,
+      "review_count": 45,
+      "progress_percent": 75.0,
+      "duration_weeks": 4,
+      "overall_progress_percent": 75.0,
+      "created_at": "2025-08-01T09:00:00Z",
+      "updated_at": "2025-08-20T12:00:00Z",
+      "created_by": "user_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lp-2222-bbbb-cccc-dddd-000000000002",
+      "title": "Python Basics",
+      "slug": "python-basics",
+      "description": "A beginner-friendly path to learn Python programming from scratch",
+      "tags": ["python", "beginner", "programming"],
+      "difficulty_level": "beginner",
+      "estimated_duration_minutes": 600,
+      "prerequisite_path_ids": [],
+      "owner_id": "user_002",
+      "visibility": "public",
+      "status": "published",
+      "version": 1,
+      "module_items": [
+        {"module_id": "mod-010", "order": 1, "is_required": true},
+        {"module_id": "mod-011", "order": 2, "is_required": true}
+      ],
+      "cover_image_url": "https://example.com/images/python_basics.png",
+      "enroll_count": 120,
+      "completion_rate": 0.65,
+      "rating_avg": 4.5,
+      "review_count": 30,
+      "progress_percent": 40.0,
+      "duration_weeks": 4,
+      "overall_progress_percent": 40.0,
+      "created_at": "2025-07-15T10:30:00Z",
+      "updated_at": "2025-08-18T15:00:00Z",
+      "created_by": "user_002"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lp-3333-cccc-dddd-eeee-000000000003",
+      "title": "Advanced Machine Learning",
+      "slug": "advanced-machine-learning",
+      "description": "Deep dive into advanced ML algorithms and deployment",
+      "tags": ["machine learning", "advanced", "ai"],
+      "difficulty_level": "advanced",
+      "estimated_duration_minutes": 1200,
+      "prerequisite_path_ids": ["lp-2222-bbbb-cccc-dddd-000000000002"],
+      "owner_id": "user_003",
+      "visibility": "private",
+      "status": "draft",
+      "version": 1,
+      "module_items": [],
+      "cover_image_url": "https://example.com/images/adv_ml.png",
+      "enroll_count": 20,
+      "completion_rate": 0.15,
+      "rating_avg": 4.8,
+      "review_count": 3,
+      "progress_percent": 10.0,
+      "duration_weeks": 8,
+      "overall_progress_percent": 8.0,
+      "created_at": "2025-08-10T14:00:00Z",
+      "updated_at": "2025-08-25T17:00:00Z",
+      "created_by": "user_003"
+    }
+  }
+]

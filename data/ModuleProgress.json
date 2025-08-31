@@ -1,0 +1,87 @@
+[
+  {
+    "attributes": {
+      "id": "mp-001",
+      "user_id": "user_001",
+      "module_id": "mod-001",
+      "learning_path_id": "lp-1111-aaaa-bbbb-cccc-000000000001",
+      "status": "completed",
+      "progress_percent": 100.0,
+      "chapters_completed": 5,
+      "chapters_total": 5,
+      "time_spent_minutes": 120,
+      "last_accessed_at": "2025-08-25T14:00:00Z",
+      "started_at": "2025-08-20T09:00:00Z",
+      "completed_at": "2025-08-25T14:00:00Z",
+      "current_chapter_id": null
+    }
+  },
+  {
+    "attributes": {
+      "id": "mp-002",
+      "user_id": "user_001",
+      "module_id": "mod-002",
+      "learning_path_id": "lp-1111-aaaa-bbbb-cccc-000000000001",
+      "status": "completed",
+      "progress_percent": 100.0,
+      "chapters_completed": 7,
+      "chapters_total": 7,
+      "time_spent_minutes": 180,
+      "last_accessed_at": "2025-08-26T16:00:00Z",
+      "started_at": "2025-08-25T15:00:00Z",
+      "completed_at": "2025-08-26T16:00:00Z",
+      "current_chapter_id": null
+    }
+  },
+  {
+    "attributes": {
+      "id": "mp-003",
+      "user_id": "user_001",
+      "module_id": "mod-003",
+      "learning_path_id": "lp-1111-aaaa-bbbb-cccc-000000000001",
+      "status": "in_progress",
+      "progress_percent": 60.0,
+      "chapters_completed": 3,
+      "chapters_total": 6,
+      "time_spent_minutes": 90,
+      "last_accessed_at": "2025-08-27T10:00:00Z",
+      "started_at": "2025-08-26T17:00:00Z",
+      "completed_at": null,
+      "current_chapter_id": "ch-004"
+    }
+  },
+  {
+    "attributes": {
+      "id": "mp-004",
+      "user_id": "user_022",
+      "module_id": "8b8accae429648e6b7999ebaccd94960",
+      "learning_path_id": "9cbc0df890d546729a36dca20d24a9ba",
+      "status": "in_progress",
+      "progress_percent": 0.0,
+      "chapters_completed": 0,
+      "chapters_total": 3,
+      "time_spent_minutes": 0,
+      "last_accessed_at": "2025-08-29T18:27:20.226815Z",
+      "started_at": "2025-08-29T18:27:20.226829Z",
+      "completed_at": null,
+      "current_chapter_id": null
+    }
+  },
+  {
+    "attributes": {
+      "id": "mp-005",
+      "user_id": "user_022",
+      "module_id": "MOD2024002",
+      "learning_path_id": "LP2024DS001",
+      "status": "completed",
+      "progress_percent": 100.0,
+      "chapters_completed": 0,
+      "chapters_total": 6,
+      "time_spent_minutes": 0,
+      "last_accessed_at": "2025-08-30T12:57:55.527530Z",
+      "started_at": "2025-08-30T02:56:51.936690Z",
+      "completed_at": "2025-08-30T12:57:55.527476Z",
+      "current_chapter_id": null
+    }
+  }
+]

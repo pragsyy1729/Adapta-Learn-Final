@@ -1,0 +1,20 @@
+[
+  {
+    "journey_id": "j1",
+    "email": "hari.123@gmail.com",
+    "created_at": "2025-08-24T21:57:18Z",
+    "track": "React Development Track",
+    "status": "active",
+    "modules": ["M001", "M002", "M003"],
+    "progress": {}
+  },
+  {
+    "journey_id": "j2",
+    "email": "johndoe@gmail.com",
+    "created_at": "2025-08-24T22:08:41Z",
+    "track": "React Development Track",
+    "status": "active",
+    "modules": ["M001", "M002", "M003"],
+    "progress": {}
+  }
+]

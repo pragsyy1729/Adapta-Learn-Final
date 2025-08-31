@@ -1,0 +1,64 @@
+{
+  "events": [
+    {
+      "id": "event_001",
+      "title": "Q4 Planning Meeting",
+      "description": "Quarterly planning session to discuss goals and objectives for Q4. All department heads are required to attend.",
+      "date": "2025-09-05",
+      "time": "10:00 AM",
+      "location": "Conference Room A",
+      "organizer": "CEO Office",
+      "attendees": ["john.doe@company.com", "sarah.jones@company.com", "david.wilson@company.com"],
+      "type": "meeting",
+      "created_at": "2025-08-25T08:00:00Z"
+    },
+    {
+      "id": "event_002",
+      "title": "Machine Learning Workshop",
+      "description": "Hands-on workshop covering the latest developments in machine learning and AI. Bring your laptops!",
+      "date": "2025-09-12",
+      "time": "2:00 PM",
+      "location": "Training Room B",
+      "organizer": "Data Science Team",
+      "attendees": ["jane.smith@company.com", "bob.wilson@company.com"],
+      "type": "training",
+      "created_at": "2025-08-26T14:00:00Z"
+    },
+    {
+      "id": "event_003",
+      "title": "Team Building Event",
+      "description": "Fun team building activities and games. Food and drinks will be provided. Family members welcome!",
+      "date": "2025-09-18",
+      "time": "6:00 PM",
+      "location": "Company Garden",
+      "organizer": "HR Department",
+      "attendees": ["mike.brown@company.com", "lisa.davis@company.com", "anna.taylor@company.com"],
+      "type": "social",
+      "created_at": "2025-08-27T11:00:00Z"
+    },
+    {
+      "id": "event_004",
+      "title": "Agile Methodology Training",
+      "description": "Comprehensive training on Agile development methodologies, Scrum, and Kanban practices.",
+      "date": "2025-09-25",
+      "time": "9:00 AM",
+      "location": "Virtual (Zoom)",
+      "organizer": "Engineering Team",
+      "attendees": ["sarah.jones@company.com", "chris.miller@company.com"],
+      "type": "training",
+      "created_at": "2025-08-28T10:00:00Z"
+    },
+    {
+      "id": "event_005",
+      "title": "Product Demo Day",
+      "description": "Showcase of new product features and upcoming releases. Open to all employees.",
+      "date": "2025-10-02",
+      "time": "3:00 PM",
+      "location": "Auditorium",
+      "organizer": "Product Team",
+      "attendees": ["john.doe@company.com", "jane.smith@company.com", "sarah.jones@company.com"],
+      "type": "meeting",
+      "created_at": "2025-08-29T15:00:00Z"
+    }
+  ]
+}

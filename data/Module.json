@@ -1,0 +1,551 @@
+[
+  {
+    "attributes": {
+      "id": "mod-001",
+      "learning_path_id": "lp-1111-aaaa-bbbb-cccc-000000000001",
+      "title": "Introduction to React",
+      "description": "Learn the basics of React components, JSX, and the virtual DOM",
+      "duration_hours": 2.0,
+      "chapter_count": 5,
+      "order": 1,
+      "prerequisite_module_ids": [],
+      "unlock_condition": "None"
+    }
+  },
+  {
+    "attributes": {
+      "chapter_count": 7,
+      "description": "Deep dive into useState, useEffect, and custom hooks",
+      "duration_hours": 3,
+      "id": "mod-002",
+      "learning_path_id": "lp-1111-aaaa-bbbb-cccc-000000000001",
+      "order": 2,
+      "prerequisite_module_ids": [
+        "mod-001"
+      ],
+      "title": "React Hooks & State Management",
+      "unlock_condition": "Complete Introduction to React",
+      "chapters": []
+    }
+  },
+  {
+    "attributes": {
+      "id": "mod-003",
+      "learning_path_id": "lp-1111-aaaa-bbbb-cccc-000000000001",
+      "title": "TypeScript Fundamentals",
+      "description": "Type safety and better development experience with TypeScript",
+      "duration_hours": 2.5,
+      "chapter_count": 6,
+      "order": 3,
+      "prerequisite_module_ids": [
+        "mod-002"
+      ],
+      "unlock_condition": "Complete React Hooks & State Management"
+    }
+  },
+  {
+    "attributes": {
+      "id": "mod-004",
+      "learning_path_id": "lp-1111-aaaa-bbbb-cccc-000000000001",
+      "title": "Component Composition & Props",
+      "description": "Building reusable components and prop patterns",
+      "duration_hours": 2.0,
+      "chapter_count": 5,
+      "order": 4,
+      "prerequisite_module_ids": [
+        "mod-003"
+      ],
+      "unlock_condition": "Complete TypeScript Fundamentals"
+    }
+  },
+  {
+    "attributes": {
+      "id": "mod-005",
+      "learning_path_id": "lp-1111-aaaa-bbbb-cccc-000000000001",
+      "title": "Styling with CSS-in-JS",
+      "description": "Modern styling approaches and component libraries",
+      "duration_hours": 1.5,
+      "chapter_count": 4,
+      "order": 5,
+      "prerequisite_module_ids": [
+        "mod-004"
+      ],
+      "unlock_condition": "Complete Component Composition & Props"
+    }
+  },
+  {
+    "attributes": {
+      "id": "mod-006",
+      "learning_path_id": "lp-1111-aaaa-bbbb-cccc-000000000001",
+      "title": "Testing React Components",
+      "description": "Unit testing and integration testing strategies",
+      "duration_hours": 3.0,
+      "chapter_count": 8,
+      "order": 6,
+      "prerequisite_module_ids": [
+        "mod-005"
+      ],
+      "unlock_condition": "Complete Styling with CSS-in-JS"
+    }
+  },
+  {
+    "attributes": {
+      "id": "mod-007",
+      "learning_path_id": "lp-1111-aaaa-bbbb-cccc-000000000001",
+      "title": "Performance Optimization",
+      "description": "React.memo, useMemo, useCallback, and code splitting",
+      "duration_hours": 2.5,
+      "chapter_count": 6,
+      "order": 7,
+      "prerequisite_module_ids": [
+        "mod-006"
+      ],
+      "unlock_condition": "Complete Testing React Components"
+    }
+  },
+  {
+    "attributes": {
+      "id": "mod-008",
+      "learning_path_id": "lp-1111-aaaa-bbbb-cccc-000000000001",
+      "title": "Deployment & Production",
+      "description": "Building and deploying React applications",
+      "duration_hours": 1.5,
+      "chapter_count": 4,
+      "order": 8,
+      "prerequisite_module_ids": [
+        "mod-007"
+      ],
+      "unlock_condition": "Complete Performance Optimization"
+    }
+  },
+  {
+    "attributes": {
+      "id": "mod-010",
+      "learning_path_id": "lp-2222-bbbb-cccc-dddd-000000000002",
+      "title": "ETL Basics",
+      "description": "Introduction to Extract, Transform, Load processes",
+      "duration_hours": 4.0,
+      "chapter_count": 7,
+      "order": 1,
+      "prerequisite_module_ids": [],
+      "unlock_condition": "None"
+    }
+  },
+  {
+    "attributes": {
+      "id": "mod-011",
+      "learning_path_id": "lp-2222-bbbb-cccc-dddd-000000000002",
+      "title": "Data Pipeline Design",
+      "description": "Designing robust data pipelines for production",
+      "duration_hours": 5.5,
+      "chapter_count": 8,
+      "order": 2,
+      "prerequisite_module_ids": [
+        "mod-010"
+      ],
+      "unlock_condition": "Complete ETL Basics"
+    }
+  },
+  {
+    "attributes": {
+      "id": "8b8accae429648e6b7999ebaccd94960",
+      "learning_path_id": "9cbc0df890d546729a36dca20d24a9ba",
+      "title": "Excel - Introduction & Basics",
+      "description": "Learn the basics of Excel interface, workbooks, worksheets, and data entry",
+      "duration_hours": 2.0,
+      "chapter_count": 3,
+      "order": 1,
+      "prerequisite_module_ids": [],
+      "unlock_condition": "None"
+    }
+  },
+  {
+    "attributes": {
+      "id": "1af041d3b2ca49c29ab720bdbea8933a",
+      "learning_path_id": "9cbc0df890d546729a36dca20d24a9ba",
+      "title": "Excel - Formulas & Functions",
+      "description": "Master Excel formulas and functions for data manipulation and analysis",
+      "duration_hours": 3.0,
+      "chapter_count": 4,
+      "order": 2,
+      "prerequisite_module_ids": [
+        "8b8accae429648e6b7999ebaccd94960"
+      ],
+      "unlock_condition": "Complete Excel - Introduction & Basics"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD2024002",
+      "learning_path_id": "LP2024DS001",
+      "title": "Python Basics",
+      "description": "Learn Python syntax, variables, data types, and basic operations",
+      "duration_hours": 3.0,
+      "chapter_count": 6,
+      "order": 1,
+      "prerequisite_module_ids": [],
+      "unlock_condition": "None"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD2024003",
+      "learning_path_id": "LP2024DS001",
+      "title": "Control Flow and Functions",
+      "description": "Master conditional statements, loops, and function definitions",
+      "duration_hours": 4.0,
+      "chapter_count": 8,
+      "order": 2,
+      "prerequisite_module_ids": [
+        "MOD2024002"
+      ],
+      "unlock_condition": "Complete Python Basics"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD2024004",
+      "learning_path_id": "LP2024DS001",
+      "title": "Data Structures and File Handling",
+      "description": "Work with lists, dictionaries, and file operations",
+      "duration_hours": 3.5,
+      "chapter_count": 7,
+      "order": 3,
+      "prerequisite_module_ids": [
+        "MOD2024003"
+      ],
+      "unlock_condition": "Complete Control Flow and Functions"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD2024005",
+      "learning_path_id": "LP2024DS002",
+      "title": "Introduction to Machine Learning",
+      "description": "Understand ML concepts, types of learning, and basic terminology",
+      "duration_hours": 2.5,
+      "chapter_count": 5,
+      "order": 1,
+      "prerequisite_module_ids": [],
+      "unlock_condition": "None"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD2024006",
+      "learning_path_id": "LP2024DS002",
+      "title": "Data Preprocessing",
+      "description": "Learn data cleaning, feature engineering, and preprocessing techniques",
+      "duration_hours": 4.0,
+      "chapter_count": 8,
+      "order": 2,
+      "prerequisite_module_ids": [
+        "MOD2024005"
+      ],
+      "unlock_condition": "Complete Introduction to Machine Learning"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD2024007",
+      "learning_path_id": "LP2024DS002",
+      "title": "Supervised Learning Algorithms",
+      "description": "Explore linear regression, decision trees, and evaluation metrics",
+      "duration_hours": 5.0,
+      "chapter_count": 10,
+      "order": 3,
+      "prerequisite_module_ids": [
+        "MOD2024006"
+      ],
+      "unlock_condition": "Complete Data Preprocessing"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD2024008",
+      "learning_path_id": "LP2024GEN001",
+      "title": "Communication Skills",
+      "description": "Develop effective verbal and written communication techniques",
+      "duration_hours": 2.0,
+      "chapter_count": 4,
+      "order": 1,
+      "prerequisite_module_ids": [],
+      "unlock_condition": "None"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD2024009",
+      "learning_path_id": "LP2024GEN001",
+      "title": "Team Collaboration",
+      "description": "Learn collaboration tools, conflict resolution, and team dynamics",
+      "duration_hours": 2.5,
+      "chapter_count": 5,
+      "order": 2,
+      "prerequisite_module_ids": [
+        "MOD2024008"
+      ],
+      "unlock_condition": "Complete Communication Skills"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD2024010",
+      "learning_path_id": "LP2024GEN001",
+      "title": "Professional Development",
+      "description": "Build leadership skills, time management, and career growth strategies",
+      "duration_hours": 2.0,
+      "chapter_count": 4,
+      "order": 3,
+      "prerequisite_module_ids": [
+        "MOD2024009"
+      ],
+      "unlock_condition": "Complete Team Collaboration"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD2024011",
+      "learning_path_id": "LP2024GEN002",
+      "title": "Leadership Fundamentals",
+      "description": "Understand leadership styles, emotional intelligence, and team motivation",
+      "duration_hours": 3.0,
+      "chapter_count": 6,
+      "order": 1,
+      "prerequisite_module_ids": [],
+      "unlock_condition": "None"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD2024012",
+      "learning_path_id": "LP2024GEN002",
+      "title": "Strategic Thinking",
+      "description": "Develop strategic planning, decision-making, and problem-solving skills",
+      "duration_hours": 4.0,
+      "chapter_count": 8,
+      "order": 2,
+      "prerequisite_module_ids": [
+        "MOD2024011"
+      ],
+      "unlock_condition": "Complete Leadership Fundamentals"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD2024013",
+      "learning_path_id": "LP2024GEN002",
+      "title": "People Management",
+      "description": "Master performance management, coaching, and organizational development",
+      "duration_hours": 3.5,
+      "chapter_count": 7,
+      "order": 3,
+      "prerequisite_module_ids": [
+        "MOD2024012"
+      ],
+      "unlock_condition": "Complete Strategic Thinking"
+    }
+  },
+  {
+    "attributes": {
+      "id": "8b8accae429648e6b7999ebaccd94960",
+      "learning_path_id": "9cbc0df890d546729a36dca20d24a9ba",
+      "title": "Excel Basics",
+      "description": "Learn Excel interface, basic formulas, and data entry techniques",
+      "duration_hours": 2.0,
+      "chapter_count": 4,
+      "order": 1,
+      "prerequisite_module_ids": [],
+      "unlock_condition": "None"
+    }
+  },
+  {
+    "attributes": {
+      "id": "1af041d3b2ca49c29ab720bdbea8933a",
+      "learning_path_id": "9cbc0df890d546729a36dca20d24a9ba",
+      "title": "Advanced Excel Functions",
+      "description": "Master complex formulas, data analysis, and visualization techniques",
+      "duration_hours": 3.0,
+      "chapter_count": 6,
+      "order": 2,
+      "prerequisite_module_ids": [
+        "8b8accae429648e6b7999ebaccd94960"
+      ],
+      "unlock_condition": "Complete Excel Basics"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD_KYC_PY_001",
+      "learning_path_id": "LP_KYC_PYTHON",
+      "title": "Python Basics for Data Analysis",
+      "description": "Learn Python fundamentals, data types, and basic operations",
+      "duration_hours": 8.0,
+      "chapter_count": 12,
+      "order": 1,
+      "prerequisite_module_ids": [],
+      "unlock_condition": "None"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD_KYC_PY_002",
+      "learning_path_id": "LP_KYC_PYTHON",
+      "title": "Data Manipulation with Pandas",
+      "description": "Master pandas for data cleaning and manipulation",
+      "duration_hours": 12.0,
+      "chapter_count": 15,
+      "order": 2,
+      "prerequisite_module_ids": [
+        "MOD_KYC_PY_001"
+      ],
+      "unlock_condition": "Complete Python Basics"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD_KYC_PY_003",
+      "learning_path_id": "LP_KYC_PYTHON",
+      "title": "Data Visualization",
+      "description": "Create compelling visualizations with matplotlib and seaborn",
+      "duration_hours": 10.0,
+      "chapter_count": 10,
+      "order": 3,
+      "prerequisite_module_ids": [
+        "MOD_KYC_PY_002"
+      ],
+      "unlock_condition": "Complete Data Manipulation"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD_KYC_PY_004",
+      "learning_path_id": "LP_KYC_PYTHON",
+      "title": "KYC Data Processing Automation",
+      "description": "Build automated scripts for KYC data processing",
+      "duration_hours": 15.0,
+      "chapter_count": 18,
+      "order": 4,
+      "prerequisite_module_ids": [
+        "MOD_KYC_PY_003"
+      ],
+      "unlock_condition": "Complete Data Visualization"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD_KYC_ML_001",
+      "learning_path_id": "LP_KYC_ML",
+      "title": "ML Fundamentals",
+      "description": "Introduction to machine learning concepts and algorithms",
+      "duration_hours": 10.0,
+      "chapter_count": 14,
+      "order": 1,
+      "prerequisite_module_ids": [],
+      "unlock_condition": "None"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD_KYC_ML_002",
+      "learning_path_id": "LP_KYC_ML",
+      "title": "Supervised Learning",
+      "description": "Learn classification and regression techniques",
+      "duration_hours": 14.0,
+      "chapter_count": 16,
+      "order": 2,
+      "prerequisite_module_ids": [
+        "MOD_KYC_ML_001"
+      ],
+      "unlock_condition": "Complete ML Fundamentals"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD_KYC_ML_003",
+      "learning_path_id": "LP_KYC_ML",
+      "title": "Unsupervised Learning",
+      "description": "Clustering and dimensionality reduction techniques",
+      "duration_hours": 12.0,
+      "chapter_count": 13,
+      "order": 3,
+      "prerequisite_module_ids": [
+        "MOD_KYC_ML_002"
+      ],
+      "unlock_condition": "Complete Supervised Learning"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD_KYC_ML_004",
+      "learning_path_id": "LP_KYC_ML",
+      "title": "Deep Learning Basics",
+      "description": "Introduction to neural networks and deep learning",
+      "duration_hours": 16.0,
+      "chapter_count": 20,
+      "order": 4,
+      "prerequisite_module_ids": [
+        "MOD_KYC_ML_003"
+      ],
+      "unlock_condition": "Complete Unsupervised Learning"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD_KYC_ML_005",
+      "learning_path_id": "LP_KYC_ML",
+      "title": "ML for KYC Fraud Detection",
+      "description": "Apply ML techniques to detect KYC fraud patterns",
+      "duration_hours": 18.0,
+      "chapter_count": 22,
+      "order": 5,
+      "prerequisite_module_ids": [
+        "MOD_KYC_ML_004"
+      ],
+      "unlock_condition": "Complete Deep Learning Basics"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD_KYC_EX_001",
+      "learning_path_id": "LP_KYC_EXCEL",
+      "title": "Excel Fundamentals",
+      "description": "Master basic Excel functions and data manipulation",
+      "duration_hours": 6.0,
+      "chapter_count": 8,
+      "order": 1,
+      "prerequisite_module_ids": [],
+      "unlock_condition": "None"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD_KYC_EX_002",
+      "learning_path_id": "LP_KYC_EXCEL",
+      "title": "Advanced Excel Functions",
+      "description": "Learn VLOOKUP, INDEX-MATCH, and complex formulas",
+      "duration_hours": 8.0,
+      "chapter_count": 10,
+      "order": 2,
+      "prerequisite_module_ids": [
+        "MOD_KYC_EX_001"
+      ],
+      "unlock_condition": "Complete Excel Fundamentals"
+    }
+  },
+  {
+    "attributes": {
+      "id": "MOD_KYC_EX_003",
+      "learning_path_id": "LP_KYC_EXCEL",
+      "title": "Excel Automation for KYC",
+      "description": "Create macros and automate KYC data processing",
+      "duration_hours": 10.0,
+      "chapter_count": 12,
+      "order": 3,
+      "prerequisite_module_ids": [
+        "MOD_KYC_EX_002"
+      ],
+      "unlock_condition": "Complete Advanced Functions"
+    }
+  }
+]

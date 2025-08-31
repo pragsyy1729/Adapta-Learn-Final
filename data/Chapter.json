@@ -1,0 +1,50 @@
+[
+  {
+    "attributes": {
+      "id": "ch-001",
+      "module_id": "mod-001",
+      "title": "Getting Started with Python",
+      "description": "Introduction to Python and setting up the environment.",
+      "order": 1,
+      "duration_minutes": 25,
+      "status": "completed",
+      "progress_percent": 100.0
+    }
+  },
+  {
+    "attributes": {
+      "id": "ch-002",
+      "module_id": "mod-001",
+      "title": "Variables and Data Types",
+      "description": "Understanding variables and basic data types in Python.",
+      "order": 2,
+      "duration_minutes": 30,
+      "status": "in_progress",
+      "progress_percent": 60.0
+    }
+  },
+  {
+    "attributes": {
+      "id": "ch-010",
+      "module_id": "mod-010",
+      "title": "ETL Concepts",
+      "description": "Core concepts of ETL processes.",
+      "order": 1,
+      "duration_minutes": 40,
+      "status": "not_started",
+      "progress_percent": 0.0
+    }
+  },
+  {
+    "attributes": {
+      "id": "ch-020",
+      "module_id": "mod-020",
+      "title": "Supervised Learning Algorithms",
+      "description": "Overview of supervised ML algorithms.",
+      "order": 1,
+      "duration_minutes": 50,
+      "status": "not_started",
+      "progress_percent": 0.0
+    }
+  }
+]

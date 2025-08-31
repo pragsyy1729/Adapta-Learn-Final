@@ -1,0 +1,610 @@
+[
+  {
+    "attributes": {
+      "id": "lpp-user_001-LP2024GEN001",
+      "user_id": "user_001",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 59.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 371,
+      "last_accessed_at": "2025-08-07T03:31:24.483251Z",
+      "started_at": "2025-06-10T03:31:24.483255Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_002-LP2024HR001",
+      "user_id": "user_002",
+      "learning_path_id": "LP2024HR001",
+      "status": "in_progress",
+      "progress_percent": 77.0,
+      "modules_completed_count": 2,
+      "modules_total_count": 3,
+      "time_invested_minutes": 391,
+      "last_accessed_at": "2025-08-17T03:31:24.483267Z",
+      "started_at": "2025-06-15T03:31:24.483269Z",
+      "completed_at": null,
+      "current_module_id": "MOD_HR_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_003-LP2024ENG001",
+      "user_id": "user_003",
+      "learning_path_id": "LP2024ENG001",
+      "status": "in_progress",
+      "progress_percent": 72.0,
+      "modules_completed_count": 2,
+      "modules_total_count": 4,
+      "time_invested_minutes": 254,
+      "last_accessed_at": "2025-08-26T03:31:24.483281Z",
+      "started_at": "2025-07-05T03:31:24.483283Z",
+      "completed_at": null,
+      "current_module_id": "MOD_ENG_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_003-LP2024GEN001",
+      "user_id": "user_003",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 10.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 251,
+      "last_accessed_at": "2025-08-14T03:31:24.483286Z",
+      "started_at": "2025-06-10T03:31:24.483287Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_004-LP2024GEN001",
+      "user_id": "user_004",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 93.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 240,
+      "last_accessed_at": "2025-08-02T03:31:24.483292Z",
+      "started_at": "2025-08-01T03:31:24.483293Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_005-LP2024ENG001",
+      "user_id": "user_005",
+      "learning_path_id": "LP2024ENG001",
+      "status": "in_progress",
+      "progress_percent": 39.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 4,
+      "time_invested_minutes": 74,
+      "last_accessed_at": "2025-08-26T03:31:24.483298Z",
+      "started_at": "2025-07-25T03:31:24.483299Z",
+      "completed_at": null,
+      "current_module_id": "MOD_ENG_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_005-LP2024GEN001",
+      "user_id": "user_005",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 17.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 286,
+      "last_accessed_at": "2025-08-26T03:31:24.483302Z",
+      "started_at": "2025-07-04T03:31:24.483304Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_006-LP2024GEN001",
+      "user_id": "user_006",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 40.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 422,
+      "last_accessed_at": "2025-08-16T03:31:24.483308Z",
+      "started_at": "2025-07-04T03:31:24.483309Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_006-LP2024ENG001",
+      "user_id": "user_006",
+      "learning_path_id": "LP2024ENG001",
+      "status": "in_progress",
+      "progress_percent": 68.0,
+      "modules_completed_count": 2,
+      "modules_total_count": 4,
+      "time_invested_minutes": 222,
+      "last_accessed_at": "2025-08-17T03:31:24.483312Z",
+      "started_at": "2025-06-14T03:31:24.483314Z",
+      "completed_at": null,
+      "current_module_id": "MOD_ENG_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_007-LP2024ENG001",
+      "user_id": "user_007",
+      "learning_path_id": "LP2024ENG001",
+      "status": "in_progress",
+      "progress_percent": 17.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 4,
+      "time_invested_minutes": 72,
+      "last_accessed_at": "2025-08-26T03:31:24.483319Z",
+      "started_at": "2025-06-11T03:31:24.483320Z",
+      "completed_at": null,
+      "current_module_id": "MOD_ENG_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_007-LP2024GEN001",
+      "user_id": "user_007",
+      "learning_path_id": "LP2024GEN001",
+      "status": "completed",
+      "progress_percent": 100.0,
+      "modules_completed_count": 2,
+      "modules_total_count": 2,
+      "time_invested_minutes": 476,
+      "last_accessed_at": "2025-08-05T03:31:24.483323Z",
+      "started_at": "2025-07-31T03:31:24.483324Z",
+      "completed_at": "2025-08-31T03:31:24.483326Z",
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_008-LP2024KYC001",
+      "user_id": "user_008",
+      "learning_path_id": "LP2024KYC001",
+      "status": "in_progress",
+      "progress_percent": 50.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 439,
+      "last_accessed_at": "2025-08-02T03:31:24.483347Z",
+      "started_at": "2025-06-21T03:31:24.483356Z",
+      "completed_at": null,
+      "current_module_id": "MOD_KYC_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_009-LP2024KYC001",
+      "user_id": "user_009",
+      "learning_path_id": "LP2024KYC001",
+      "status": "in_progress",
+      "progress_percent": 45.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 7,
+      "last_accessed_at": "2025-08-14T03:31:24.483371Z",
+      "started_at": "2025-07-26T03:31:24.483372Z",
+      "completed_at": null,
+      "current_module_id": "MOD_KYC_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_009-LP2024GEN001",
+      "user_id": "user_009",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 85.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 11,
+      "last_accessed_at": "2025-08-20T03:31:24.483376Z",
+      "started_at": "2025-07-07T03:31:24.483378Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_010-LP2024KYC001",
+      "user_id": "user_010",
+      "learning_path_id": "LP2024KYC001",
+      "status": "in_progress",
+      "progress_percent": 19.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 307,
+      "last_accessed_at": "2025-08-17T03:31:24.483384Z",
+      "started_at": "2025-06-06T03:31:24.483385Z",
+      "completed_at": null,
+      "current_module_id": "MOD_KYC_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_011-LP2024KYC001",
+      "user_id": "user_011",
+      "learning_path_id": "LP2024KYC001",
+      "status": "in_progress",
+      "progress_percent": 56.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 227,
+      "last_accessed_at": "2025-08-23T03:31:24.483391Z",
+      "started_at": "2025-07-13T03:31:24.483393Z",
+      "completed_at": null,
+      "current_module_id": "MOD_KYC_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_011-LP2024GEN001",
+      "user_id": "user_011",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 71.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 80,
+      "last_accessed_at": "2025-08-08T03:31:24.483395Z",
+      "started_at": "2025-06-12T03:31:24.483397Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_012-LP2024GEN001",
+      "user_id": "user_012",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 23.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 5,
+      "last_accessed_at": "2025-08-24T03:31:24.483402Z",
+      "started_at": "2025-06-04T03:31:24.483403Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_012-LP2024DS001",
+      "user_id": "user_012",
+      "learning_path_id": "LP2024DS001",
+      "status": "in_progress",
+      "progress_percent": 27.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 3,
+      "time_invested_minutes": 17,
+      "last_accessed_at": "2025-08-12T03:31:24.483406Z",
+      "started_at": "2025-07-12T03:31:24.483408Z",
+      "completed_at": null,
+      "current_module_id": "MOD_DS_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_013-LP2024DS001",
+      "user_id": "user_013",
+      "learning_path_id": "LP2024DS001",
+      "status": "in_progress",
+      "progress_percent": 77.0,
+      "modules_completed_count": 2,
+      "modules_total_count": 3,
+      "time_invested_minutes": 413,
+      "last_accessed_at": "2025-08-03T03:31:24.483413Z",
+      "started_at": "2025-06-19T03:31:24.483414Z",
+      "completed_at": null,
+      "current_module_id": "MOD_DS_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_013-LP2024GEN001",
+      "user_id": "user_013",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 95.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 440,
+      "last_accessed_at": "2025-08-08T03:31:24.483417Z",
+      "started_at": "2025-07-31T03:31:24.483419Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_014-LP2024GEN001",
+      "user_id": "user_014",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 88.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 353,
+      "last_accessed_at": "2025-08-14T03:31:24.483423Z",
+      "started_at": "2025-06-27T03:31:24.483425Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_014-LP2024DS001",
+      "user_id": "user_014",
+      "learning_path_id": "LP2024DS001",
+      "status": "in_progress",
+      "progress_percent": 94.0,
+      "modules_completed_count": 2,
+      "modules_total_count": 3,
+      "time_invested_minutes": 489,
+      "last_accessed_at": "2025-08-03T03:31:24.483428Z",
+      "started_at": "2025-06-30T03:31:24.483429Z",
+      "completed_at": null,
+      "current_module_id": "MOD_DS_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_015-LP2024DS001",
+      "user_id": "user_015",
+      "learning_path_id": "LP2024DS001",
+      "status": "in_progress",
+      "progress_percent": 15.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 3,
+      "time_invested_minutes": 404,
+      "last_accessed_at": "2025-08-31T03:31:24.483433Z",
+      "started_at": "2025-08-01T03:31:24.483435Z",
+      "completed_at": null,
+      "current_module_id": "MOD_DS_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_015-LP2024GEN001",
+      "user_id": "user_015",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 61.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 265,
+      "last_accessed_at": "2025-08-12T03:31:24.483438Z",
+      "started_at": "2025-07-26T03:31:24.483439Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_016-LP2024HR001",
+      "user_id": "user_016",
+      "learning_path_id": "LP2024HR001",
+      "status": "in_progress",
+      "progress_percent": 77.0,
+      "modules_completed_count": 2,
+      "modules_total_count": 3,
+      "time_invested_minutes": 309,
+      "last_accessed_at": "2025-08-09T03:31:24.483450Z",
+      "started_at": "2025-07-30T03:31:24.483451Z",
+      "completed_at": null,
+      "current_module_id": "MOD_HR_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_017-LP2024HR001",
+      "user_id": "user_017",
+      "learning_path_id": "LP2024HR001",
+      "status": "in_progress",
+      "progress_percent": 69.0,
+      "modules_completed_count": 2,
+      "modules_total_count": 3,
+      "time_invested_minutes": 384,
+      "last_accessed_at": "2025-08-23T03:31:24.483456Z",
+      "started_at": "2025-07-15T03:31:24.483458Z",
+      "completed_at": null,
+      "current_module_id": "MOD_HR_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_018-LP2024GEN001",
+      "user_id": "user_018",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 73.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 110,
+      "last_accessed_at": "2025-08-30T03:31:24.483473Z",
+      "started_at": "2025-07-20T03:31:24.483477Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_018-LP2024HR001",
+      "user_id": "user_018",
+      "learning_path_id": "LP2024HR001",
+      "status": "in_progress",
+      "progress_percent": 16.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 3,
+      "time_invested_minutes": 171,
+      "last_accessed_at": "2025-08-04T03:31:24.483480Z",
+      "started_at": "2025-06-09T03:31:24.483481Z",
+      "completed_at": null,
+      "current_module_id": "MOD_HR_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_019-LP2024GEN001",
+      "user_id": "user_019",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 59.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 40,
+      "last_accessed_at": "2025-08-31T03:31:24.483486Z",
+      "started_at": "2025-07-10T03:31:24.483488Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_020-LP2024GEN001",
+      "user_id": "user_020",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 96.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 114,
+      "last_accessed_at": "2025-08-05T03:31:24.483492Z",
+      "started_at": "2025-07-17T03:31:24.483494Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_021-LP2024GEN001",
+      "user_id": "user_021",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 87.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 307,
+      "last_accessed_at": "2025-08-05T03:31:24.483498Z",
+      "started_at": "2025-07-06T03:31:24.483500Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_022-LP2024GEN001",
+      "user_id": "user_022",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 58.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 2,
+      "time_invested_minutes": 357,
+      "last_accessed_at": "2025-08-28T03:31:24.483504Z",
+      "started_at": "2025-06-19T03:31:24.483505Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_023-LP2024ENG001",
+      "user_id": "user_023",
+      "learning_path_id": "LP2024ENG001",
+      "status": "in_progress",
+      "progress_percent": 29.0,
+      "modules_completed_count": 1,
+      "modules_total_count": 4,
+      "time_invested_minutes": 23,
+      "last_accessed_at": "2025-08-03T03:31:24.483516Z",
+      "started_at": "2025-06-08T03:31:24.483518Z",
+      "completed_at": null,
+      "current_module_id": "MOD_ENG_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_023-LP2024GEN001",
+      "user_id": "user_023",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 8.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 51,
+      "last_accessed_at": "2025-08-27T03:31:24.483523Z",
+      "started_at": "2025-06-23T03:31:24.483525Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_024-LP2024DS001",
+      "user_id": "user_024",
+      "learning_path_id": "LP2024DS001",
+      "status": "in_progress",
+      "progress_percent": 3.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 3,
+      "time_invested_minutes": 29,
+      "last_accessed_at": "2025-08-28T03:31:24.483529Z",
+      "started_at": "2025-07-04T03:31:24.483531Z",
+      "completed_at": null,
+      "current_module_id": "MOD_DS_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_024-LP2024GEN001",
+      "user_id": "user_024",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 5.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 39,
+      "last_accessed_at": "2025-08-11T03:31:24.483533Z",
+      "started_at": "2025-07-04T03:31:24.483535Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  },
+  {
+    "attributes": {
+      "id": "lpp-user_025-LP2024GEN001",
+      "user_id": "user_025",
+      "learning_path_id": "LP2024GEN001",
+      "status": "in_progress",
+      "progress_percent": 18.0,
+      "modules_completed_count": 0,
+      "modules_total_count": 2,
+      "time_invested_minutes": 14,
+      "last_accessed_at": "2025-08-20T03:31:24.483539Z",
+      "started_at": "2025-06-17T03:31:24.483540Z",
+      "completed_at": null,
+      "current_module_id": "MOD_GEN_001"
+    }
+  }
+]

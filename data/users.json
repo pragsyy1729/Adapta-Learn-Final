@@ -1,0 +1,773 @@
+{
+  "admin@adapta.com": {
+    "email": "admin@adapta.com",
+    "user_id": "user_001",
+    "name": "System Administrator",
+    "password_hash": "scrypt:32768:8:1$A6dS0m01mvPsD0wK$8906737d1eaa642456ce4110dd8feec8ddc323dc691d64a5d70c337948b52239e25970070476f26657e1371f15f6f222f4615c92be9005f5aab39f8343d9eebb",
+    "created_at": "2025-03-30T03:31:22.712802Z",
+    "roleType": "Admin",
+    "newJoiner": "No",
+    "dateOfJoining": "2023-12-23",
+    "profile": {
+      "role": "System Administrator",
+      "department": "IT",
+      "title": "System Administrator",
+      "level": "Admin",
+      "team": "IT Team",
+      "skills": [
+        "Linux",
+        "Windows Server",
+        "Network Administration",
+        "Security",
+        "Cloud Computing",
+        "System Monitoring"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "admin"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "hr.admin@adapta.com": {
+    "email": "hr.admin@adapta.com",
+    "user_id": "user_002",
+    "name": "HR Administrator",
+    "password_hash": "scrypt:32768:8:1$kznk2evZXffYnEJX$7a76090842de7f93d93b09880119c5e26bf6e97bf53f33b0bae21dabba9d473a777cac10328fd4a6229d1b6af263d25031c7bc27ab39284b7b7863f27df737da",
+    "created_at": "2024-10-02T03:31:22.791250Z",
+    "roleType": "Admin",
+    "newJoiner": "No",
+    "dateOfJoining": "2023-10-09",
+    "profile": {
+      "role": "HR Administrator",
+      "department": "HR",
+      "title": "HR Administrator",
+      "level": "Admin",
+      "team": "HR Team",
+      "skills": [
+        "General Skills"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "admin"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "alice.johnson@company.com": {
+    "email": "alice.johnson@company.com",
+    "user_id": "user_003",
+    "name": "Alice Johnson",
+    "password_hash": "scrypt:32768:8:1$9wQ79janV0f6Kh1r$6be2493cddc625a9a9f21a42b1da43aba966165480a108cb9d9aa9cafdce77b640a218ff7af3cc24f191908d647bed8cf4db9d7a4cd79c2a991d48661635bfba",
+    "created_at": "2025-06-26T03:31:22.861442Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2025-01-04",
+    "profile": {
+      "role": "Software Engineer",
+      "department": "Engineering",
+      "title": "Software Engineer",
+      "level": "Associate",
+      "team": "Engineering Team",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Git",
+        "SQL"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "bob.smith@company.com": {
+    "email": "bob.smith@company.com",
+    "user_id": "user_004",
+    "name": "Bob Smith",
+    "password_hash": "scrypt:32768:8:1$Q2VFUYtnoKl0apKm$81ab58e88ff4b49712237b0664f04bf9383b6fe67f42a10006857b2bbb943a45c6e585ac76670e8ff0312864a55cb0d178599908ca7cd9c38994ef78c828292b",
+    "created_at": "2025-05-09T03:31:22.931594Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2023-11-05",
+    "profile": {
+      "role": "Senior Software Engineer",
+      "department": "Engineering",
+      "title": "Senior Software Engineer",
+      "level": "Associate",
+      "team": "Engineering Team",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Git",
+        "SQL",
+        "AWS",
+        "Docker"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "carol.davis@company.com": {
+    "email": "carol.davis@company.com",
+    "user_id": "user_005",
+    "name": "Carol Davis",
+    "password_hash": "scrypt:32768:8:1$qimTt0ZcqifFpgWk$8d2a02057fdbecdc982219a6bbe496d55a28252cdac90a943aa6849a49f604c64d0b31b42f042f28a6e7cde9c1a94e86172ea34e1161cf2ff52e52ae09d9053a",
+    "created_at": "2025-03-03T03:31:23.002162Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2023-10-16",
+    "profile": {
+      "role": "Tech Lead",
+      "department": "Engineering",
+      "title": "Tech Lead",
+      "level": "Associate",
+      "team": "Engineering Team",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Git",
+        "SQL",
+        "AWS",
+        "Docker",
+        "Leadership",
+        "System Design"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "david.wilson@company.com": {
+    "email": "david.wilson@company.com",
+    "user_id": "user_006",
+    "name": "David Wilson",
+    "password_hash": "scrypt:32768:8:1$tYiaSiy53wFgHGwv$295ea7c66ba6b1b07422434b61d96ac5f6fb4cc35352b9a0de4d7396b9b684a2fd6c72db2fb84c4eb31400dd81388769f4e509e10b741396ff5934d9631dbc7c",
+    "created_at": "2025-08-16T03:31:23.074608Z",
+    "roleType": "Manager",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-09-04",
+    "profile": {
+      "role": "Engineering Manager",
+      "department": "Engineering",
+      "title": "Engineering Manager",
+      "level": "Mid",
+      "team": "Engineering Team",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "Leadership",
+        "Project Management",
+        "System Design",
+        "Team Management"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "manager"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "eve.brown@company.com": {
+    "email": "eve.brown@company.com",
+    "user_id": "user_007",
+    "name": "Eve Brown",
+    "password_hash": "scrypt:32768:8:1$2ZteRK4Td1wyNnCs$db00317a0540790a59c1b73b8f8f991b6d807897b48ce6fe895adb82f5e7112fc0aa83ddd8654b21b2eb9f4c4d80dcb3f8e537ffc96ff78801dbefa8f4c5422b",
+    "created_at": "2024-10-01T03:31:23.145693Z",
+    "roleType": "Manager",
+    "newJoiner": "No",
+    "dateOfJoining": "2025-06-17",
+    "profile": {
+      "role": "VP of Engineering",
+      "department": "Engineering",
+      "title": "VP of Engineering",
+      "level": "Senior",
+      "team": "Engineering Team",
+      "skills": [
+        "Strategic Planning",
+        "Leadership",
+        "Budget Management",
+        "Technical Vision",
+        "Team Management"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "manager"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "frank.miller@company.com": {
+    "email": "frank.miller@company.com",
+    "user_id": "user_008",
+    "name": "Frank Miller",
+    "password_hash": "scrypt:32768:8:1$bUwIZSXi7NAEVctT$e0170341454a903f47925d415726fac08d14ab3be289699edb8e608ca1108d01ad8adcc5b4e6d3ae237ec673d687dc16cebd567d8268d64bee6894160d4ab899",
+    "created_at": "2024-09-18T03:31:23.215646Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-12-09",
+    "profile": {
+      "role": "KYC Analyst",
+      "department": "KYC",
+      "title": "KYC Analyst",
+      "level": "Associate",
+      "team": "KYC Team",
+      "skills": [
+        "Excel",
+        "Customer Due Diligence",
+        "Risk Assessment",
+        "Compliance",
+        "Data Analysis"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "grace.lee@company.com": {
+    "email": "grace.lee@company.com",
+    "user_id": "user_009",
+    "name": "Grace Lee",
+    "password_hash": "scrypt:32768:8:1$VYj81lN6pCdBsP21$010a4516758c7fdbaf8996cea4480526cbcb1fc603c3b90708af08393bbaaedf12d9a0ac714df5f82867e77aac2324e0fed4741ab8872733e039cc835f8bfd01",
+    "created_at": "2024-09-16T03:31:23.286064Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-09-02",
+    "profile": {
+      "role": "Senior KYC Analyst",
+      "department": "KYC",
+      "title": "Senior KYC Analyst",
+      "level": "Associate",
+      "team": "KYC Team",
+      "skills": [
+        "Excel",
+        "Customer Due Diligence",
+        "Risk Assessment",
+        "Compliance",
+        "Data Analysis",
+        "Regulatory Knowledge"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "henry.taylor@company.com": {
+    "email": "henry.taylor@company.com",
+    "user_id": "user_010",
+    "name": "Henry Taylor",
+    "password_hash": "scrypt:32768:8:1$uE2gBmN8SeqsNOaU$e596e7bb4894ac8c2369025025e878938b84222cd6f9b33f3097f95e9082989a90f4d466656682405c493bf4785b3bd2d99b3c72126dd751bec3cec09c77d8e2",
+    "created_at": "2025-06-04T03:31:23.355424Z",
+    "roleType": "Manager",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-08-26",
+    "profile": {
+      "role": "KYC Manager",
+      "department": "KYC",
+      "title": "KYC Manager",
+      "level": "Mid",
+      "team": "KYC Team",
+      "skills": [
+        "Excel",
+        "Customer Due Diligence",
+        "Risk Assessment",
+        "Compliance",
+        "Data Analysis",
+        "Regulatory Knowledge",
+        "Team Management"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "manager"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "ivy.chen@company.com": {
+    "email": "ivy.chen@company.com",
+    "user_id": "user_011",
+    "name": "Ivy Chen",
+    "password_hash": "scrypt:32768:8:1$4AkT8K3pMv8Z1AVR$ddc7629d92a286d4bdb6343e0de881e7740f68cab15bf4667b8d81a7f8f685992cbec1c0951708a51d36e045aabafeb8eb994127e5a10169ce28d7a4f73ec4e9",
+    "created_at": "2025-03-18T03:31:23.428965Z",
+    "roleType": "Manager",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-10-16",
+    "profile": {
+      "role": "KYC Director",
+      "department": "KYC",
+      "title": "KYC Director",
+      "level": "Senior",
+      "team": "KYC Team",
+      "skills": [
+        "Strategic Planning",
+        "Compliance Management",
+        "Leadership",
+        "Regulatory Relations",
+        "Risk Management"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "manager"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "jack.anderson@company.com": {
+    "email": "jack.anderson@company.com",
+    "user_id": "user_012",
+    "name": "Jack Anderson",
+    "password_hash": "scrypt:32768:8:1$EFLO8HYWgL8XWyMr$1c64038f92202f5a0e3162d7bfe564c372708b81af9dc010fadb35618903b42697debaf3f8e5fbf64eb1f12f24f2b8afe341a36d9995c0a8b73d491c6e2c52f8",
+    "created_at": "2024-11-11T03:31:23.500534Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2025-01-30",
+    "profile": {
+      "role": "Data Analyst",
+      "department": "Data Science",
+      "title": "Data Analyst",
+      "level": "Associate",
+      "team": "Data Science Team",
+      "skills": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Data Visualization",
+        "Statistics"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "kate.martinez@company.com": {
+    "email": "kate.martinez@company.com",
+    "user_id": "user_013",
+    "name": "Kate Martinez",
+    "password_hash": "scrypt:32768:8:1$wSzH5IH4HdKAfnDI$b0024afe38033da290e8dd34bc80c4effa0c8c4e6b3d0181e8a2164b15f8c505cb81ca630fe8898e6d0c802871a49d1e1316282d479a88c01937dcd546632cae",
+    "created_at": "2025-03-25T03:31:23.571183Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-06-25",
+    "profile": {
+      "role": "Data Scientist",
+      "department": "Data Science",
+      "title": "Data Scientist",
+      "level": "Associate",
+      "team": "Data Science Team",
+      "skills": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Data Visualization",
+        "Statistics",
+        "Machine Learning",
+        "R"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "liam.garcia@company.com": {
+    "email": "liam.garcia@company.com",
+    "user_id": "user_014",
+    "name": "Liam Garcia",
+    "password_hash": "scrypt:32768:8:1$wE7w3djf9phbwWup$33cb4fd758bca89adc86998c607bdaeb44f138bbaa4953e55ad04453b624c2041bafc449a8e275422e80568a641be7e499e20729a986cb8589fdc5856a20049c",
+    "created_at": "2025-05-19T03:31:23.645264Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2025-01-03",
+    "profile": {
+      "role": "Senior Data Scientist",
+      "department": "Data Science",
+      "title": "Senior Data Scientist",
+      "level": "Associate",
+      "team": "Data Science Team",
+      "skills": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Data Visualization",
+        "Statistics",
+        "Machine Learning",
+        "R",
+        "Deep Learning",
+        "AWS"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "maya.patel@company.com": {
+    "email": "maya.patel@company.com",
+    "user_id": "user_015",
+    "name": "Maya Patel",
+    "password_hash": "scrypt:32768:8:1$FagGscAWfMH4sILG$dc87249d68b5d4f6a2b0a719015a6fd6fdd4ce2de76dfba1c9a4762981866bdf6ffa0472ef5fe815c3f3b076f0b744c24d74afb891e4f1d6691ea5b18de04aad",
+    "created_at": "2025-02-05T03:31:23.726332Z",
+    "roleType": "Manager",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-04-13",
+    "profile": {
+      "role": "Data Science Manager",
+      "department": "Data Science",
+      "title": "Data Science Manager",
+      "level": "Mid",
+      "team": "Data Science Team",
+      "skills": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Leadership",
+        "Project Management",
+        "Data Strategy"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "manager"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "nina.rodriguez@company.com": {
+    "email": "nina.rodriguez@company.com",
+    "user_id": "user_016",
+    "name": "Nina Rodriguez",
+    "password_hash": "scrypt:32768:8:1$fN239ADrGqpZAQtP$03ada1c62e6538be5907c666b0e52d7a2cf6ede79b45d6ace62da0be068b028d8632a2705a5e492a6247d79cb915335ec4fe77581f67d79a98b332b503ce1708",
+    "created_at": "2024-09-16T03:31:23.824127Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-01-04",
+    "profile": {
+      "role": "HR Coordinator",
+      "department": "HR",
+      "title": "HR Coordinator",
+      "level": "Associate",
+      "team": "HR Team",
+      "skills": [
+        "Communication",
+        "Organization",
+        "Data Entry",
+        "Employee Relations"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "oscar.lopez@company.com": {
+    "email": "oscar.lopez@company.com",
+    "user_id": "user_017",
+    "name": "Oscar Lopez",
+    "password_hash": "scrypt:32768:8:1$NJhuP4jQoRTK8BFU$7e1e897562c42eac5517d685e36980a533d8be1cdf051780737f76f67cd960eceae60db4bf2fe0690858c9994294269d915f8ab3062f98f7ed818398f644e02a",
+    "created_at": "2025-08-01T03:31:23.897444Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-11-23",
+    "profile": {
+      "role": "HR Specialist",
+      "department": "HR",
+      "title": "HR Specialist",
+      "level": "Associate",
+      "team": "HR Team",
+      "skills": [
+        "Communication",
+        "Organization",
+        "Employee Relations",
+        "Recruitment",
+        "HR Policies"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "paula.gonzalez@company.com": {
+    "email": "paula.gonzalez@company.com",
+    "user_id": "user_018",
+    "name": "Paula Gonzalez",
+    "password_hash": "scrypt:32768:8:1$88vmeieU2WyJgjZX$092acad58c447454eec774ec38ce2e486c8fd901cb4508b53f344585fb3e7dfcdcb9b1cf88446b8ea0850e0685663b2515b96dbc59868547fdbeb7c738770bee",
+    "created_at": "2024-12-08T03:31:23.972739Z",
+    "roleType": "Manager",
+    "newJoiner": "No",
+    "dateOfJoining": "2023-12-02",
+    "profile": {
+      "role": "HR Manager",
+      "department": "HR",
+      "title": "HR Manager",
+      "level": "Mid",
+      "team": "HR Team",
+      "skills": [
+        "Communication",
+        "Leadership",
+        "Employee Relations",
+        "Recruitment",
+        "HR Policies",
+        "Strategic Planning"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "manager"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "quentin.white@company.com": {
+    "email": "quentin.white@company.com",
+    "user_id": "user_019",
+    "name": "Quentin White",
+    "password_hash": "scrypt:32768:8:1$EVIIiSyvUNBPSVBh$399ef5f35c871f8d3f351b440b211dcc745bfd3419bbc71c9c7937ba489d479ae134dac5db731ff4592902b9d8f6b5e1d5db04ee7e204971c4ac664a0d3fe779",
+    "created_at": "2025-04-28T03:31:24.044393Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-07-05",
+    "profile": {
+      "role": "Financial Analyst",
+      "department": "Finance",
+      "title": "Financial Analyst",
+      "level": "Associate",
+      "team": "Finance Team",
+      "skills": [
+        "Excel",
+        "Financial Modeling",
+        "Data Analysis",
+        "Accounting",
+        "Financial Reporting"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "rachel.kim@company.com": {
+    "email": "rachel.kim@company.com",
+    "user_id": "user_020",
+    "name": "Rachel Kim",
+    "password_hash": "scrypt:32768:8:1$sb32mk5MAWodGhSd$21fc67ad8e162df30ed48e395b1b04051b44897e86e96eeccb94c18b9635b1e187350c2aee9115dc33b6aa0be5106e2efae80d70a4fc44d8a4e7e973d8f97a7d",
+    "created_at": "2025-08-18T03:31:24.120378Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2025-02-27",
+    "profile": {
+      "role": "Senior Financial Analyst",
+      "department": "Finance",
+      "title": "Senior Financial Analyst",
+      "level": "Associate",
+      "team": "Finance Team",
+      "skills": [
+        "Excel",
+        "Financial Modeling",
+        "Data Analysis",
+        "Accounting",
+        "Financial Reporting",
+        "Budgeting",
+        "Forecasting"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "sam.thomas@company.com": {
+    "email": "sam.thomas@company.com",
+    "user_id": "user_021",
+    "name": "Sam Thomas",
+    "password_hash": "scrypt:32768:8:1$RvZyoESEQrrz9vL0$bec94ea801e87a44597c9cc71c8365932a484620040412ca0f2e9583b04b6f2e2ad4b9bab606dcbd4ec879ed4daf52d294ee0f479282ce1eaa2634a0b1192308",
+    "created_at": "2025-01-19T03:31:24.194489Z",
+    "roleType": "Associate",
+    "newJoiner": "No",
+    "dateOfJoining": "2025-03-07",
+    "profile": {
+      "role": "Operations Analyst",
+      "department": "Operations",
+      "title": "Operations Analyst",
+      "level": "Associate",
+      "team": "Operations Team",
+      "skills": [
+        "Process Improvement",
+        "Data Analysis",
+        "Project Management",
+        "Excel"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "tina.wong@company.com": {
+    "email": "tina.wong@company.com",
+    "user_id": "user_022",
+    "name": "Tina Wong",
+    "password_hash": "scrypt:32768:8:1$Etc8OHR1Hw7Hze9s$8437d88b5e0495c832d13f45c62879c8b5b6a97f81de2c0e234b316b3315d65d154c68c3a0637f6c5ea4dca196cf953890e17f0ee4408b78a1973479c0a9e960",
+    "created_at": "2025-08-30T03:31:24.266115Z",
+    "roleType": "Manager",
+    "newJoiner": "No",
+    "dateOfJoining": "2024-06-05",
+    "profile": {
+      "role": "Operations Manager",
+      "department": "Operations",
+      "title": "Operations Manager",
+      "level": "Mid",
+      "team": "Operations Team",
+      "skills": [
+        "Process Improvement",
+        "Data Analysis",
+        "Project Management",
+        "Leadership",
+        "Strategic Planning"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "manager"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "uma.sharma@company.com": {
+    "email": "uma.sharma@company.com",
+    "user_id": "user_023",
+    "name": "Uma Sharma",
+    "password_hash": "scrypt:32768:8:1$fiB6peKt2lK85tyn$a2d2a527980b24536d1ea4166076894a1765affc859b3a88b1db4e960f963f242a23654652ff7b5625c97a9a7a3613bfc6abd4a781862dcc4c4ea598b08cb9a1",
+    "created_at": "2025-02-21T03:31:24.340082Z",
+    "roleType": "Associate",
+    "newJoiner": "Yes",
+    "dateOfJoining": "2025-08-31",
+    "profile": {
+      "role": "Software Engineer",
+      "department": "Engineering",
+      "title": "Software Engineer",
+      "level": "Associate",
+      "team": "Engineering Team",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Git",
+        "SQL"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "victor.nguyen@company.com": {
+    "email": "victor.nguyen@company.com",
+    "user_id": "user_024",
+    "name": "Victor Nguyen",
+    "password_hash": "scrypt:32768:8:1$Is0oLMMVQCmw9hok$286e13cb064146542ff859a01383b9b84f01f948af94ebb96592dd4506ff09d33242b79d83c96f4079e624a46213b2e1a05aab7f2b4c9ee742fa9b3d4d764bb5",
+    "created_at": "2025-03-17T03:31:24.412528Z",
+    "roleType": "Associate",
+    "newJoiner": "Yes",
+    "dateOfJoining": "2025-08-31",
+    "profile": {
+      "role": "Data Scientist",
+      "department": "Data Science",
+      "title": "Data Scientist",
+      "level": "Associate",
+      "team": "Data Science Team",
+      "skills": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Data Visualization",
+        "Statistics",
+        "Machine Learning",
+        "R"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  },
+  "wendy.zhang@company.com": {
+    "email": "wendy.zhang@company.com",
+    "user_id": "user_025",
+    "name": "Wendy Zhang",
+    "password_hash": "scrypt:32768:8:1$C5KoyiVMgJfxJ7vy$69dcc0517622ce74bcd36d8b8ccf5280e95759020d0ed5411a8885c471a5c7ee27b463fe229782ce233dea0a2c8b24e2799fd09362f725ae6a53b8598082012a",
+    "created_at": "2025-05-30T03:31:24.483109Z",
+    "roleType": "Associate",
+    "newJoiner": "Yes",
+    "dateOfJoining": "2025-08-31",
+    "profile": {
+      "role": "KYC Analyst",
+      "department": "KYC",
+      "title": "KYC Analyst",
+      "level": "Associate",
+      "team": "KYC Team",
+      "skills": [
+        "Excel",
+        "Customer Due Diligence",
+        "Risk Assessment",
+        "Compliance",
+        "Data Analysis"
+      ],
+      "preferences": {
+        "notifications": true,
+        "dashboard_view": "employee"
+      },
+      "learning_paths": [],
+      "enrollments": []
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "invites": {
+    "invite_001": {
+      "id": "invite_001",
+      "group_id": "group_001",
+      "group_name": "Data Science Study Group",
+      "invited_by": "john.doe@company.com",
+      "invited_user": "bob.wilson@company.com",
+      "status": "pending",
+      "created_at": "2025-08-25T10:30:00Z"
+    },
+    "invite_002": {
+      "id": "invite_002",
+      "group_id": "group_003",
+      "group_name": "Leadership Development",
+      "invited_by": "david.wilson@company.com",
+      "invited_user": "anna.taylor@company.com",
+      "status": "pending",
+      "created_at": "2025-08-28T09:45:00Z"
+    },
+    "invite_003": {
+      "id": "invite_003",
+      "group_id": "group_003",
+      "group_name": "Leadership Development",
+      "invited_by": "david.wilson@company.com",
+      "invited_user": "chris.miller@company.com",
+      "status": "pending",
+      "created_at": "2025-08-28T09:45:00Z"
+    }
+  }
+}

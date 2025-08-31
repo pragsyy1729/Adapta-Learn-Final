@@ -1,0 +1,83 @@
+{
+  "BADGE_COMM_STARTER": {
+    "id": "BADGE_COMM_STARTER",
+    "name": "Communication Starter",
+    "description": "Completed your first communication module",
+    "icon": "🎤",
+    "category": "communication",
+    "rarity": "common",
+    "points_required": 0,
+    "criteria": {
+      "type": "module_completion",
+      "category": "communication",
+      "count": 1
+    }
+  },
+  "BADGE_LEAD_FIRST": {
+    "id": "BADGE_LEAD_FIRST",
+    "name": "Leadership First Steps",
+    "description": "Completed your first leadership module",
+    "icon": "👑",
+    "category": "leadership",
+    "rarity": "common",
+    "points_required": 0,
+    "criteria": {
+      "type": "module_completion",
+      "category": "leadership",
+      "count": 1
+    }
+  },
+  "BADGE_QUIZ_MASTER": {
+    "id": "BADGE_QUIZ_MASTER",
+    "name": "Quiz Master",
+    "description": "Scored 90% or higher on 5 quizzes",
+    "icon": "🧠",
+    "category": "assessment",
+    "rarity": "rare",
+    "points_required": 0,
+    "criteria": {
+      "type": "quiz_score",
+      "min_score": 90,
+      "count": 5
+    }
+  },
+  "BADGE_STREAK_MASTER": {
+    "id": "BADGE_STREAK_MASTER",
+    "name": "Streak Master",
+    "description": "Maintained a 7-day learning streak",
+    "icon": "🔥",
+    "category": "consistency",
+    "rarity": "epic",
+    "points_required": 0,
+    "criteria": {
+      "type": "streak",
+      "days": 7
+    }
+  },
+  "BADGE_MICRO_CHAMP": {
+    "id": "BADGE_MICRO_CHAMP",
+    "name": "Microlearning Champion",
+    "description": "Completed 10 microlearning modules",
+    "icon": "⚡",
+    "category": "microlearning",
+    "rarity": "uncommon",
+    "points_required": 0,
+    "criteria": {
+      "type": "microlearning_completion",
+      "count": 10
+    }
+  },
+  "BADGE_POINT_COLLECTOR": {
+    "id": "BADGE_POINT_COLLECTOR",
+    "name": "Point Collector",
+    "description": "Earned 1000 learning points",
+    "icon": "💎",
+    "category": "achievement",
+    "rarity": "epic",
+    "points_required": 1000,
+    "criteria": {
+      "type": "total_points",
+      "threshold": 1000
+    }
+  }
+}

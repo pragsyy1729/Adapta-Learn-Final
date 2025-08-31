@@ -1,0 +1,540 @@
+{
+  "user_022": {
+    "user_id": "user_022",
+    "total_points": 2500,
+    "current_streak": 12,
+    "longest_streak": 15,
+    "current_level": 25,
+    "experience_points": 2450,
+    "last_activity": "2025-08-30T12:53:56.501619Z",
+    "badges": [
+      {
+        "badge_id": "BADGE_COMM_STARTER",
+        "id": "BADGE_COMM_STARTER",
+        "name": "Communication Starter",
+        "description": "Completed your first communication module",
+        "icon": "🎤",
+        "rarity": "common",
+        "category": "communication",
+        "awarded_at": "2025-08-20T10:30:00Z"
+      },
+      {
+        "badge_id": "BADGE_LEAD_FIRST",
+        "id": "BADGE_LEAD_FIRST",
+        "name": "Leadership First Steps",
+        "description": "Completed your first leadership module",
+        "icon": "👑",
+        "rarity": "common",
+        "category": "leadership",
+        "awarded_at": "2025-08-22T14:15:00Z"
+      },
+      {
+        "badge_id": "BADGE_QUIZ_MASTER",
+        "id": "BADGE_QUIZ_MASTER",
+        "name": "Quiz Master",
+        "description": "Scored 90% or higher on 5 quizzes",
+        "icon": "🧠",
+        "rarity": "rare",
+        "category": "assessment",
+        "awarded_at": "2025-08-25T16:45:00Z"
+      },
+      {
+        "badge_id": "BADGE_STREAK_MASTER",
+        "id": "BADGE_STREAK_MASTER",
+        "name": "Streak Master",
+        "description": "Maintained a 7-day learning streak",
+        "icon": "🔥",
+        "rarity": "epic",
+        "category": "consistency",
+        "awarded_at": "2025-08-28T09:20:00Z"
+      },
+      {
+        "badge_id": "BADGE_POINT_COLLECTOR",
+        "name": "Point Collector",
+        "description": "Earned 1000 learning points",
+        "icon": "💎",
+        "rarity": "epic",
+        "awarded_at": "2025-08-30T12:53:56.501932Z"
+      }
+    ],
+    "streak_days": 12,
+    "activity_history": [
+      {
+        "activity_type": "module_completion",
+        "points_awarded": 75,
+        "base_points": 50,
+        "bonus_points": 25,
+        "timestamp": "2025-08-30T12:00:00Z",
+        "details": {
+          "module_id": "MOD_KYC_001",
+          "category": "compliance",
+          "title": "KYC Fundamentals"
+        }
+      },
+      {
+        "activity_type": "quiz_completion",
+        "points_awarded": 125,
+        "base_points": 25,
+        "bonus_points": 100,
+        "timestamp": "2025-08-30T11:30:00Z",
+        "details": {
+          "quiz_id": "QUIZ_KYC_001",
+          "score_percentage": 100,
+          "time_taken": 15
+        }
+      },
+      {
+        "activity_type": "daily_login",
+        "points_awarded": 5,
+        "base_points": 5,
+        "bonus_points": 0,
+        "timestamp": "2025-08-30T08:00:00Z",
+        "details": {}
+      },
+      {
+        "activity_type": "module_completion",
+        "points_awarded": 50,
+        "base_points": 50,
+        "bonus_points": 0,
+        "timestamp": "2025-08-29T16:45:00Z",
+        "details": {
+          "module_id": "MOD_DATA_001",
+          "category": "data_science",
+          "title": "Data Analysis Basics"
+        }
+      },
+      {
+        "activity_type": "quiz_completion",
+        "points_awarded": 25,
+        "base_points": 25,
+        "bonus_points": 0,
+        "timestamp": "2025-08-29T15:20:00Z",
+        "details": {
+          "quiz_id": "QUIZ_DATA_001",
+          "score_percentage": 85,
+          "time_taken": 20
+        }
+      },
+      {
+        "activity_type": "streak_bonus",
+        "points_awarded": 120,
+        "base_points": 120,
+        "bonus_points": 0,
+        "timestamp": "2025-08-29T08:00:00Z",
+        "details": {
+          "streak_days": 12
+        }
+      },
+      {
+        "activity_type": "module_completion",
+        "points_awarded": 75,
+        "base_points": 50,
+        "bonus_points": 25,
+        "timestamp": "2025-08-28T14:30:00Z",
+        "details": {
+          "module_id": "MOD_LEAD_001",
+          "category": "leadership",
+          "title": "Leadership Fundamentals"
+        }
+      },
+      {
+        "activity_type": "quiz_completion",
+        "points_awarded": 125,
+        "base_points": 25,
+        "bonus_points": 100,
+        "timestamp": "2025-08-28T13:15:00Z",
+        "details": {
+          "quiz_id": "QUIZ_LEAD_001",
+          "score_percentage": 100,
+          "time_taken": 18
+        }
+      },
+      {
+        "activity_type": "module_completion",
+        "points_awarded": 50,
+        "base_points": 50,
+        "bonus_points": 0,
+        "timestamp": "2025-08-27T17:00:00Z",
+        "details": {
+          "module_id": "MOD_COMM_001",
+          "category": "communication",
+          "title": "Communication Skills"
+        }
+      },
+      {
+        "activity_type": "daily_login",
+        "points_awarded": 5,
+        "base_points": 5,
+        "bonus_points": 0,
+        "timestamp": "2025-08-27T08:30:00Z",
+        "details": {}
+      },
+      {
+        "activity_type": "module_completion",
+        "points_awarded": 50,
+        "base_points": 50,
+        "bonus_points": 0,
+        "timestamp": "2025-08-30T12:53:56.501619Z",
+        "details": {
+          "category": "technical",
+          "module_id": "MOD_TECH_001",
+          "title": "Technical Fundamentals"
+        }
+      }
+    ],
+    "category_progress": {
+      "communication": {
+        "completed": 3,
+        "first_completion": true
+      },
+      "leadership": {
+        "completed": 2,
+        "first_completion": true
+      },
+      "compliance": {
+        "completed": 5,
+        "first_completion": true
+      },
+      "data_science": {
+        "completed": 4,
+        "first_completion": true
+      },
+      "technical": {
+        "completed": 2,
+        "first_completion": true
+      }
+    },
+    "achievements": {
+      "modules_completed": 16,
+      "quizzes_completed": 8,
+      "perfect_scores": 3,
+      "total_study_time": 45,
+      "average_score": 92.5
+    },
+    "preferences": {
+      "notifications": true,
+      "leaderboard_visible": true,
+      "badge_notifications": true
+    }
+  },
+  "user_001": {
+    "user_id": "user_001",
+    "total_points": 1850,
+    "current_streak": 8,
+    "longest_streak": 12,
+    "badges": [
+      {
+        "badge_id": "BADGE_COMM_STARTER",
+        "name": "Communication Starter",
+        "description": "Completed your first communication module",
+        "icon": "🎤",
+        "rarity": "common",
+        "awarded_at": "2025-08-15T09:30:00Z"
+      },
+      {
+        "badge_id": "BADGE_QUIZ_MASTER",
+        "name": "Quiz Master",
+        "description": "Scored 90% or higher on 5 quizzes",
+        "icon": "🧠",
+        "rarity": "rare",
+        "awarded_at": "2025-08-25T11:20:00Z"
+      }
+    ],
+    "current_level": 19,
+    "streak_days": 8,
+    "activity_history": [
+      {
+        "activity_type": "module_completion",
+        "points_awarded": 50,
+        "base_points": 50,
+        "bonus_points": 0,
+        "timestamp": "2025-08-29T16:30:00Z",
+        "details": {
+          "module_id": "MOD_TECH_001",
+          "category": "technical",
+          "title": "Technical Fundamentals"
+        }
+      },
+      {
+        "activity_type": "quiz_completion",
+        "points_awarded": 25,
+        "base_points": 25,
+        "bonus_points": 0,
+        "timestamp": "2025-08-29T15:00:00Z",
+        "details": {
+          "quiz_id": "QUIZ_TECH_001",
+          "score_percentage": 88,
+          "time_taken": 22
+        }
+      }
+    ],
+    "category_progress": {
+      "communication": {
+        "completed": 2,
+        "first_completion": true
+      },
+      "technical": {
+        "completed": 6,
+        "first_completion": true
+      }
+    },
+    "achievements": {
+      "modules_completed": 8,
+      "quizzes_completed": 6,
+      "perfect_scores": 1,
+      "total_study_time": 32,
+      "average_score": 87.3
+    },
+    "preferences": {
+      "notifications": true,
+      "leaderboard_visible": true,
+      "badge_notifications": true
+    }
+  },
+  "user_002": {
+    "user_id": "user_002",
+    "total_points": 3200,
+    "current_streak": 15,
+    "longest_streak": 18,
+    "badges": [
+      {
+        "badge_id": "BADGE_COMM_STARTER",
+        "name": "Communication Starter",
+        "description": "Completed your first communication module",
+        "icon": "🎤",
+        "rarity": "common",
+        "awarded_at": "2025-08-10T14:20:00Z"
+      },
+      {
+        "badge_id": "BADGE_LEAD_FIRST",
+        "name": "Leadership First Steps",
+        "description": "Completed your first leadership module",
+        "icon": "👑",
+        "rarity": "common",
+        "awarded_at": "2025-08-12T16:45:00Z"
+      },
+      {
+        "badge_id": "BADGE_QUIZ_MASTER",
+        "name": "Quiz Master",
+        "description": "Scored 90% or higher on 5 quizzes",
+        "icon": "🧠",
+        "rarity": "rare",
+        "awarded_at": "2025-08-20T13:30:00Z"
+      },
+      {
+        "badge_id": "BADGE_STREAK_MASTER",
+        "name": "Streak Master",
+        "description": "Maintained a 7-day learning streak",
+        "icon": "🔥",
+        "rarity": "epic",
+        "awarded_at": "2025-08-25T10:15:00Z"
+      },
+      {
+        "badge_id": "BADGE_POINT_COLLECTOR",
+        "name": "Point Collector",
+        "description": "Earned 1000 learning points",
+        "icon": "💎",
+        "rarity": "epic",
+        "awarded_at": "2025-08-28T14:45:00Z"
+      }
+    ],
+    "current_level": 33,
+    "streak_days": 15,
+    "activity_history": [
+      {
+        "activity_type": "module_completion",
+        "points_awarded": 50,
+        "base_points": 50,
+        "bonus_points": 0,
+        "timestamp": "2025-08-30T10:45:00Z",
+        "details": {
+          "module_id": "MOD_ADV_001",
+          "category": "leadership",
+          "title": "Advanced Leadership"
+        }
+      },
+      {
+        "activity_type": "quiz_completion",
+        "points_awarded": 125,
+        "base_points": 25,
+        "bonus_points": 100,
+        "timestamp": "2025-08-30T09:30:00Z",
+        "details": {
+          "quiz_id": "QUIZ_ADV_001",
+          "score_percentage": 100,
+          "time_taken": 25
+        }
+      }
+    ],
+    "category_progress": {
+      "communication": {
+        "completed": 4,
+        "first_completion": true
+      },
+      "leadership": {
+        "completed": 8,
+        "first_completion": true
+      },
+      "technical": {
+        "completed": 3,
+        "first_completion": true
+      }
+    },
+    "achievements": {
+      "modules_completed": 15,
+      "quizzes_completed": 12,
+      "perfect_scores": 5,
+      "total_study_time": 67,
+      "average_score": 94.2
+    },
+    "preferences": {
+      "notifications": true,
+      "leaderboard_visible": true,
+      "badge_notifications": true
+    }
+  },
+  "user_007": {
+    "user_id": "user_007",
+    "total_points": 950,
+    "current_streak": 5,
+    "longest_streak": 8,
+    "badges": [
+      {
+        "badge_id": "BADGE_COMM_STARTER",
+        "name": "Communication Starter",
+        "description": "Completed your first communication module",
+        "icon": "🎤",
+        "rarity": "common",
+        "awarded_at": "2025-08-25T11:00:00Z"
+      }
+    ],
+    "current_level": 10,
+    "streak_days": 5,
+    "activity_history": [
+      {
+        "activity_type": "module_completion",
+        "points_awarded": 75,
+        "base_points": 50,
+        "bonus_points": 25,
+        "timestamp": "2025-08-29T14:20:00Z",
+        "details": {
+          "module_id": "MOD_COMM_001",
+          "category": "communication",
+          "title": "Communication Skills"
+        }
+      },
+      {
+        "activity_type": "daily_login",
+        "points_awarded": 5,
+        "base_points": 5,
+        "bonus_points": 0,
+        "timestamp": "2025-08-29T08:15:00Z",
+        "details": {}
+      }
+    ],
+    "category_progress": {
+      "communication": {
+        "completed": 1,
+        "first_completion": true
+      }
+    },
+    "achievements": {
+      "modules_completed": 1,
+      "quizzes_completed": 0,
+      "perfect_scores": 0,
+      "total_study_time": 8,
+      "average_score": 0
+    },
+    "preferences": {
+      "notifications": true,
+      "leaderboard_visible": true,
+      "badge_notifications": true
+    }
+  },
+  "user_008": {
+    "user_id": "user_008",
+    "total_points": 2100,
+    "current_streak": 10,
+    "longest_streak": 14,
+    "badges": [
+      {
+        "badge_id": "BADGE_COMM_STARTER",
+        "name": "Communication Starter",
+        "description": "Completed your first communication module",
+        "icon": "🎤",
+        "rarity": "common",
+        "awarded_at": "2025-08-18T13:30:00Z"
+      },
+      {
+        "badge_id": "BADGE_LEAD_FIRST",
+        "name": "Leadership First Steps",
+        "description": "Completed your first leadership module",
+        "icon": "👑",
+        "rarity": "common",
+        "awarded_at": "2025-08-20T15:45:00Z"
+      },
+      {
+        "badge_id": "BADGE_QUIZ_MASTER",
+        "name": "Quiz Master",
+        "description": "Scored 90% or higher on 5 quizzes",
+        "icon": "🧠",
+        "rarity": "rare",
+        "awarded_at": "2025-08-27T12:10:00Z"
+      }
+    ],
+    "current_level": 22,
+    "streak_days": 10,
+    "activity_history": [
+      {
+        "activity_type": "quiz_completion",
+        "points_awarded": 25,
+        "base_points": 25,
+        "bonus_points": 0,
+        "timestamp": "2025-08-30T09:15:00Z",
+        "details": {
+          "quiz_id": "QUIZ_ENG_001",
+          "score_percentage": 92,
+          "time_taken": 28
+        }
+      },
+      {
+        "activity_type": "module_completion",
+        "points_awarded": 50,
+        "base_points": 50,
+        "bonus_points": 0,
+        "timestamp": "2025-08-29T16:00:00Z",
+        "details": {
+          "module_id": "MOD_ENG_001",
+          "category": "technical",
+          "title": "Engineering Fundamentals"
+        }
+      }
+    ],
+    "category_progress": {
+      "communication": {
+        "completed": 3,
+        "first_completion": true
+      },
+      "leadership": {
+        "completed": 2,
+        "first_completion": true
+      },
+      "technical": {
+        "completed": 7,
+        "first_completion": true
+      }
+    },
+    "achievements": {
+      "modules_completed": 12,
+      "quizzes_completed": 9,
+      "perfect_scores": 2,
+      "total_study_time": 48,
+      "average_score": 89.7
+    },
+    "preferences": {
+      "notifications": true,
+      "leaderboard_visible": true,
+      "badge_notifications": true
+    }
+  }
+}

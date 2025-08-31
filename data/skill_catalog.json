@@ -1,0 +1,263 @@
+{
+  "skills": {
+    "Python": {
+      "category": "technical",
+      "description": "Python programming language proficiency",
+      "levels": {
+        "1": "Basic syntax and concepts",
+        "2": "Can write simple scripts and functions",
+        "3": "Proficient with frameworks and libraries",
+        "4": "Advanced features, optimization, architecture",
+        "5": "Expert level, can mentor others"
+      }
+    },
+    "JavaScript": {
+      "category": "technical",
+      "description": "JavaScript programming proficiency",
+      "levels": {
+        "1": "Basic syntax and DOM manipulation",
+        "2": "ES6+ features, async programming",
+        "3": "Frameworks (React/Vue/Angular), Node.js",
+        "4": "Advanced patterns, performance optimization",
+        "5": "Expert level, framework architecture"
+      }
+    },
+    "SQL": {
+      "category": "technical",
+      "description": "Database querying and design skills",
+      "levels": {
+        "1": "Basic SELECT queries",
+        "2": "JOINs, GROUP BY, basic optimization",
+        "3": "Complex queries, stored procedures",
+        "4": "Database design, advanced optimization",
+        "5": "Expert level, database architecture"
+      }
+    },
+    "React": {
+      "category": "technical",
+      "description": "React.js framework proficiency",
+      "levels": {
+        "1": "Basic components and JSX",
+        "2": "State management, hooks",
+        "3": "Advanced patterns, context, routing",
+        "4": "Performance optimization, testing",
+        "5": "Architecture decisions, custom hooks"
+      }
+    },
+    "Docker": {
+      "category": "technical",
+      "description": "Containerization with Docker",
+      "levels": {
+        "1": "Basic container concepts",
+        "2": "Create and run containers",
+        "3": "Docker Compose, networking",
+        "4": "Multi-stage builds, optimization",
+        "5": "Container orchestration, security"
+      }
+    },
+    "Git": {
+      "category": "technical",
+      "description": "Version control with Git",
+      "levels": {
+        "1": "Basic add, commit, push",
+        "2": "Branching, merging, pull requests",
+        "3": "Advanced workflows, rebase",
+        "4": "Git internals, complex merge conflicts",
+        "5": "Git administration, custom workflows"
+      }
+    },
+    "Machine Learning": {
+      "category": "technical",
+      "description": "Machine learning concepts and implementation",
+      "levels": {
+        "1": "Basic ML concepts",
+        "2": "Supervised learning algorithms",
+        "3": "Feature engineering, model evaluation",
+        "4": "Deep learning, advanced techniques",
+        "5": "ML system design, research"
+      }
+    },
+    "Data Analysis": {
+      "category": "technical",
+      "description": "Data analysis and visualization skills",
+      "levels": {
+        "1": "Basic statistics, Excel",
+        "2": "Python/R for analysis, basic visualization",
+        "3": "Advanced analysis, dashboard creation",
+        "4": "Statistical modeling, A/B testing",
+        "5": "Advanced analytics, predictive modeling"
+      }
+    },
+    "Communication": {
+      "category": "soft",
+      "description": "Verbal and written communication skills",
+      "levels": {
+        "1": "Can communicate basic ideas",
+        "2": "Clear written and verbal communication",
+        "3": "Effective presentations, documentation",
+        "4": "Stakeholder communication, negotiation",
+        "5": "Executive communication, thought leadership"
+      }
+    },
+    "Leadership": {
+      "category": "soft",
+      "description": "Leadership and people management skills",
+      "levels": {
+        "1": "Self-management, takes initiative",
+        "2": "Mentors junior members",
+        "3": "Leads small teams, project leadership",
+        "4": "Department leadership, strategy",
+        "5": "Organizational leadership, vision setting"
+      }
+    },
+    "Problem Solving": {
+      "category": "soft",
+      "description": "Analytical and creative problem solving",
+      "levels": {
+        "1": "Solves routine problems",
+        "2": "Breaks down complex problems",
+        "3": "Creative solutions, systematic approach",
+        "4": "Complex system problems, innovation",
+        "5": "Strategic problem solving, frameworks"
+      }
+    },
+    "Project Management": {
+      "category": "soft",
+      "description": "Project planning and execution skills",
+      "levels": {
+        "1": "Task management, basic planning",
+        "2": "Small project coordination",
+        "3": "Full project lifecycle management",
+        "4": "Multi-project coordination, stakeholder management",
+        "5": "Program management, strategic planning"
+      }
+    },
+    "Technical Architecture": {
+      "category": "technical",
+      "description": "System design and architectural decision making",
+      "levels": {
+        "1": "Basic system components understanding",
+        "2": "Simple application architecture",
+        "3": "Multi-service architecture design",
+        "4": "Complex system architecture, scalability",
+        "5": "Enterprise architecture, strategic technology decisions"
+      }
+    },
+    "Performance Management": {
+      "category": "soft",
+      "description": "Team performance evaluation and development",
+      "levels": {
+        "1": "Self-performance awareness",
+        "2": "Peer feedback and collaboration",
+        "3": "Team member coaching and development",
+        "4": "Performance review and improvement planning",
+        "5": "Strategic performance management across teams"
+      }
+    },
+    "Strategic Planning": {
+      "category": "soft",
+      "description": "Long-term planning and strategic thinking",
+      "levels": {
+        "1": "Basic goal setting",
+        "2": "Short-term tactical planning",
+        "3": "Medium-term strategic thinking",
+        "4": "Long-term organizational strategy",
+        "5": "Enterprise-level strategic planning and vision"
+      }
+    },
+    "Budget Management": {
+      "category": "soft",
+      "description": "Financial planning and resource allocation",
+      "levels": {
+        "1": "Personal expense management",
+        "2": "Small project budget tracking",
+        "3": "Team budget planning and monitoring",
+        "4": "Department budget management",
+        "5": "Enterprise budget strategy and allocation"
+      }
+    },
+    "System Design": {
+      "category": "technical",
+      "description": "Large-scale system design and scalability",
+      "levels": {
+        "1": "Basic client-server architecture",
+        "2": "Database design and API structure",
+        "3": "Microservices and distributed systems",
+        "4": "High-availability and scalable systems",
+        "5": "Global-scale system architecture"
+      }
+    },
+    "Code Reviews": {
+      "category": "technical",
+      "description": "Code quality assessment and review processes",
+      "levels": {
+        "1": "Basic code reading and understanding",
+        "2": "Identifying bugs and basic improvements",
+        "3": "Code quality standards and best practices",
+        "4": "Architecture and design pattern reviews",
+        "5": "Code review process design and mentoring"
+      }
+    },
+    "AWS": {
+      "category": "technical",
+      "description": "Amazon Web Services cloud platform",
+      "levels": {
+        "1": "Basic AWS service awareness",
+        "2": "EC2, S3, and basic services",
+        "3": "Advanced services, VPC, and security",
+        "4": "Architecture design and cost optimization",
+        "5": "Enterprise AWS strategy and multi-account management"
+      }
+    },
+    "CI/CD": {
+      "category": "technical",
+      "description": "Continuous Integration and Continuous Deployment",
+      "levels": {
+        "1": "Basic build automation understanding",
+        "2": "Simple CI/CD pipeline setup",
+        "3": "Advanced pipeline configuration and testing",
+        "4": "Complex deployment strategies and rollback",
+        "5": "Enterprise CI/CD strategy and architecture"
+      }
+    },
+    "Infrastructure as Code": {
+      "category": "technical",
+      "description": "Infrastructure automation and configuration management",
+      "levels": {
+        "1": "Basic infrastructure concepts",
+        "2": "Simple Terraform/CloudFormation templates",
+        "3": "Modular infrastructure code and best practices",
+        "4": "Complex infrastructure automation and state management",
+        "5": "Enterprise infrastructure strategy and governance"
+      }
+    },
+    "Monitoring": {
+      "category": "technical",
+      "description": "System monitoring, logging, and observability",
+      "levels": {
+        "1": "Basic log reading and system metrics",
+        "2": "Setting up monitoring dashboards",
+        "3": "Alert configuration and incident response",
+        "4": "Advanced observability and performance tuning",
+        "5": "Enterprise monitoring strategy and SRE practices"
+      }
+    },
+    "Vendor Management": {
+      "category": "soft",
+      "description": "Managing external vendor relationships and contracts",
+      "levels": {
+        "1": "Basic vendor interaction",
+        "2": "Vendor evaluation and selection",
+        "3": "Contract negotiation and management",
+        "4": "Strategic vendor partnerships",
+        "5": "Enterprise vendor strategy and governance"
+      }
+    }
+  },
+  "categories": {
+    "technical": "Technical and programming skills",
+    "soft": "Interpersonal and leadership skills",
+    "domain": "Industry or domain-specific knowledge"
+  },
+  "last_updated": "2025-08-28T15:25:00.000000"
+}

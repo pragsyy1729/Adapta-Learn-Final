@@ -1,0 +1,326 @@
+{
+  "user123": [],
+  "demo_user": [
+    {
+      "timestamp": "2025-08-26T15:03:24.595645",
+      "event": {
+        "action": "bootstrap",
+        "profile": {
+          "user_id": "demo_user",
+          "role_id": "jr_data_eng",
+          "skills": {
+            "Python": {
+              "level": 3,
+              "confidence": 0.7
+            },
+            "SQL": {
+              "level": 3,
+              "confidence": 0.7
+            },
+            "Git": {
+              "level": 3,
+              "confidence": 0.7
+            }
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-26T15:09:31.712486",
+      "event": {
+        "action": "bootstrap",
+        "profile": {
+          "user_id": "demo_user",
+          "role_id": "jr_data_eng",
+          "skills": {
+            "Python": {
+              "level": 3,
+              "confidence": 0.7
+            },
+            "SQL": {
+              "level": 3,
+              "confidence": 0.7
+            },
+            "Git": {
+              "level": 3,
+              "confidence": 0.7
+            }
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-26T15:13:14.368951",
+      "event": {
+        "action": "bootstrap",
+        "profile": {
+          "user_id": "demo_user",
+          "role_id": "jr_data_eng",
+          "skills": {
+            "Python": {
+              "level": 3,
+              "confidence": 0.7
+            },
+            "SQL": {
+              "level": 3,
+              "confidence": 0.7
+            },
+            "Git": {
+              "level": 3,
+              "confidence": 0.7
+            }
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-26T15:14:51.239861",
+      "event": {
+        "action": "bootstrap",
+        "profile": {
+          "user_id": "demo_user",
+          "role_id": "jr_data_eng",
+          "skills": {
+            "Python": {
+              "level": 3,
+              "confidence": 0.7
+            },
+            "SQL": {
+              "level": 1,
+              "confidence": 0.3
+            },
+            "Git": {
+              "level": 3,
+              "confidence": 0.7
+            }
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-26T15:15:23.384445",
+      "event": {
+        "action": "bootstrap",
+        "profile": {
+          "user_id": "demo_user",
+          "role_id": "jr_data_eng",
+          "skills": {
+            "Python": {
+              "level": 3,
+              "confidence": 0.7
+            },
+            "SQL": {
+              "level": 1,
+              "confidence": 0.3
+            },
+            "Git": {
+              "level": 3,
+              "confidence": 0.7
+            }
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-26T15:15:48.373252",
+      "event": {
+        "action": "bootstrap",
+        "profile": {
+          "user_id": "demo_user",
+          "role_id": "jr_data_eng",
+          "skills": {
+            "Python": {
+              "level": 3,
+              "confidence": 0.7
+            },
+            "SQL": {
+              "level": 1,
+              "confidence": 0.3
+            },
+            "Git": {
+              "level": 3,
+              "confidence": 0.7
+            }
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-26T15:15:59.402691",
+      "event": {
+        "action": "bootstrap",
+        "profile": {
+          "user_id": "demo_user",
+          "role_id": "jr_data_eng",
+          "skills": {
+            "Python": {
+              "level": 3,
+              "confidence": 0.7
+            },
+            "SQL": {
+              "level": 1,
+              "confidence": 0.3
+            },
+            "Git": {
+              "level": 3,
+              "confidence": 0.7
+            }
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-26T15:17:31.101564",
+      "event": {
+        "action": "bootstrap",
+        "profile": {
+          "user_id": "demo_user",
+          "role_id": "jr_data_eng",
+          "skills": {
+            "Python": {
+              "level": 1,
+              "confidence": 0.3
+            },
+            "SQL": {
+              "level": 1,
+              "confidence": 0.3
+            },
+            "Git": {
+              "level": 1,
+              "confidence": 0.3
+            }
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-27T06:45:51.740993",
+      "event": {
+        "action": "bootstrap",
+        "profile": {
+          "user_id": "demo_user",
+          "role_id": "jr_data_eng",
+          "skills": {
+            "Python": {
+              "level": 1,
+              "confidence": 0.3
+            },
+            "SQL": {
+              "level": 1,
+              "confidence": 0.3
+            },
+            "Git": {
+              "level": 1,
+              "confidence": 0.3
+            }
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-27T06:47:57.174729",
+      "event": {
+        "action": "bootstrap",
+        "profile": {
+          "user_id": "demo_user",
+          "role_id": "jr_data_eng",
+          "skills": {
+            "Python": {
+              "level": 1,
+              "confidence": 0.3
+            },
+            "SQL": {
+              "level": 1,
+              "confidence": 0.3
+            },
+            "Git": {
+              "level": 1,
+              "confidence": 0.3
+            }
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-27T06:49:03.396829",
+      "event": {
+        "action": "bootstrap",
+        "profile": {
+          "user_id": "demo_user",
+          "role_id": "jr_data_eng",
+          "skills": {
+            "Python": {
+              "level": 1,
+              "confidence": 0.3
+            },
+            "SQL": {
+              "level": 1,
+              "confidence": 0.3
+            },
+            "Git": {
+              "level": 1,
+              "confidence": 0.3
+            }
+          }
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-27T06:49:03.909993",
+      "event": {
+        "action": "module-completed",
+        "event": {
+          "user_id": "demo_user",
+          "skill": "python_basics",
+          "target_level": 3,
+          "completion_type": "passed",
+          "score": 0.85,
+          "has_assessment": true,
+          "pass_threshold": 0.7
+        },
+        "result": {
+          "level": 1.92,
+          "confidence": 0.52
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-27T06:49:04.433474",
+      "event": {
+        "action": "module-completed",
+        "event": {
+          "user_id": "demo_user",
+          "skill": "python_intermediate",
+          "target_level": 3,
+          "completion_type": "passed",
+          "score": 0.9,
+          "has_assessment": true,
+          "pass_threshold": 0.7
+        },
+        "result": {
+          "level": 1.96,
+          "confidence": 0.53
+        }
+      }
+    },
+    {
+      "timestamp": "2025-08-27T06:49:04.956606",
+      "event": {
+        "action": "module-completed",
+        "event": {
+          "user_id": "demo_user",
+          "skill": "python_project_1",
+          "target_level": 2,
+          "completion_type": "passed",
+          "score": 0.92,
+          "has_assessment": true,
+          "pass_threshold": 0.7
+        },
+        "result": {
+          "level": 1.49,
+          "confidence": 0.54
+        }
+      }
+    }
+  ]
+}
